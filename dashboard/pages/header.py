@@ -8,9 +8,9 @@ def image(file, identification, style=None):
         src=app.get_asset_url(file),
         id=identification,
         style={
-            "height": '60px',
+            "height": '65px',
             "width": 'auto',
-            "margin-bottom": "25px",
+            "margin-bottom": "30px",
         }
     )
 
@@ -33,7 +33,7 @@ def layout():
         ], className="one-half column", id="title",
         ),
         html.Div(
-            [image('rni_logo_2.png', 'lelo-logo')],
+            [image('rni_logo3.jpeg', 'lelo-logo')],
             style={'text-align': 'right'},
             className="one-third column",
         )
