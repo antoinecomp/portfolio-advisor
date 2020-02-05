@@ -21,7 +21,7 @@ def layout():
         ], className='pretty_container two columns'),
             html.Div([
                 dcc.Graph(id="sources_graph", 
-                          figure = get_figure2()
+                          figure = get_figure()
                           )
             ], className='pretty_container two columns'),
 
@@ -33,7 +33,7 @@ def get_data():
 
 
 
-def get_figure2():
+def get_figure():
     segments = get_data() 
 
     segments_labels = segments.TL_Segment
@@ -60,6 +60,10 @@ def get_figure2():
     data = sort_by_difference(segment_fts)
     difference = data["TotalAvgs"] - data["SegmentAvgs"]
 
+    data = data[data.UNDKeyFts != 'Unnamed: 0']
+
+    print(data)
+
     labels = data.UNDKeyFts
     values = difference
 
@@ -74,32 +78,6 @@ def get_figure2():
             ),
            # orientation='h',
             )])
-    return fig
-
-
-def get_figure():
-    data = {'internet': 1964, 'television': 653, 'radio': 317, 'press': 215}
-
-    x = []
-    y = []
-
-    for k, v in data.items():
-        y.append(k.title())
-        x.append(v)
-
-    fig = go.Figure(data=[go.Bar(
-          x=x,
-          y=y,
-          marker=dict(
-              color='rgba(50, 171, 96, 0.6)',
-              line=dict(
-              color='rgba(50, 171, 96, 1.0)',
-              width=2),
-        ),
-        orientation='h',
-        )])
-
-    fig.update_layout(title_text='Article Sources', plot_bgcolor='rgb(248, 248, 255)')
     return fig
 
 
@@ -141,6 +119,3 @@ def sort_by_difference(key_fts):
     indices = differences_sorted.index
     return key_fts.iloc[indices]
 
-def keep_first_of_codes(df):
-    uniques = df.iloc[:, 0].unique()
-    return uniques
