@@ -33,11 +33,11 @@ def layout():
         ], className="one-half column", id="title",
         ),
         html.Div(
-            [image('rni_logo3.jpeg', 'lelo-logo')],
+            [image('rni_logo.png', 'lelo-logo')],
             style={'text-align': 'right'},
             className="one-third column",
         )
     ], id="header",
        className="row flex-display",
-       style={"margin-bottom": "25px"},
+       style={"margin-bottom": "30px"},
     )
