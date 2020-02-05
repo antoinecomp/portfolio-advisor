@@ -14,6 +14,7 @@ X_RANGE = [-0.5,15.5]
 def layout():
     return html.Div([
         html.Div([
+            html.H5('Segment Tilts', style={'textAlign': 'center'}),
             dcc.Dropdown(
                 id='select-segment',
                 options=SEGMENT_LIST,
@@ -30,7 +31,7 @@ def layout():
     ], style={
             'float': 'center',
             'display': 'inline-block',
-            'text-align': 'center'},
+            'text-align': 'left'},
        className='bare_container twelve columns')
 
 
@@ -84,7 +85,8 @@ def get_figure(value):
               ),
            )])
    
-    fig.update_layout(title_text='Segment Tilt', plot_bgcolor='rgb(248, 248, 255)')
+    fig.update_layout(#title_text='Segment Tilt', 
+                      plot_bgcolor='rgb(248, 248, 255)')
     fig.update_xaxes(range=X_RANGE)
     return fig
 
