@@ -7,31 +7,35 @@ import numpy as np
 import plotly.graph_objects as go
 import dash_core_components as dcc
 import dash_html_components as html
-from ..settings import ENTITY_LIST
+from ..settings import SEGMENT_LIST, DATA_PATH
 
-X_RANGE = 10
+X_RANGE = [-0.5,15.5] 
 
 def layout():
     return html.Div([
         html.Div([
             dcc.Dropdown(
                 id='select-segment',
-                options=ENTITY_LIST,
-                value=ENTITY_LIST[0].get('value') 
+                options=SEGMENT_LIST,
+                value=SEGMENT_LIST[0].get('value') 
             )
-        ], className='pretty_container twelve columns'),
+        ], 
+            className='pretty_container twelve columns'),
             html.Div([
                 dcc.Graph(id="sources_graph", 
                           figure = get_figure("UND")
                           )
-            ], className='pretty_container twelve columns'),
+            ], className='bare_container twelve columns'),
 
-    ], className='pretty_container ten columns')
+    ], style={
+            'float': 'center',
+            'display': 'inline-block',
+            'text-align': 'center'},
+       className='bare_container twelve columns')
 
 
 def get_data():
-    return pd.read_csv('dashboard/data/capi_preprocessed.csv')
-
+    return pd.read_csv(DATA_PATH + 'capi_preprocessed.csv')
 
 
 def get_figure(value):
@@ -41,7 +45,6 @@ def get_figure(value):
     segments_fts = pd.get_dummies(segments.drop('TL_Segment', axis=1))
     total_avgs = segments_fts.mean(axis=0)
 
-
     label_map = {'Forgotten': 'Left behinds',
                  'Urban Professional': 'Worker Bees',
                  'Average': 'Ambitious Underachievers',
@@ -49,21 +52,14 @@ def get_figure(value):
                 }
 
     segments_labels = segments_labels.replace(label_map)
-
-#    print(segments_labels)
-
     clusters = segments_labels.unique()
     segments_dict = {cluster: segments_fts[segments_labels == cluster] for cluster in clusters}
-
     segment = segments_dict.get(value)
     segment_fts = get_notable_features(segment, total_avgs, segments_labels)
 
     data = sort_by_difference(segment_fts)
     data = data[data.UNDKeyFts != 'Unnamed: 0']
     difference = data["TotalAvgs"] - data["SegmentAvgs"]
-
-
- #   print(difference)
 
     values = ""
     labels = ""
@@ -76,9 +72,7 @@ def get_figure(value):
         values = difference
 
     data_list = data.UNDKeyFts.tolist()
-    #print(data_list[:10])
     
- 
     fig = go.Figure(data=[go.Bar(
               x=labels,
               y=values,
@@ -87,15 +81,12 @@ def get_figure(value):
                   line=dict(
                   color='rgba(50, 171, 96, 1.0)',
                   width=2),
-            ),
-           # orientation='h',
-            )])
+              ),
+           )])
    
-    fig.update_layout(title_text='Prominent Questions', plot_bgcolor='rgb(248, 248, 255)')
-    fig.update_xaxes(range=[-0.5,9.5])
+    fig.update_layout(title_text='Segment Tilt', plot_bgcolor='rgb(248, 248, 255)')
+    fig.update_xaxes(range=X_RANGE)
     return fig
-
-
 
 def get_notable_features(segment_df,
                          total_avgs,
