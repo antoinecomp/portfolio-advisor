@@ -7,25 +7,26 @@ import numpy as np
 import plotly.graph_objects as go
 import dash_core_components as dcc
 import dash_html_components as html
+from ..settings import ENTITY_LIST
 
-
+X_RANGE = 10
 
 def layout():
     return html.Div([
         html.Div([
             dcc.Dropdown(
-                id='select-politician',
-                options="bla bla",
-                value="bla bla" 
+                id='select-segment',
+                options=ENTITY_LIST,
+                value=ENTITY_LIST[0].get('value') 
             )
-        ], className='pretty_container two columns'),
+        ], className='pretty_container twelve columns'),
             html.Div([
                 dcc.Graph(id="sources_graph", 
-                          figure = get_figure()
+                          figure = get_figure("UND")
                           )
-            ], className='pretty_container two columns'),
+            ], className='pretty_container twelve columns'),
 
-    ], className='pretty_container two columns')
+    ], className='pretty_container ten columns')
 
 
 def get_data():
@@ -33,7 +34,7 @@ def get_data():
 
 
 
-def get_figure():
+def get_figure(value):
     segments = get_data() 
 
     segments_labels = segments.TL_Segment
@@ -54,19 +55,30 @@ def get_figure():
     clusters = segments_labels.unique()
     segments_dict = {cluster: segments_fts[segments_labels == cluster] for cluster in clusters}
 
-    segment = segments_dict.get('UND')
+    segment = segments_dict.get(value)
     segment_fts = get_notable_features(segment, total_avgs, segments_labels)
 
     data = sort_by_difference(segment_fts)
+    data = data[data.UNDKeyFts != 'Unnamed: 0']
     difference = data["TotalAvgs"] - data["SegmentAvgs"]
 
-    data = data[data.UNDKeyFts != 'Unnamed: 0']
 
-    print(data)
+ #   print(difference)
 
-    labels = data.UNDKeyFts
-    values = difference
+    values = ""
+    labels = ""
+ 
+    if value == "UND":
+        labels = data.UNDKeyFts
+        values = difference
+    if value == "ABS":
+        labels = data.ABSKeyFts
+        values = difference
 
+    data_list = data.UNDKeyFts.tolist()
+    #print(data_list[:10])
+    
+ 
     fig = go.Figure(data=[go.Bar(
               x=labels,
               y=values,
@@ -78,6 +90,9 @@ def get_figure():
             ),
            # orientation='h',
             )])
+   
+    fig.update_layout(title_text='Prominent Questions', plot_bgcolor='rgb(248, 248, 255)')
+    fig.update_xaxes(range=[-0.5,9.5])
     return fig
 
 
