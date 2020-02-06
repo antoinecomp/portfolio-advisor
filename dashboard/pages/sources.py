@@ -129,8 +129,16 @@ def get_df_segment_column(data, segment):
         return data.UNDKeyFts
     if segment == "ABS":
         return data.ABSKeyFts
+    if segment == "PJD":
+        return data.PJDKeyFts
+    if segment == "PAM":
+        return data.PAMKeyFts
+    if segment == "OTH":
+        return data.OTHKeyFts
     if segment == "RNI":
         return data.RNIKeyFts
+    if segment == "IST":
+        return data.ISTKeyFts
 
 
 @app.callback(
