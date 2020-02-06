@@ -62,22 +62,19 @@ def get_figure(value):
     segment_fts = get_notable_features(segment, total_avgs, segments_labels)
 
     data = sort_by_difference(segment_fts)
-
-    labels = ""
-    if value == "UND":
-        labels = data.UNDKeyFts
-    if value == "ABS":
-        labels = data.ABSKeyFts
-
-    data = data[labels != 'Unnamed: 0']
+    data = data.iloc[1:]
     difference = data["TotalAvgs"] - data["SegmentAvgs"]
 
     values = ""
- 
+    labels = ""
+
     if value == "UND":
+        labels = data.UNDKeyFts
         values = difference
     if value == "ABS":
+        labels = data.ABSKeyFts
         values = difference
+ 
 
     data_list = labels.tolist()
    
