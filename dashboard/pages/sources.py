@@ -65,17 +65,9 @@ def get_figure(value):
     data = data.iloc[1:]
     difference = data["TotalAvgs"] - data["SegmentAvgs"]
 
-    values = ""
-    labels = ""
-
-    if value == "UND":
-        labels = data.UNDKeyFts
-        values = difference
-    if value == "ABS":
-        labels = data.ABSKeyFts
-        values = difference
+    labels = get_df_segment_column(data, value)
+    values = difference
  
-
     data_list = labels.tolist()
    
     fig = go.Figure(data=[go.Bar(
@@ -130,6 +122,16 @@ def sort_by_difference(key_fts):
     differences_sorted = differences.sort_values(ascending=False)
     indices = differences_sorted.index
     return key_fts.iloc[indices]
+
+
+def get_df_segment_column(data, segment):
+    if segment == "UND":
+        return data.UNDKeyFts
+    if segment == "ABS":
+        return data.ABSKeyFts
+    if segment == "RNI":
+        return data.RNIKeyFts
+
 
 @app.callback(
     Output('sources_graph', 'figure'),
