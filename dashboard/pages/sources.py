@@ -8,6 +8,9 @@ import plotly.graph_objects as go
 import dash_core_components as dcc
 import dash_html_components as html
 from ..settings import SEGMENT_LIST, DATA_PATH
+from ..server import app
+from dash.dependencies import Input, Output
+
 
 X_RANGE = [-0.5,15.5] 
 
@@ -59,21 +62,25 @@ def get_figure(value):
     segment_fts = get_notable_features(segment, total_avgs, segments_labels)
 
     data = sort_by_difference(segment_fts)
-    data = data[data.UNDKeyFts != 'Unnamed: 0']
+
+    labels = ""
+    if value == "UND":
+        labels = data.UNDKeyFts
+    if value == "ABS":
+        labels = data.ABSKeyFts
+
+    data = data[labels != 'Unnamed: 0']
     difference = data["TotalAvgs"] - data["SegmentAvgs"]
 
     values = ""
-    labels = ""
  
     if value == "UND":
-        labels = data.UNDKeyFts
         values = difference
     if value == "ABS":
-        labels = data.ABSKeyFts
         values = difference
 
-    data_list = data.UNDKeyFts.tolist()
-    
+    data_list = labels.tolist()
+   
     fig = go.Figure(data=[go.Bar(
               x=labels,
               y=values,
@@ -127,3 +134,9 @@ def sort_by_difference(key_fts):
     indices = differences_sorted.index
     return key_fts.iloc[indices]
 
+@app.callback(
+    Output('sources_graph', 'figure'),
+    [Input('select-segment', 'value')]
+)
+def callback(segment):
+    return get_figure(segment)
