@@ -7,7 +7,7 @@ import numpy as np
 import plotly.graph_objects as go
 import dash_core_components as dcc
 import dash_html_components as html
-from ..settings import SEGMENT_LIST, DATA_PATH
+from ..settings import SEGMENT_LIST, DEFAULT_CLUSTERS, DATA_PATH
 from ..server import app
 from dash.dependencies import Input, Output
 
@@ -62,7 +62,7 @@ def get_figure(value):
     segment_fts = get_notable_features(segment, total_avgs, segments_labels)
 
     data = sort_by_difference(segment_fts)
-    data = data.iloc[1:]
+    data = remove_noise(data, value)
     difference = data["TotalAvgs"] - data["SegmentAvgs"]
 
     labels = get_df_segment_column(data, value)
@@ -85,6 +85,7 @@ def get_figure(value):
                       plot_bgcolor='rgb(248, 248, 255)')
     fig.update_xaxes(range=X_RANGE)
     return fig
+
 
 def get_notable_features(segment_df,
                          total_avgs,
@@ -139,6 +140,12 @@ def get_df_segment_column(data, segment):
         return data.RNIKeyFts
     if segment == "IST":
         return data.ISTKeyFts
+
+
+def remove_noise(data, value):
+    column = value + 'KeyFts'
+    data = data.iloc[1:]
+    return data[data[column].str.contains(DEFAULT_CLUSTERS)==False]
 
 
 @app.callback(
