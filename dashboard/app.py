@@ -32,7 +32,7 @@ app.layout = html.Div(
                     value='media-monitoring'
                 ),
                 dcc.Tab(
-                    label='Research Map',
+                    label='Research',
                     value='research',
                     children=tilt.layout()
                 )
