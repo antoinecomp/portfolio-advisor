@@ -102,6 +102,7 @@ def get_tilt(value):
 
     fig.update_layout(plot_bgcolor='rgb(248, 248, 255)')
     fig.update_xaxes(range=X_RANGE)
+  #  fig.update_yaxes(range=[-0.4,-0.4])    
     return fig
 
 
@@ -112,6 +113,7 @@ def get_ocean(segment):
     x = get_ocean_score(data, segment)
     y = ['Openness', 'Conscientiousness', 'Extraversion', 'Agreeableness', 'Neuroticism']
     fig = return_bar_chart(x, y)
+    fig.update_xaxes(range=[-0.15,0.15])    
     return fig
 
 
