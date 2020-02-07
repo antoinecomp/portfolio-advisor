@@ -7,7 +7,7 @@ import dash_core_components as dcc
 import dash_html_components as html
 
 base_dir = dirname(dirname(abspath(__file__)))
-data_path = 'data/maroc-swing.json'
+data_path = 'data/maroc-swing-2.json'
 
 
 def get_data():
@@ -24,9 +24,10 @@ def get_z(geojson):
     for feature in geojson['features']:
         try:
             swing = feature['properties']['swing_count']
+            stations = feature['properties']['polling_station_count']
         except KeyError:
             swing = 0
-        z.append(swing)
+        z.append((swing / stations))
     return z
 
 
@@ -69,7 +70,7 @@ def layout():
                         locations=ids,
                         z=z,  # [random.random() for i in range(len(ids))],
                         zmin=0,
-                        zmax=40,
+                        zmax=1,
                         colorscale='Reds',
                         marker_opacity=0.4
                     ),
