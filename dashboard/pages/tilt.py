@@ -33,6 +33,15 @@ def layout():
             ], className='bare_container twelve columns'),
 
         html.Div([ 
+            html.H5('OCEAN', style={'textAlign': 'center', 'padding': 10}),
+        ], className='pretty_container twelve columns'), 
+            html.Div([
+                dcc.Graph(id="sources_graph3", 
+                          figure = get_ocean_plot("UND")
+                          )
+            ], className='bare_container twelve columns'),
+
+        html.Div([ 
             html.H5('Most Important Features', style={'textAlign': 'center', 'padding': 10}),
         ], className='pretty_container twelve columns'), 
             html.Div([
@@ -89,10 +98,54 @@ def get_tilt(value):
                   width=2),
               ),
            )])
-   
+  
+
     fig.update_layout(plot_bgcolor='rgb(248, 248, 255)')
     fig.update_xaxes(range=X_RANGE)
     return fig
+
+
+def get_ocean_plot(segment):
+
+    data = get_data('clustered_capi')
+
+    x = get_ocean(data, segment)
+    y = ['Openness', 'Conscientiousness', 'Extraversion', 'Agreeableness', 'Neuroticism']
+    fig = return_bar_chart(x, y)
+    return fig
+
+
+def return_bar_chart(x, y):
+    fig = go.Figure(data=[go.Bar(
+              x=x,
+              y=y,
+              marker=dict(
+                  color='aliceblue',
+                  line=dict(
+                  color='lightseagreen',
+                  width=2),
+              ),
+             orientation='h'
+           )])
+
+    fig.update_layout(plot_bgcolor='rgb(248, 248, 255)')
+    return fig
+
+
+def get_ocean(data, segment):
+    
+    #Population means for OCEAN
+    m = [4.13, 5.04, 4.45, 4.71, 3.03]
+
+    #Segment means for OCEAN 
+    data = data[data['TL_Segment'].str.contains(segment)]
+    o = data.Openess.mean()
+    c = data.Conscientiousness.mean()
+    e = data.Extraversion.mean()
+    a = data.Agreeableness.mean()
+    n = data.Neuroticism.mean()
+    return [o-m[0], c-m[1], e-m[2], a-m[3], n-m[4]]
+
 
 
 def get_features():
@@ -185,8 +238,8 @@ def remove_noise(data, value):
 
 
 @app.callback(
-    Output('sources_graph', 'figure'),
+    [Output('sources_graph', 'figure'), Output('sources_graph3', 'figure')],
     [Input('select-segment', 'value')]
 )
 def callback(segment):
-    return get_tilt(segment)
+    return get_tilt(segment), get_ocean_plot(segment)
