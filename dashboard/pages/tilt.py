@@ -172,7 +172,14 @@ def get_df_segment_column(data, segment):
 
 def remove_noise(data, value):
     column = value + 'KeyFts'
+
+    #remove the questions which are used to create the cluster 
+    data = data[data['SegmentAvgs'] < 0.999 ]
+    data = data[data['SegmentAvgs'] > 0.001 ]
+    #drop spurious entry
     data = data.iloc[1:]
+    #remove info about the clusters
+
     return data[data[column].str.contains(DEFAULT_CLUSTERS)==False]
 
 
