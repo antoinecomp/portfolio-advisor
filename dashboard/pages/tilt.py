@@ -18,7 +18,7 @@ X_RANGE = [-0.5,15.5]
 def layout():
     return html.Div([
         html.Div([
-            html.H5('Segment Tilts', style={'textAlign': 'center'}),
+            html.H5('OCEAN', style={'textAlign': 'center'}),
             dcc.Dropdown(
                 id='select-segment',
                 options=SEGMENT_LIST,
@@ -27,25 +27,25 @@ def layout():
         ], 
             className='pretty_container twelve columns'),
             html.Div([
-                dcc.Graph(id="sources_graph", 
+                dcc.Graph(id="ocean_graph", 
+                          figure = get_ocean("UND")
+                          )
+            ], className='bare_container twelve columns'),
+
+        html.Div([ 
+        html.H5('Segment Tilts', style={'textAlign': 'center', 'padding': 10}),
+        ], className='pretty_container twelve columns'), 
+            html.Div([
+                dcc.Graph(id="tilt_graph", 
                           figure = get_tilt("UND")
                           )
             ], className='bare_container twelve columns'),
 
         html.Div([ 
-            html.H5('OCEAN', style={'textAlign': 'center', 'padding': 10}),
+            html.H5('Important Features', style={'textAlign': 'center', 'padding': 10}),
         ], className='pretty_container twelve columns'), 
             html.Div([
-                dcc.Graph(id="sources_graph3", 
-                          figure = get_ocean_plot("UND")
-                          )
-            ], className='bare_container twelve columns'),
-
-        html.Div([ 
-            html.H5('Most Important Features', style={'textAlign': 'center', 'padding': 10}),
-        ], className='pretty_container twelve columns'), 
-            html.Div([
-                dcc.Graph(id="sources_graph2", 
+                dcc.Graph(id="sources_graph", 
                           figure = get_features()
                           )
             ], className='bare_container twelve columns'),
@@ -92,9 +92,9 @@ def get_tilt(value):
               x=labels,
               y=values,
               marker=dict(
-                  color='rgba(50, 171, 96, 0.6)',
+                  color='blanchedalmond',
                   line=dict(
-                  color='rgba(50, 171, 96, 1.0)',
+                  color='seagreen',
                   width=2),
               ),
            )])
@@ -105,11 +105,11 @@ def get_tilt(value):
     return fig
 
 
-def get_ocean_plot(segment):
+def get_ocean(segment):
 
     data = get_data('clustered_capi')
 
-    x = get_ocean(data, segment)
+    x = get_ocean_score(data, segment)
     y = ['Openness', 'Conscientiousness', 'Extraversion', 'Agreeableness', 'Neuroticism']
     fig = return_bar_chart(x, y)
     return fig
@@ -132,7 +132,7 @@ def return_bar_chart(x, y):
     return fig
 
 
-def get_ocean(data, segment):
+def get_ocean_score(data, segment):
     
     #Population means for OCEAN
     m = [4.13, 5.04, 4.45, 4.71, 3.03]
@@ -238,8 +238,8 @@ def remove_noise(data, value):
 
 
 @app.callback(
-    [Output('sources_graph', 'figure'), Output('sources_graph3', 'figure')],
+    [Output('ocean_graph', 'figure'), Output('tilt_graph', 'figure')],
     [Input('select-segment', 'value')]
 )
 def callback(segment):
-    return get_tilt(segment), get_ocean_plot(segment)
+    return get_ocean(segment), get_tilt(segment)
