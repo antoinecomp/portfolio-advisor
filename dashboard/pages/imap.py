@@ -45,14 +45,14 @@ def get_hovertext(geojson):
     text = []
     for feat in geojson['features']:
         try:
-            string = ""
+            string = "<br>"
             results = feat['properties']['results']
             results_sorted = {k: v for k, v in sorted(results.items(),
-                                                    key=lambda item: item[1],
-                                                    reverse=True)}
+                                                      key=lambda item: item[1],
+                                                      reverse=True)}
             top = list(results_sorted)[:3]
-            for t in top:
-                string += t + '<br>'
+            for i, t in enumerate(top):
+                string += str(i+1) + ':  ' + t + '<br>'
             text.append(string)
         except KeyError:
             text.append('NO DATA')
@@ -68,7 +68,7 @@ def get_map(view):
             zmin=0,
             zmax=np.percentile(get_z(geojson, view), 95),
             colorscale='Reds',
-            hovertext=get_hovertext(geojson),
+            text=get_hovertext(geojson),
             marker_opacity=0.4
         ),
         go.Layout(
