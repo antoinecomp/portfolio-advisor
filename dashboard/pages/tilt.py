@@ -97,6 +97,7 @@ def get_tilt(value):
 
 def get_features():
     data = get_data('chi2')
+    data = data.iloc[1:]
     x = data.questions.tolist()
     y = data.score_norm.tolist()
 
