@@ -11,7 +11,7 @@ from dash.dependencies import Input, Output
 from ..server import app
 
 base_dir = dirname(dirname(abspath(__file__)))
-data_path = 'data/maroc-swing-2.json'
+data_path = 'data/maroc-swing.json'
 
 
 def get_geojson():
