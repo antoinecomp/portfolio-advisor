@@ -14,6 +14,7 @@ from dash.dependencies import Input, Output
 
 
 X_RANGE = [-0.5,15.5] 
+DECIMAL_P = 2
 
 def layout():
     return html.Div([
@@ -81,7 +82,7 @@ def get_tilt(value):
 
     data = sort_by_difference(segment_fts)
     data = remove_noise(data, value)
-    difference = data["TotalAvgs"] - data["SegmentAvgs"]
+    difference = data["TotalAvgs"].round(DECIMAL_P) - data["SegmentAvgs"].round(DECIMAL_P)
 
     labels = get_df_segment_column(data, value)
     values = -difference
@@ -146,7 +147,7 @@ def get_ocean_score(data, segment):
     e = data.Extraversion.mean()
     a = data.Agreeableness.mean()
     n = data.Neuroticism.mean()
-    return [o-m[0], c-m[1], e-m[2], a-m[3], n-m[4]]
+    return [round(o-m[0], DECIMAL_P), round(c-m[1], DECIMAL_P), round(e-m[2], DECIMAL_P), round(a-m[3], DECIMAL_P), round(n-m[4], DECIMAL_P)]
 
 
 
@@ -154,7 +155,7 @@ def get_features():
     data = get_data('chi2')
     data = data.iloc[1:]
     x = data.questions.tolist()
-    y = data.score_norm.tolist()
+    y = data.score_norm.round(DECIMAL_P).tolist()
 
     fig = go.Figure(data=[go.Bar(
               x=x,
