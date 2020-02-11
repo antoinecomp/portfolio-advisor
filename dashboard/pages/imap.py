@@ -47,13 +47,16 @@ def get_hovertext(geojson):
     for feat in geojson['features']:
         try:
             string = "<br>"
+            commune = feat['properties']['name_4']
             results = feat['properties']['results']
             results_sorted = {k: v for k, v in sorted(results.items(),
                                                       key=lambda item: item[1],
                                                       reverse=True)}
             top = list(results_sorted.items())[:3]
+            string += '<b>' + commune.upper() + '</b><br><br>'
+            string += 'Top 3 Parties <br><br>'
             for i, t in enumerate(top):
-                string += str(i+1) + ':  ' + t[0] + "  " + str(t[1]) + '<br>'
+                string += str(i+1) + ':  ' + t[0] + "   " + str(t[1]) + '<br>'
             text.append(string)
         except KeyError:
             text.append('NO DATA')
@@ -66,15 +69,16 @@ def get_map(view):
             geojson=get_geojson(),
             locations=get_ids(geojson),
             z=get_z(geojson, view),
-            zmin=0,
+            zmin=np.percentile(get_z(geojson, view), 2),
             zmax=np.percentile(get_z(geojson, view), 95),
             colorscale='Reds',
             text=get_hovertext(geojson),
+            hoverinfo='z+text',
             marker_opacity=0.4
         ),
         go.Layout(
             mapbox_style='carto-positron',
-            mapbox_zoom=5.75,
+            mapbox_zoom=5.6,
             mapbox_center={'lat': 32, 'lon': -7},
             hovermode='closest',
             margin={'r': 0, 't': 0, 'l': 0, 'b': 0}
@@ -125,7 +129,7 @@ def layout():
                 figure=get_map('swing_count'),
                 style={
                     'width': 'auto',
-                    'height': '700px',
+                    'height': '750px',
                     'display': 'block',
                     'margin-left': 'auto',
                     'margin-right': 'auto',
