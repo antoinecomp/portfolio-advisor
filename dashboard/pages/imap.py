@@ -23,19 +23,20 @@ def get_ids(geojson):
     return [feature.get('id') for feature in geojson['features']]
 
 
-def get_z(geojson, weighted=False):
-    z = []
+def get_z(geojson, view):
+    zs = []
     for feature in geojson['features']:
         try:
-            swing = feature['properties']['swing_count']
-            stations = feature['properties']['polling_station_count']
+            if view.isupper():
+                z = feature['properties']['results'][view] / feature['properties']['voter_file']['nbre_inscrits']
+            elif view == 'nbre_inscrits':
+                z = feature['properties']['voter_file'][view]
+            else:
+                z = feature['properties'][view]
         except KeyError:
-            swing = 0
-        if weighted:
-            z.append((swing / stations))
-        else:
-            z.append(swing)
-    return z
+            z = 0
+        zs.append(z)
+    return zs
 
 
 def get_hovertext(geojson):
@@ -50,9 +51,9 @@ def get_hovertext(geojson):
             results_sorted = {k: v for k, v in sorted(results.items(),
                                                       key=lambda item: item[1],
                                                       reverse=True)}
-            top = list(results_sorted)[:3]
+            top = list(results_sorted.items())[:3]
             for i, t in enumerate(top):
-                string += str(i+1) + ':  ' + t + '<br>'
+                string += str(i+1) + ':  ' + t[0] + "  " + str(t[1]) + '<br>'
             text.append(string)
         except KeyError:
             text.append('NO DATA')
@@ -83,21 +84,34 @@ def get_map(view):
 
 geojson = get_geojson()
 ids = get_ids(geojson)
-z = get_z(geojson)
+z = get_z(geojson, 'swing')
 
 
 def layout():
     return html.Div([
         html.Div([
-            html.H5('features', style={'textAlign': 'center'}),
-            dcc.RadioItems(
+            html.H5('Select Type of View', style={'textAlign': 'center'}),
+            dcc.Dropdown(
                 id='select-view',
                 options=[
-                    {'label': 'swing', 'value': 'swing'},
-                    {'label': 'swing weighted', 'value': 'swing-weighted'}
+                    {'label': 'SWING - Total Swing Polling Stations',
+                     'value': 'swing_count'},
+                    {'label': 'SWING - Weighted by Total Polling Stations per Commune',
+                     'value': 'swing_ratio'},
+                    {'label': 'RESULTS - Turnout',
+                     'value': 'turnout'},
+                    {'label': 'RESULTS - Number of Registered Voters',
+                     'value': 'nbre_inscrits'},
+                    {'label': 'RESULTS - RNI',
+                     'value': 'RNI'},
+                    {'label': 'RESULTS - PJD',
+                     'value': 'PJD'},
+                    {'label': 'RESULTS - PAM',
+                     'value': 'PAM'},
+                    {'label': 'RESULTS - PI',
+                     'value': 'PI'}
                 ],
-                value='value',
-                labelStyle={'display': 'inline-block'}
+                value='swing_count'
             )
         ], style={
             'float': 'center',
@@ -108,10 +122,10 @@ def layout():
         html.Div([
             dcc.Graph(
                 id='imap',
-                figure=get_map(True),
+                figure=get_map('swing_count'),
                 style={
                     'width': 'auto',
-                    'height': '800px',
+                    'height': '700px',
                     'display': 'block',
                     'margin-left': 'auto',
                     'margin-right': 'auto',
@@ -129,7 +143,4 @@ def layout():
     [Input('select-view', 'value')]
 )
 def callback(view):
-    if view == 'swing-weighted':
-        return get_map(True)
-    else:
-        return get_map(False)
+    return get_map(view)
