@@ -30,7 +30,7 @@ app.layout = html.Div(
                 dcc.Tab(
                     label='Media Monitoring',
                     value='media-monitoring',
-                    children=media_monitoring.layout
+                   # children=media_monitoring.layout
                 ),
                 dcc.Tab(
                     label='Research',
