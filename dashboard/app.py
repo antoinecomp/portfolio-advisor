@@ -11,6 +11,7 @@ from pages import header, imap, tilt
 mapbox_access_token = ("pk.eyJ1IjoiamFja2x1byIsImEiOiJjajNlcnh3MzEwMHZtM"
                        "zNueGw3NWw5ZXF5In0.fk8k06T96Ml9CLGgKmk81w")
 
+server = app.server
 
 app.layout = html.Div(
     [
@@ -43,6 +44,6 @@ app.layout = html.Div(
 )
 
 if __name__ == "__main__":
-    app.run_server(debug=True)
+    app.run_server(debug=False, port=8051)
 
 
