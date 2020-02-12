@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 import dash_core_components as dcc
 import dash_html_components as html
 
-from .server import app, server
+from .server import app, auth, server
 from .pages import header, imap, tilt
 
 mapbox_access_token = ("pk.eyJ1IjoiamFja2x1byIsImEiOiJjajNlcnh3MzEwMHZtM"
