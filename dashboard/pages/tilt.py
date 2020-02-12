@@ -13,8 +13,9 @@ from ..server import app
 from dash.dependencies import Input, Output
 
 
-X_RANGE = [-0.5,15.5] 
+X_RANGE = [-0.5, 15.5] 
 DECIMAL_P = 2
+
 
 def layout():
     return html.Div([
@@ -25,7 +26,7 @@ def layout():
                 options=SEGMENT_LIST,
                 value=SEGMENT_LIST[0].get('value') 
             )
-        ], 
+        ],
             className='pretty_container twelve columns'),
             html.Div([
                 dcc.Graph(id="ocean_graph", 

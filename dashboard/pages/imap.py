@@ -28,7 +28,8 @@ def get_z(geojson, view):
     for feature in geojson['features']:
         try:
             if view.isupper():
-                z = feature['properties']['results'][view] / feature['properties']['voter_file']['nbre_inscrits']
+                z = feature['properties']['results'][view] / \
+                    feature['properties']['voter_file']['nbre_inscrits']
             elif view == 'nbre_inscrits':
                 z = feature['properties']['voter_file'][view]
             else:
@@ -100,7 +101,8 @@ def layout():
                 options=[
                     {'label': 'SWING - Total Swing Polling Stations',
                      'value': 'swing_count'},
-                    {'label': 'SWING - Weighted by Total Polling Stations per Commune',
+                    {'label': 'SWING - Weighted by Total Polling Stations \
+                         per Commune',
                      'value': 'swing_ratio'},
                     {'label': 'RESULTS - Turnout',
                      'value': 'turnout'},
