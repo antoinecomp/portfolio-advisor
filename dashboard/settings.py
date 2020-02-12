@@ -18,4 +18,18 @@ SEGMENT_LIST = [segment1, segment2, segment3, segment4, segment5, segment6, segm
 DEFAULT_CLUSTERS = 'cluster_Forgotten|cluster_Aspirational Youth|cluster_Snowflakes|cluster_Average|cluster_PJD|cluster_OTH|cluster_PAM|cluster_Empty Nest Mothers|cluster_IST|cluster_RNI|cluster_Urban Professional'
 
 
+""" Hover-over explanations """
 
+big_five = """ 
+The Big Five personality 
+traits, per segment, 
+normalised to the population mean.
+"""
+
+segment_tilt = """
+The most prominent features within each segment, normalised against the population mean.
+"""
+
+feature_importance = """
+Normalised chi2 statistic for all the features.
+"""

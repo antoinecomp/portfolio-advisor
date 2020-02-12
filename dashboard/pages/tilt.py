@@ -8,9 +8,11 @@ import plotly as py
 import plotly.graph_objects as go
 import dash_core_components as dcc
 import dash_html_components as html
-from ..settings import SEGMENT_LIST, DEFAULT_CLUSTERS, DATA_PATH
+from ..settings import SEGMENT_LIST, DEFAULT_CLUSTERS, DATA_PATH, big_five, segment_tilt, feature_importance 
 from ..server import app
-from dash.dependencies import Input, Output
+#from dash.dependencies import Input, Output
+import dash_bootstrap_components as dbc
+from dash.dependencies import Input, Output, State
 
 
 X_RANGE = [-0.5, 15.5] 
@@ -20,7 +22,7 @@ DECIMAL_P = 2
 def layout():
     return html.Div([
         html.Div([
-            html.H5('OCEAN', style={'textAlign': 'center'}),
+            html.H5('OCEAN', style={'textAlign': 'center'}, id="ocean-title"),
             dcc.Dropdown(
                 id='select-segment',
                 options=SEGMENT_LIST,
@@ -31,31 +33,40 @@ def layout():
             html.Div([
                 dcc.Graph(id="ocean_graph", 
                           figure = get_ocean("UND")
-                          )
+                          ),
+                tooltip("ocean_graph", big_five),
             ], className='bare_container twelve columns'),
 
         html.Div([ 
-        html.H5('Segment Tilts', style={'textAlign': 'center', 'padding': 10}),
+        html.H5('Segment Tilts', style={'textAlign': 'center', 'padding': 10}, id='seg-title'),
         ], className='pretty_container twelve columns'), 
             html.Div([
                 dcc.Graph(id="tilt_graph", 
                           figure = get_tilt("UND")
-                          )
+                          ),
+                tooltip("tilt_graph", segment_tilt),
             ], className='bare_container twelve columns'),
 
         html.Div([ 
-            html.H5('Important Features', style={'textAlign': 'center', 'padding': 10}),
+            html.H5('Important Features', style={'textAlign': 'center', 'padding': 10}, id='ip-title'),
         ], className='pretty_container twelve columns'), 
             html.Div([
-                dcc.Graph(id="sources_graph", 
+                dcc.Graph(id="imp_graph", 
                           figure = get_features()
-                          )
+                          ),
+                tooltip("imp_graph", feature_importance),
             ], className='bare_container twelve columns'),
     ], style={
             'float': 'center',
             'display': 'inline-block',
             'text-align': 'left'},
        className='bare_container twelve columns')
+
+
+def tooltip(graphname, text):
+    return dbc.Tooltip(
+        text,
+        target=graphname)
 
 
 def get_data(filename):
