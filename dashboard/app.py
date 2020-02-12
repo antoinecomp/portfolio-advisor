@@ -1,5 +1,4 @@
 import json
-
 import dash_daq as daq
 import plotly.graph_objects as go
 import dash_core_components as dcc
@@ -42,3 +41,8 @@ app.layout = html.Div(
         )
     ]
 )
+
+if __name__ == "__main__":
+    app.run_server(debug=True)
+
+
