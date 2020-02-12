@@ -1,6 +1,6 @@
 import dash_html_components as html
 
-from ..server import app
+from server import app
 
 
 def image(file, identification, style=None):

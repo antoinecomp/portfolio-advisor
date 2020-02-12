@@ -8,7 +8,7 @@ import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
 
-from ..server import app
+from server import app
 
 base_dir = dirname(dirname(abspath(__file__)))
 data_path = 'data/maroc-swing.json'
