@@ -11,8 +11,8 @@ import dash_html_components as html
 import dash_bootstrap_components as dbc
 from dash.dependencies import Input, Output, State
 
-from settings import SEGMENT_LIST, DEFAULT_CLUSTERS, DATA_PATH, big_five, segment_tilt, feature_importance 
-from server import app
+from ..settings import SEGMENT_LIST, DEFAULT_CLUSTERS, DATA_PATH, big_five, segment_tilt, feature_importance 
+from ..server import app
 #from dash.dependencies import Input, Output
 
 

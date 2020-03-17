@@ -4,8 +4,8 @@ import plotly.graph_objects as go
 import dash_core_components as dcc
 import dash_html_components as html
 
-from server import app, auth, server
-from pages import header, imap, tilt
+from .server import app #, auth, server
+from .pages import header, imap, tilt, media_monitoring
 
 #this is a change
 mapbox_access_token = ("pk.eyJ1IjoiamFja2x1byIsImEiOiJjajNlcnh3MzEwMHZtM"
@@ -31,7 +31,7 @@ app.layout = html.Div(
                 dcc.Tab(
                     label='Media Monitoring',
                     value='media-monitoring',
-                   # children=media_monitoring.layout
+                    children=media_monitoring.layout()
                 ),
                 dcc.Tab(
                     label='Research',
