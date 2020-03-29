@@ -26,16 +26,27 @@ from . import utils
 from ..server import app
 
 @app.callback(
-    Output('earnings', 'figure'),
+    Output('sales', 'children'),
     [Input('select-stock', 'value')])
 def update_earnings(entity):
-    pass
+    ticker = entity
+    url = 'https://financialmodelingprep.com/'
+    api = 'api/v3/financials/income-statement/'
+    search_api_url = url + api + ticker
+    response = requests.get(
+        search_api_url
+    )
+    json = response.json()
+    earnings = json['financials'][0]['Revenue']
+    earnings = float(earnings)
+    return '{:,.2f}'.format(earnings)
+
 
 @app.callback(
     Output('current_ratio', 'figure'),
     [Input('select-stock', 'value')])
 def update_current_ratio(entity):
-    bs = requests.get(f'https://financialmodelingprep.com/api/v3/financials/balance-sheet-statement/AAPL?period=quarter')
+    bs = requests.get(f'https://financialmodelingprep.com/api/v3/financials/balance-sheet-statement/{entity}?period=quarter')
     bs = bs.json()
 
     total_assets = bs.get("financials")[0].get("Total assets")
@@ -114,6 +125,42 @@ def update_current_ratio(entity):
     fig = px.line(df, x='Date', y='Dividends')
     return fig
 
+@app.callback(
+    Output('earnings', 'figure'),
+    [Input('select-stock', 'value')])
+def update_earnings(entity):
+    ticker = entity
+    url = 'https://financialmodelingprep.com/'
+    api = 'api/v3/financials/income-statement/'
+    search_api_url = url + api + ticker
+    response = requests.get(
+        search_api_url
+    )
+    json = response.json()
+    earnings = json['financials']
+    df = pd.DataFrame(earnings)[['date', 'Revenue']]
+    fig = px.line(df, x='date', y='Revenue')
+    return fig
+
+@app.callback(
+    Output('earnings_growth', 'children'),
+    [Input('select-stock', 'value')])
+def update_earnings_growth(entity):
+    ticker = entity
+    url = 'https://financialmodelingprep.com/'
+    api = 'api/v3/financials/income-statement/'
+    search_api_url = url + api + ticker
+    response = requests.get(
+        search_api_url
+    )
+    json = response.json()
+    earnings = json['financials']
+    df = pd.DataFrame(earnings)['Revenue']
+    pct_change = pd.to_numeric(df).pct_change(-1)
+    mean_growth = pct_change.mean(skipna = True)
+    return '{:.2%}'.format(mean_growth)
+
+
 from ..server import app
 
 """ Test entities """
@@ -139,8 +186,8 @@ def layout():
         ], className='pretty_container twelve columns'),
         html.Div([
             html.Div([
-                html.H5('Sales', style={'textAlign': 'center', 'padding': 10}),
-                dcc.Graph(id="sales")
+                html.H6('Sales', style={'textAlign': 'center', 'padding': 10}),
+                html.P("Sales: ", id="sales", style={'textAlign': 'center', 'padding': 10})
             ], className='pretty_container four columns'),
             html.Div([
                 html.H5('Current ratio', style={'textAlign': 'center', 'padding': 10}),
@@ -156,11 +203,11 @@ def layout():
         html.Div([
             html.Div([
                 html.H5('Earnings growth/10 years', style={'textAlign': 'center', 'padding': 10}),
-                # dcc.Graph(id="sales")
+                html.P("Earnings growth/10 years: ", id="earnings_growth", style={'textAlign': 'center', 'padding': 10})
             ], className='pretty_container four columns'),
             html.Div([
                 html.H5('Earnings', style={'textAlign': 'center', 'padding': 10}),
-                # dcc.Graph(id="current_ratio")
+                dcc.Graph(id="earnings")
             ], className='pretty_container seven columns')
         ]),
     ], className='pretty_container twelve columns')

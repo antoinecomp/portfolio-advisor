@@ -18,6 +18,12 @@ from ..server import app
 base_dir = dirname(dirname(abspath(__file__)))
 data_path = 'data/tickers_september_2017.xlsx'
 
+@app.callback(
+    Output('click-data', 'children'),
+    [Input('basic-interactions', 'clickData')])
+def display_click_data(clickData):
+    pass
+
 
 def get_tickers():
     with open(join(base_dir, data_path), 'rb') as fp:
