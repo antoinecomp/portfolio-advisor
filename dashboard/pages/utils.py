@@ -279,6 +279,7 @@ def load_topics(entity, start_date, end_date):
 
 if __name__ == "__main__":
     json_dict = reader.create_json_dict()
+    print("json_dict: ", json_dict)
     geojson = json_dict.get('2016 Parliamentary Majoritarian')
     ids = listify_ids(geojson)
     turnouts = listify_zview(geojson, 'pct')
