@@ -39,13 +39,15 @@ def update_current_ratio(entity):
     bs = bs.json()
 
     total_assets = bs.get("financials")[0].get("Total assets")
-    total_liabilities = bs.get("financials")[0].get('Total current liabilities')
 
+    # Assets
     cash_and_cash_equivalents = bs.get("financials")[0].get('Cash and cash equivalents')
     short_term_investments = bs.get("financials")[0].get('Short-term investments')
     cash_and_short_term_investments = bs.get("financials")[0].get('Cash and short-term investments')
     receivables = bs.get("financials")[0].get('Receivables')
     inventories = bs.get("financials")[0].get('Inventories')
+    current_assets = [cash_and_cash_equivalents, short_term_investments, cash_and_short_term_investments, receivables,
+                      inventories]
 
     property_plant_equipment_net = bs.get("financials")[0].get('Property, Plant & Equipment Net')
     goodwill_and_intangible_assets = bs.get("financials")[0].get('Goodwill and Intangible Assets')
@@ -54,6 +56,20 @@ def update_current_ratio(entity):
 
     total_current_assets = bs.get("financials")[0].get('Total current assets')
     total_non_current_assets = bs.get("financials")[0].get('Total non-current assets')
+
+    # liabilities
+    payables = bs.get("financials")[0].get('Payables')
+    short_term_debt = bs.get("financials")[0].get('Short-term debt')
+    total_current_liabilities = bs.get("financials")[0].get('Total current liabilities')
+
+    long_term_debt = bs.get("financials")[0].get('Long-term debt')
+    # total_debt = bs.get("financials")[0].get('Total debt')
+    deferred_revenue = bs.get("financials")[0].get('Deferred revenue')
+    tax_liabilities = bs.get("financials")[0].get('Tax Liabilities')
+    deposit_liabilities = bs.get("financials")[0].get('Deposit Liabilities')
+    total_non_current_liabilities = bs.get("financials")[0].get("Total non-current liabilities")
+
+    total_liabilities = bs.get("financials")[0].get('Total liabilities')
 
     ratio = float(total_assets)/float(total_liabilities)
 
@@ -67,13 +83,17 @@ def update_current_ratio(entity):
     data = dict(
         asset_and_liability =[financial_status, "total_assets", "total_liabilities", "total_current_assets",
                               "Cash_and_cash_equivalents", "Short_term_investments", "Cash_and_short_term_investments",
-                              "Receivables", "Inventories", "total_non_current_assets"],
+                              "Receivables", "Inventories", "total_non_current_assets", "property_plant_equipment_net",
+                              "goodwill_and_intangible_assets", "long_term_investments", "tax_assets",
+                              "total_current_liabilities", "total_non_current_liabilities"],
         parent=["", financial_status, financial_status, "total_assets", "total_current_assets",
                 "total_current_assets", "total_current_assets", "total_current_assets", "total_current_assets",
-                "total_assets"],
+                "total_assets", "total_non_current_assets", "total_non_current_assets", "total_non_current_assets",
+                "total_non_current_assets", "total_liabilities", "total_liabilities"],
         value=[ratio, total_assets, total_liabilities, total_current_assets, cash_and_cash_equivalents,
                short_term_investments, cash_and_short_term_investments, receivables, inventories,
-               total_non_current_assets])
+               total_non_current_assets, property_plant_equipment_net, goodwill_and_intangible_assets,
+               long_term_investments, tax_assets, total_current_liabilities, total_non_current_liabilities])
 
     fig = px.sunburst(
         data,
