@@ -18,14 +18,14 @@ def image(file, identification, style=None):
 def layout():
     return html.Div([
         html.Div(
-            [image('auspex.png', 'auspex-logo')],
+            # [image('auspex.png', 'auspex-logo')],
             style={'textAlign': 'left'},
             className="one-third column"
         ),
         html.Div([
             html.Div([
                 html.H1(
-                    "RNI Dashboard",
+                    "Portfolio advisor",
                     style={"margin-bottom": "10px"},
                 )
             ], style={'text-align': 'center'}
@@ -33,7 +33,7 @@ def layout():
         ], className="one-half column", id="title",
         ),
         html.Div(
-            [image('rni_logo.png', 'lelo-logo')],
+            # [image('rni_logo.png', 'lelo-logo')],
             style={'text-align': 'right'},
             className="one-third column",
         )

@@ -5,9 +5,8 @@ import dash_core_components as dcc
 import dash_html_components as html
 
 from .server import app #, auth, server
-from .pages import header, imap, tilt, media_monitoring
+from .pages import header, imap, media_monitoring
 
-#this is a change
 mapbox_access_token = ("pk.eyJ1IjoiamFja2x1byIsImEiOiJjajNlcnh3MzEwMHZtM"
                        "zNueGw3NWw5ZXF5In0.fk8k06T96Ml9CLGgKmk81w")
 
@@ -24,19 +23,19 @@ app.layout = html.Div(
         dcc.Tabs(
             [
                 dcc.Tab(
-                    label='Electoral Map',
-                    value='electoral',
+                    label='geograpy',
+                    value='Geograpy',
                     children=imap.layout()
                 ),
                 dcc.Tab(
-                    label='Media Monitoring',
-                    value='media-monitoring',
+                    label='stocks',
+                    value='Stocks',
                     children=media_monitoring.layout()
                 ),
                 dcc.Tab(
-                    label='Research',
+                    label='Job ?',
                     value='research',
-                    children=tilt.layout()
+                    # children=tilt.layout()
                 )
             ]
         )

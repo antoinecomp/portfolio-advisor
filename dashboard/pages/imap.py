@@ -11,7 +11,7 @@ from dash.dependencies import Input, Output
 from ..server import app
 
 base_dir = dirname(dirname(abspath(__file__)))
-data_path = 'data/maroc-swing.json'
+data_path = 'data/paris-help.json'
 
 
 def get_geojson():
@@ -66,21 +66,22 @@ def get_hovertext(geojson):
 
 def get_map(view):
     return go.Figure(
-        go.Choroplethmapbox(
-            geojson=get_geojson(),
-            locations=get_ids(geojson),
-            z=get_z(geojson, view),
-            zmin=np.percentile(get_z(geojson, view), 2),
-            zmax=np.percentile(get_z(geojson, view), 95),
-            colorscale='Reds',
-            text=get_hovertext(geojson),
-            hoverinfo='z+text',
-            marker_opacity=0.4
+        go.Scattermapbox(
+            # long = np.array(feature["geometry"]["coordinates"])[:, 1],
+            # lon=np.array(feature["geometry"]["coordinates"])[:, 0],
+            # locations=get_ids(geojson),
+            # z=get_z(geojson, view),
+            # zmin=np.percentile(get_z(geojson, view), 2),
+            # zmax=np.percentile(get_z(geojson, view), 95),
+            # colorscale='Reds',
+            # text=get_hovertext(geojson),
+            # hoverinfo='z+text',
+            # marker_opacity=0.4
         ),
         go.Layout(
             mapbox_style='carto-positron',
-            mapbox_zoom=5.6,
-            mapbox_center={'lat': 32, 'lon': -7},
+            mapbox_zoom=5.2,
+            mapbox_center={'lat': 47.5, 'lon': 2},
             hovermode='closest',
             margin={'r': 0, 't': 0, 'l': 0, 'b': 0}
         )
@@ -89,7 +90,7 @@ def get_map(view):
 
 geojson = get_geojson()
 ids = get_ids(geojson)
-z = get_z(geojson, 'swing')
+# z = get_z(geojson, 'swing')
 
 
 def layout():
