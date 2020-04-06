@@ -5,7 +5,7 @@ import dash_core_components as dcc
 import dash_html_components as html
 
 from .server import app #, auth, server
-from .pages import header, imap, media_monitoring, stocks
+from .pages import header, imap, stock, markets, stocks
 
 mapbox_access_token = ("pk.eyJ1IjoiamFja2x1byIsImEiOiJjajNlcnh3MzEwMHZtM"
                        "zNueGw3NWw5ZXF5In0.fk8k06T96Ml9CLGgKmk81w")
@@ -30,7 +30,12 @@ app.layout = html.Div(
                 dcc.Tab(
                     label='Stock',
                     value='Stock',
-                    children=media_monitoring.layout()
+                    children=stock.layout()
+                ),
+                dcc.Tab(
+                    label='Markets',
+                    value='Markets',
+                    children=markets.layout()
                 ),
                 dcc.Tab(
                     label='Stocks',
@@ -41,6 +46,8 @@ app.layout = html.Div(
         )
     ]
 )
+
+
 
 if __name__ == "__main__":
     app.run_server(debug=False, port=8051)

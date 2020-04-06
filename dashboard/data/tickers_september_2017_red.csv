@@ -1,0 +1,1556 @@
+,Ticker,Name,Exchange,Category Name,Country,ratio,earnings,dividends
+296,DOX,Amdocs Limited,NMS,Business Software & Services,USA,2.8817182920540385,3974837000.0,True
+388,GIL,Gildan Activewear Inc.,NYQ,Textile - Apparel Clothing,USA,2.812628689087165,3780000000.0,True
+393,ASR,"Grupo Aeroportuario del Sureste, S. A. B. de C. V.",NYQ,"Air Services, Other",USA,2.8810551991873723,786236785.7143,True
+441,TEO,Telecom Argentina S.A.,NYQ,Diversified Communication Services,USA,2.6027516191143207,4457453580.9019,True
+461,PAC,"Grupo Aeroportuario del Pacífico, S.A.B. de C.V.",NYQ,"Air Services, Other",USA,2.2246438815025926,720555612.2449,True
+469,AVX,AVX Corporation,NYQ,Diversified Electronics,USA,6.556259875366466,1791790000.0,True
+513,BRKS,"Brooks Automation, Inc.",NMS,Semiconductor Equipment & Materials,USA,4.02073757774271,780848000.0,True
+526,FWRD,Forward Air Corporation,NMS,Air Delivery & Freight Services,USA,2.3951839031559405,1410395000.0,True
+551,ASTE,"Astec Industries, Inc.",NMS,Farm & Construction Machinery,USA,4.031740275700205,1169613000.0,True
+891,SDF.AX,Steadfast Group Limited,ASX,Insurance Brokers,Australia,2.031364147860765,721238000.0,True
+897,RMS.PA,Hermès International Société en commandite par actions,PAR,Jewelry Stores,France,2.989561902456735,6883400000.0,True
+905,PMV.AX,Premier Investments Limited,ASX,Apparel Stores,Australia,4.2168978893135325,1275553000.0,True
+929,MAL.TO,Magellan Aerospace Corporation,TOR,Aerospace/Defense - Major Diversified,Canada,3.5081573616076778,1016219000.0,True
+935,LAS-A.TO,Lassonde Industries Inc.,TOR,Beverages - Soft Drinks,Canada,2.2770421631992663,1678301000.0,True
+948,IGO.AX,Independence Group NL,ASX,Industrial Metals & Minerals,Australia,6.419141933536338,784512000.0,True
+953,HEXA-B.ST,Hexagon AB,STO,Scientific & Technical Instruments,Sweden,2.3433472599862943,3907700000.0,True
+957,GMG.AX,Goodman Group,ASX,REIT - Diversified,Australia,3.108632917583761,1972400000.0,True
+961,GCLA.BA,Grupo Clarín S.A.,BUE,Entertainment - Diversified,Argentina,2.04353225931204,25429344898.0,True
+966,FMG.AX,Fortescue Metals Group Limited,ASX,Industrial Metals & Minerals,Australia,2.165841856373034,9965000000.0,True
+981,CDD.AX,Cardno Limited,ASX,General Contractors,Australia,2.140737634013998,1319272000.0,True
+982,CDA.PA,Compagnie des Alpes SA,PAR,Resorts & Casinos,France,2.0137580252416174,854011000.0,True
+989,BKW.AX,Brickworks Limited,ASX,General Building Materials,Australia,3.3415051003321006,918695000.0,True
+992,BEIA-B.ST,Beijer Alma AB (publ),STO,Diversified Machinery,Sweden,2.1309473684210527,4621700000.0,True
+1001,AVV.L,AVEVA Group plc,LSE,Information Technology Services,United Kingdom,5.040520680243544,766600000.0,True
+1007,ASSA-B.ST,ASSA ABLOY AB (publ),STO,General Building Materials,Sweden,2.0043806030969846,94029000000.0,True
+1051,ABF.L,Associated British Foods plc,LSE,Food - Major Diversified,United Kingdom,3.2684085510688834,15824000000.0,True
+1054,ABC.AX,Adelaide Brighton Limited,ASX,General Building Materials,Australia,2.2518820577164367,1517000000.0,True
+1088,BHP,BHP Billiton Limited,NYQ,Industrial Metals & Minerals,USA,2.0568346350714766,44288000000.0,True
+1091,BEN,"Franklin Resources, Inc.",NYQ,Asset Management,USA,3.141621808591132,5774500000.0,True
+1138,BBL,BHP Billiton plc,NYQ,Industrial Metals & Minerals,USA,2.283152150924242,43638000000.0,True
+1224,JBSS,"John B. Sanfilippo & Son, Inc.",NMS,Processed & Packaged Goods,USA,2.8614761351088487,876201000.0,True
+1230,BRC,Brady Corporation,NYQ,Security Software & Services,USA,3.7754637332237206,1160645000.0,True
+1234,TECH,Bio-Techne Corporation,NMS,Biotechnology,USA,2.6215288646269377,714006000.0,True
+1318,BVN,CompaÃ±Ã­a de Minas Buenaventura S.A.A.,NYQ,Industrial Metals & Minerals,USA,3.5508775268259503,1167381000.0,True
+1330,NX,Quanex Building Products Corporation,NYQ,General Building Materials,USA,2.04846899083268,893841000.0,True
+1364,MNRO,"Monro Muffler Brake, Inc.",NMS,Auto Parts,USA,2.1415390239205716,1200230000.0,True
+1390,RBC,Regal Beloit Corporation,NYQ,Diversified Machinery,USA,2.130553952683208,3238000000.0,True
+1449,IBA,"Industrias Bachoco, S.A.B. de C.V.",NYQ,Farm Products,USA,3.596326067496168,3114902653.0612,True
+1519,VIV,Telefônica Brasil S.A.,NYQ,Wireless Communications,USA,3.3133150424928126,11201737113.4021,True
+1553,PPL.TO,Pembina Pipeline Corporation,TOR,Oil & Gas Pipelines,Canada,2.0236220472440944,7230000000.0,True
+1655,IDG.TO,Indigo Books & Music Inc.,TOR,"Specialty Retail, Other",Canada,2.5399171201757453,1046824000.0,True
+1659,CPG.TO,Crescent Point Energy Corp.,TOR,Independent Oil & Gas,Canada,2.1249921037670294,2877100000.0,True
+1688,MTL.TO,Mullen Group Ltd.,TOR,Oil & Gas Equipment & Services,Canada,2.104105146799684,1278502000.0,True
+1714,BRBY.L,Burberry Group plc,LSE,Jewelry Stores,United Kingdom,2.673927998165558,2720200000.0,True
+1719,BLND.L,The British Land Company PLC,LSE,REIT - Retail,United Kingdom,3.435940566302215,971000000.0,True
+1746,MIC.TO,Genworth MI Canada Inc.,TOR,Accident & Health Insurance,Canada,2.310086723000598,892674000.0,True
+1754,CVE.TO,Cenovus Energy Inc.,TOR,Major Integrated Oil & Gas,Canada,2.1628512596899223,20181000000.0,True
+1768,BKG.L,The Berkeley Group Holdings plc,LSE,Residential Construction,United Kingdom,2.5007090043553126,2957400000.0,True
+1773,WEF.TO,Western Forest Products Inc.,TOR,"Lumber, Wood Production",Canada,2.6092030676892297,807700000.0,True
+1774,WCP.TO,Whitecap Resources Inc.,TOR,Independent Oil & Gas,Canada,2.204898251418061,1200476000.0,True
+1834,CYRE3.SA,Cyrela Brazil Realty S.A. Empreendimentos e Participações,SAO,Residential Construction,Brazil,2.075453599967583,3930822000.0,True
+1837,COLR.BR,Etn. Fr. Colruyt NV,BRU,Grocery Stores,Belgium,2.138459158415841,9433900000.0,True
+1839,CG.TO,Centerra Gold Inc.,TOR,Gold,Canada,4.249158159132697,1375328000.0,True
+1847,BVS.L,Bovis Homes Group PLC,LSE,Residential Construction,United Kingdom,3.0307152604069976,1061396000.0,True
+1929,J37.SI,Jardine Strategic Holdings Limited,SES,Conglomerates,Singapore,3.2436357423543485,32665000000.0,True
+1939,GOGL.OL,Golden Ocean Group Limited,OSL,Shipping,Norway,2.041802451492635,704629000.0,True
+1949,ERF.TO,Enerplus Corporation,TOR,Medical Instruments & Supplies,Canada,2.34481706091146,1171697000.0,True
+1954,EFX.TO,Enerflex Ltd.,TOR,Oil & Gas Equipment & Services,Canada,2.2299749294461297,2045422000.0,True
+1980,BOSCHLTD.NS,Bosch Limited,NSI,Auto Parts,India,3.5444549868839648,121339000000.0,True
+1994,BEI.DE,Beiersdorf Aktiengesellschaft,GER,Personal Products,Germany,2.533987915407855,7653000000.0,True
+1996,BDEV.L,Barratt Developments plc,LSE,Residential Construction,United Kingdom,3.1000646970023724,4763100000.0,True
+2021,UCB.BR,UCB SA,BRU,Biotechnology,Belgium,2.7212671905697445,4913000000.0,True
+2026,TPX-B.TO,Molson Coors Canada Inc.,TOR,Beverages - Brewers,Canada,5.1967196965965625,2510400000.0,True
+2027,TPX-A.TO,Molson Coors Canada Inc.,TOR,Beverages - Brewers,Canada,5.1967196965965625,2510400000.0,True
+2042,SCL.TO,ShawCor Ltd.,TOR,Oil & Gas Equipment & Services,Canada,2.1031298119465167,1489489000.0,True
+2098,J36.SI,Jardine Matheson Holdings Limited,SES,Conglomerates,Singapore,3.036204900334825,40922000000.0,True
+2123,GBLB.BR,Groupe Bruxelles Lambert SA,BRU,Asset Management,Belgium,3.17657918625881,5747000000.0,True
+2128,FNV.TO,Franco-Nevada Corporation,TOR,Gold,Canada,24.17857142857143,841700000.0,True
+2132,FBU.AX,Fletcher Building Limited,ASX,General Building Materials,Australia,2.1798134011874466,8308000000.0,True
+2136,EURN.BR,Euronav NV,BRU,Air Delivery & Freight Services,Belgium,2.272769243522087,932377000.0,True
+2148,DIE.BR,D'Ieteren SA,BRU,Auto Dealerships,Belgium,4.233321091932917,3798800000.0,True
+2153,CNU.TO,CNOOC Limited,TOR,Independent Oil & Gas,Canada,2.4482027753994284,233199000000.0,True
+2164,XOM,Exxon Mobil Corporation,NYQ,Major Integrated Oil & Gas,USA,2.121107711746916,264938000000.0,True
+2165,INTC,Intel Corporation,NMS,Semiconductor - Broad Line,USA,2.313181972212809,71965000000.0,True
+2180,CVX,Chevron Corporation,NYQ,Major Integrated Oil & Gas,USA,2.547100788499705,146516000000.0,True
+2204,NVDA,NVIDIA Corporation,NMS,Semiconductor - Specialized,USA,3.3650632911392404,11716000000.0,True
+2210,MOS,The Mosaic Company,NYQ,Agricultural Chemicals,USA,2.069472016786842,9587300000.0,True
+2222,MRO,Marathon Oil Corporation,NYQ,Independent Oil & Gas,USA,2.3192646578918743,6582000000.0,True
+2235,CTSH,Cognizant Technology Solutions Corporation,NMS,Business Software & Services,USA,3.5448875027845848,16125000000.0,True
+2240,WY,Weyerhaeuser Co.,NYQ,"Lumber, Wood Production",USA,2.1027672802633184,7476000000.0,True
+2244,FAST,Fastenal Company,NMS,Industrial Equipment Wholesale,USA,3.349995591995063,5333700000.0,True
+2245,O,Realty Income Corporation,NYQ,REIT - Retail,USA,2.1278630948886748,1327838000.0,True
+2256,GLW,Corning Incorporated,NYQ,Diversified Electronics,USA,2.0057609567563626,11290000000.0,True
+2258,NEM,Newmont Mining Corporation,NYQ,Gold,USA,2.028297268187604,7253000000.0,True
+2264,CALM,"Cal-Maine Foods, Inc.",NMS,Food - Major Diversified,USA,6.815506855128674,1361188000.0,True
+2281,HRL,Hormel Foods Corporation,NYQ,Meat Products,USA,3.706895306430128,9497317000.0,True
+2296,CCL,Carnival Corporation,NYQ,Resorts & Casinos,USA,2.3611203920258377,18881000000.0,True
+2298,KHC,The Kraft Heinz Company,NMS,Food - Major Diversified,USA,2.0360447147129066,24977000000.0,True
+2299,NYT,The New York Times Company,NYQ,Publishing - Newspapers,USA,2.277895838671515,1812184000.0,True
+2304,VMC,Vulcan Materials Company,NYQ,General Building Materials,USA,2.118346642965019,4929103000.0,True
+2305,NWSA,News Corporation,NMS,Broadcasting - TV,USA,2.392416628597533,10074000000.0,True
+2308,NUE,Nucor Corporation,NYQ,Steel & Iron,USA,2.2968730905994894,22588858000.0,True
+2310,RL,Ralph Lauren Corporation,NYQ,Textile - Apparel Clothing,USA,2.23783702364814,6313000000.0,True
+2312,LEN,Lennar Corporation,NYQ,Residential Construction,USA,2.042681738243499,20571631000.0,True
+2333,DHR,Danaher Corporation,NYQ,Diversified Machinery,USA,2.438182086950316,19893000000.0,True
+2339,PXD,Pioneer Natural Resources Company,NYQ,Independent Oil & Gas,USA,2.7442429476108234,9304000000.0,True
+2347,TSM,Taiwan Semiconductor Manufacturing Company Limited,NYQ,Semiconductor - Integrated Circuits,USA,4.872706976796243,33708287581.6993,True
+2355,TSCO,Tractor Supply Company,NMS,"Specialty Retail, Other",USA,2.0251916384082884,7911046000.0,True
+2366,XEC,Cimarex Energy Co.,NYQ,Independent Oil & Gas,USA,2.0034380990648417,2362969000.0,True
+2381,CY,Cypress Semiconductor Corporation,NMS,Semiconductor - Broad Line,USA,2.341210448810477,2483840000.0,True
+2387,PRGO,Perrigo Company plc,NYQ,Drug Related Products,USA,2.0556970314318974,4837400000.0,True
+2400,CEO,CNOOC Limited,NYQ,Oil & Gas Drilling & Exploration,USA,2.5965671310641367,32845586107.0912,True
+2403,ERF,Enerplus Corporation,NYQ,Oil & Gas Drilling & Exploration,USA,2.7908970734200067,1022939259.2593,True
+2404,COO,"The Cooper Companies, Inc.",NYQ,Medical Instruments & Supplies,USA,2.3712255772646538,2653400000.0,True
+2407,SNP,China Petroleum & Chemical Corporation,NYQ,Major Integrated Oil & Gas,USA,2.1641294257875727,418405065123.0101,True
+2418,CCJ,Cameco Corporation,NYQ,Industrial Metals & Minerals,USA,2.6507502039640283,1549378518.5185,True
+2423,EQT,EQT Corporation,NYQ,Independent Oil & Gas,USA,2.088605483741909,4416484000.0,True
+2427,TRI,Thomson Reuters Corporation,NYQ,Publishing - Periodicals,USA,2.1796445467331544,5501000000.0,True
+2432,GNTX,Gentex Corporation,NMS,Auto Parts,USA,9.40034105573017,1858897406.0,True
+2433,CVRR,"CVR Refining, LP",NYQ,Oil & Gas Refining & Marketing,USA,2.2186492034014265,5664200000.0,True
+2441,EGN,Energen Corporation,NYQ,Independent Oil & Gas,USA,3.1551805836391007,961045000.0,True
+2444,COLM,Columbia Sportswear Company,NMS,Textile - Apparel Clothing,USA,2.7090581290475204,3042478000.0,True
+2446,CHU,China Unicom (Hong Kong) Limited,NYQ,Wireless Communications,USA,2.3904368369360345,42095079594.7902,True
+2451,MSM,"MSC Industrial Direct Co., Inc.",NYQ,Industrial Equipment Wholesale,USA,2.7756371842000656,3363817000.0,True
+2472,HMY,Harmony Gold Mining Company Limited,NYQ,Gold,USA,2.6011964107676966,1903000000.0,True
+2480,TEL,TE Connectivity Ltd.,NYQ,Diversified Electronics,USA,2.158483121437966,13448000000.0,True
+2489,CHL,China Mobile Limited,NYQ,Wireless Communications,USA,3.1991393477622423,106630824891.4616,True
+2491,CBOE,"CBOE Holdings, Inc.",NMS,Diversified Investments,USA,2.558173076923077,2768800000.0,True
+2502,MTRN,Materion Corporation,NYQ,Industrial Metals & Minerals,USA,3.2476758577312475,1207815000.0,True
+2503,KGC,Kinross Gold Corporation,NYQ,Gold,USA,2.280164003958716,3212600000.0,True
+2504,IAG,IAMGOLD Corporation,NYQ,Gold,USA,3.2245197004233157,1111000000.0,True
+2520,MTG,MGIC Investment Corporation,NYQ,Property & Casualty Insurance,USA,3.2439988397869755,1213977000.0,True
+2526,ERIE,Erie Indemnity Company,NMS,Insurance Brokers,USA,2.2834311263925744,2477298000.0,True
+2541,KRC,Kilroy Realty Corporation,NYQ,REIT - Office,USA,2.0245338651650244,747298000.0,True
+2548,CUK,Carnival plc,NYQ,General Entertainment,USA,2.3611203920258377,18881000000.0,True
+2563,LANC,Lancaster Colony Corporation,NMS,Food - Major Diversified,USA,5.071524595857186,1307787000.0,True
+2578,PCH,Potlatch Corporation,NMS,"Lumber, Wood Production",USA,2.3003798934399398,974579000.0,True
+2589,DRE,Duke Realty Corporation,NYQ,REIT - Industrial,USA,2.480757499706754,947870000.0,True
+2606,SCHL,Scholastic Corporation,NMS,Publishing - Books,USA,3.0947281713344315,1653900000.0,True
+2608,PTR,PetroChina Company Limited,NYQ,Major Integrated Oil & Gas,USA,2.380821215182341,340606078147.6122,True
+2622,CUB,Cubic Corporation,NYQ,Scientific & Technical Instruments,USA,2.08596972855528,1496475000.0,True
+2654,CVG,Convergys Corporation,NYQ,Business Services,USA,2.32854387656702,2792100000.0,True
+2671,UNF,UniFirst Corporation,NYQ,Textile - Apparel Clothing,USA,5.041542515205989,1809376000.0,True
+2678,PJC,Piper Jaffray Companies,NYQ,Investment Brokerage - Regional,USA,2.014403473963988,800993000.0,True
+2680,NHC,National HealthCare Corporation,ASE,Long-Term Care Facilities,USA,3.109120717922168,980349000.0,True
+2697,CHE,Chemed Corporation,NYQ,Home Health Care,USA,2.341325324113131,1938555000.0,True
+2699,CCU,Compañía Cervecerías Unidas S.A.,NYQ,Beverages - Brewers,USA,2.3662329443041568,2569571090.7781,True
+2716,RECN,"Resources Connection, Inc.",NMS,Staffing & Outsourcing Services,USA,2.934563689424144,728999000.0,True
+2746,SSD,"Simpson Manufacturing Co., Inc.",NYQ,Small Tools & Accessories,USA,5.3850419597952905,1136539000.0,True
+2750,REG,Regency Centers Corporation,NYQ,REIT - Retail,USA,2.4071700024611293,1120975000.0,True
+2755,MANT,ManTech International Corporation,NMS,Security Software & Services,USA,4.479697126977702,1958557000.0,True
+2766,CTRN,"Citi Trends, Inc.",NMS,Apparel Stores,USA,2.6951720270612496,769553000.0,True
+2769,CPG,Crescent Point Energy Corp.,NYQ,Independent Oil & Gas,USA,2.080946776513639,2486370370.3704,True
+2782,SQM,Sociedad Química y Minera de Chile S.A.,NYQ,Chemicals - Major Diversified,USA,2.003525338310429,2265803000.0,True
+2785,SKM,"SK Telecom Co., Ltd.",NYQ,Wireless Communications,USA,2.1163539047548894,15226803845.8082,True
+2787,SCL,Stepan Company,NYQ,Cleaning Products,USA,2.2969804416624005,1858745000.0,True
+2794,NATI,National Instruments Corporation,NMS,Technical & System Software,USA,3.8607618330380222,1359132000.0,True
+2812,CYD,China Yuchai International Limited,NYQ,Diversified Machinery,USA,2.0606202802745,2353581476.1216,True
+2816,CVGW,"Calavo Growers, Inc.",NMS,Farm Products,USA,3.7358241379640353,1195777000.0,True
+2826,CAJ,Canon Inc.,NYQ,Business Equipment,USA,2.6039487614479926,35926700000.0,True
+2839,PBA,Pembina Pipeline Corporation,NYQ,Oil & Gas Pipelines,USA,2.174877650897221,5445185185.1852,True
+2848,IEX,IDEX Corporation,NYQ,Diversified Machinery,USA,2.4595046182875544,2494573000.0,True
+2892,SKY,Skyline Corporation,ASE,Manufactured Housing,USA,2.4305477425672444,1360043000.0,True
+2906,KAMN,Kaman Corporation,NYQ,Aerospace/Defense Products & Services,USA,2.3818118947663502,761608000.0,True
+2914,FSS,Federal Signal Corporation,NYQ,Pollution & Treatment Controls,USA,2.22466119488452,1221300000.0,True
+2916,FELE,"Franklin Electric Co., Inc.",NMS,Industrial Electrical Equipment,USA,3.000374185706608,1314600000.0,True
+2921,CPT,Camden Property Trust,NYQ,REIT - Residential,USA,2.1386648547553904,954505000.0,True
+2959,LPX,Louisiana-Pacific Corporation,NYQ,Building Materials Wholesale,USA,3.088954417004546,2828000000.0,True
+2964,IMOS,ChipMOS TECHNOLOGIES INC.,NMS,Semiconductor Equipment & Materials,USA,2.192464472396939,18480027000.0,True
+2970,HEI,HEICO Corporation,NYQ,Aerospace/Defense Products & Services,USA,2.279328824129537,2055647000.0,True
+2975,FMX,"Fomento Económico Mexicano, S.A.B. de C.V.",NYQ,Beverages - Brewers,USA,2.3932211975635065,23966530612.2449,True
+2979,DRH,DiamondRock Hospitality Company,NYQ,REIT - Hotel/Motel,USA,2.2638077918370474,938091000.0,True
+2990,CGNX,Cognex Corporation,NMS,Scientific & Technical Instruments,USA,3.556857937667971,725625000.0,True
+2995,WCN,"Waste Connections, Inc.",NYQ,Waste Management,USA,2.0456665707068242,4922941000.0,True
+2997,UMC,United Microelectronics Corporation,NYQ,Semiconductor Equipment & Materials,USA,2.292021562411345,4942894477.1242,True
+3003,SXI,Standex International Corporation,NYQ,Industrial Equipment & Components,USA,2.014723237232722,791579000.0,True
+3007,SEB,Seaboard Corporation,ASE,Conglomerates,USA,2.6681749622926088,6583000000.0,True
+3027,FCFS,"FirstCash, Inc.",NYQ,Credit Services,USA,2.2392406864297483,1864439000.0,True
+3058,SHI,Sinopec Shanghai Petrochemical Company Limited,NYQ,Oil & Gas Refining & Marketing,USA,3.1878505595163484,13836972937.7713,True
+3099,CHA,China Telecom Corporation Limited,NYQ,Telecom Services - Foreign,USA,2.0777241506751056,54576555716.3531,True
+3131,GVA,Granite Construction Incorporated,NYQ,Heavy Construction,USA,2.201485731149686,3318414000.0,True
+3150,CHT,"Chunghwa Telecom Co., Ltd.",NYQ,Telecom Services - Domestic,USA,5.659432670519999,7041928104.5752,True
+3163,WIRE,Encore Wire Corporation,NMS,Diversified Electronics,USA,8.487132176286304,1274994000.0,True
+3223,SEIC,SEI Investments Co.,NMS,Asset Management,USA,5.2142794819094895,1649885000.0,True
+3236,HVT,"Haverty Furniture Companies, Inc.",NYQ,Home Furnishing Stores,USA,2.6588885533071585,817733000.0,True
+3325,JJSF,J&J Snack Foods Corp.,NMS,Processed & Packaged Goods,USA,5.492483350216608,1186487000.0,True
+3344,CODI,Compass Diversified Holdings LLC,NYQ,Conglomerates,USA,2.436231352172709,1450253000.0,True
+3354,ROG,Rogers Corporation,NYQ,Diversified Electronics,USA,2.968177810774442,879091000.0,True
+3377,XRAY,DENTSPLY SIRONA Inc.,NMS,Medical Instruments & Supplies,USA,2.4506893801276206,4029200000.0,True
+3378,DHI,"D.R. Horton, Inc.",NYQ,Residential Construction,USA,2.7940276062087115,17592900000.0,True
+3389,DO,"Diamond Offshore Drilling, Inc.",NYQ,Oil & Gas Drilling & Exploration,USA,2.462502259244133,1083215000.0,True
+3403,DLB,"Dolby Laboratories, Inc.",NYQ,Diversified Electronics,USA,5.4855364911994196,1241620000.0,True
+3404,ODFL,"Old Dominion Freight Line, Inc.",NMS,Trucking,USA,4.367452186202999,4109111000.0,True
+3428,RDY,Dr. Reddy's Laboratories Limited,NYQ,Drug Manufacturers - Other,USA,2.6449254957175232,2223280346.8208,True
+3439,FDP,Fresh Del Monte Produce Inc.,NYQ,Farm Products,USA,2.082395087001024,4493900000.0,True
+3460,SAP.DE,SAP SE,GER,Technical & System Software,Germany,2.0486170176572647,27553000000.0,True
+3490,ITX.MC,"Industria de Diseño Textil, S.A.",MCE,Apparel Stores,Spain,2.1121112929623567,28286000000.0,True
+3492,HEN3.DE,Henkel AG & Co. KGaA,GER,Personal Products,Germany,2.4548936835522204,20114000000.0,True
+3495,DRI.DE,Drillisch Aktiengesellschaft,GER,Wireless Communications,Germany,3.5483779565954165,3674846000.0,True
+3509,FEMSAUBD.MX,"Fomento Económico Mexicano, S.A.B. de C.V.",MEX,Beverages - Soft Drinks,Mexico,2.338923573991869,460456000000.0,True
+3515,DIS.MX,The Walt Disney Company,MEX,Entertainment - Diversified,Mexico,2.12860466137032,69570000000.0,True
+3524,TTK.DE,TAKKT AG,GER,Marketing Services,Germany,2.4113876212363867,1215574000.0,True
+3535,FIE.DE,Fielmann AG,GER,"Specialty Retail, Other",Germany,4.0105485679841415,1427999000.0,True
+3553,RMG.L,Royal Mail plc,LSE,Air Delivery & Freight Services,United Kingdom,2.6603163191948243,10581000000.0,True
+3560,LIN.DE,Linde Aktiengesellschaft,GER,Chemicals - Major Diversified,Germany,2.4762558252565974,28228000000.0,True
+3567,GMEXICOB.MX,"Grupo México, S.A.B. de C.V.",MEX,Industrial Metals & Minerals,Mexico,2.1182050488576323,10683444000.0,True
+3589,DABUR.NS,Dabur India Limited,NSI,Personal Products,India,3.0417871487391746,85149900000.0,True
+3606,USIM5.SA,Usinas Siderúrgicas de Minas Gerais S.A.,SAO,Steel & Iron,Brazil,2.4451008360327786,14948719000.0,True
+3611,TAEE11.SA,Transmissora Aliança de Energia Elétrica S.A.,SAO,Electric Utilities,Brazil,2.172710470351752,1077059000.0,True
+3613,STO3.DE,Sto SE & Co. KGaA,GER,General Building Materials,Germany,2.556133998129101,1332515227.0,True
+3615,SOW.F,Software Aktiengesellschaft,FRA,Business Software & Services,France,2.7893458224804646,890607000.0,True
+3620,SAP.MI,SAP SE,MIL,Technical & System Software,Italy,2.0486170176572647,27553000000.0,True
+3642,NDA.DE,Aurubis AG,GER,Copper,Germany,2.33769568556813,10782994000.0,True
+3666,IFX.F,Infineon Technologies AG,FRA,Semiconductor - Broad Line,France,2.806444862942038,8029000000.0,True
+3674,HERDEZ.MX,"Grupo Herdez, S.A.B. de C.V.",MEX,Food - Major Diversified,Mexico,2.230142179558033,22420369000.0,True
+3675,HEN.DE,Henkel AG & Co. KGaA,GER,Personal Products,Germany,2.4548936835522204,20114000000.0,True
+3688,FIBRAMQ12.MX,FIBRA Macquarie México,MEX,REIT - Industrial,Mexico,2.649655155359342,3745619000.0,True
+3702,DXS.AX,Dexus,ASX,REIT - Diversified,Australia,3.5610924077083816,1375500000.0,True
+3716,DSM.AS,Koninklijke DSM N.V.,AMS,Specialty Chemicals,Netherlands,2.397111269614836,9010000000.0,True
+3719,DRREDDY.NS,Dr. Reddy's Laboratories Limited,NSI,Drugs - Generic,India,2.6449254957174704,153851000000.0,True
+3722,DPSCLTD.NS,India Power Corporation Limited,NSI,Electric Utilities,India,2.0799266298624057,5259997000.0,True
+3758,CZ4.SI,Dutech Holdings Limited,SES,Business Equipment,Singapore,2.4989508406880305,1882159000.0,True
+3765,CMOCTEZ.MX,"Corporación Moctezuma, S.A.B. de C.V.",MEX,General Building Materials,Mexico,5.259264576292858,12788027000.0,True
+3771,CE2.DE,CropEnergies AG,GER,Major Integrated Oil & Gas,Germany,4.274378452534717,778612000.0,True
+3893,RHK.DE,Rhön-Klinikum Aktiengesellschaft,GER,Hospitals,Germany,3.6581089865728185,1533836000.0,True
+3928,OMAB.MX,"Grupo Aeroportuario del Centro Norte, S. A. B. de C. V.",MEX,"Air Services, Other",Mexico,2.3380527090861505,8527101000.0,True
+3943,NDA.F,Aurubis AG,FRA,Copper,France,2.33769568556813,10782994000.0,True
+3981,MAHLIFE.NS,Mahindra Lifespace Developers Limited,NSI,Real Estate Development,India,2.933340741169707,5928300000.0,True
+3989,LIVEPOL1.MX,"El Puerto de Liverpool, SAB de CV",MEX,Department Stores,Mexico,2.1922365294490884,144849077000.0,True
+4025,IFX.DE,Infineon Technologies AG,GER,Semiconductor - Broad Line,Germany,2.806444862942038,8029000000.0,True
+4037,HEN3.SG,Henkel AG & Co. KGaA Inhaber-Vo,STU,Personal Products,Germany,2.2364699375839456,20029000000.0,True
+4056,GRND3.SA,Grendene S.A.,SAO,Textile - Apparel Footwear & Accessories,Brazil,10.639607236440837,2071034000.0,True
+4065,GIL.DE,DMG Mori Aktiengesellschaft,GER,Machine Tools & Accessories,Germany,2.078554553129027,2722451000.0,True
+4071,GCARSOA1.MX,"Grupo Carso, S.A.B. de C.V.",MEX,Department Stores,Mexico,2.713386937837404,102477596000.0,True
+4079,FPE3.DE,Fuchs Petrolub SE,GER,Chemicals - Major Diversified,Germany,4.378787878787879,2572000000.0,True
+4081,FPE.DE,Fuchs Petrolub SE,GER,Chemicals - Major Diversified,Germany,4.378787878787879,2572000000.0,True
+4083,FINN13.MX,Fibra Inn,MEX,REIT - Hotel/Motel,Mexico,2.9035028127021048,1920130000.0,True
+4115,EOG,"EOG Resources, Inc.",NYQ,Independent Oil & Gas,USA,2.3976276765557394,17379973000.0,True
+4116,EXPD,"Expeditors International of Washington, Inc.",NMS,Air Delivery & Freight Services,USA,2.466425628116532,8175426000.0,True
+4138,SEP,"Spectra Energy Partners, LP",NYQ,Oil & Gas Pipelines,USA,2.0965779467680608,1950000000.0,True
+4175,STRA,"Strayer Education, Inc.",NMS,Education & Training Services,USA,5.477254222554163,997137000.0,True
+4197,EXP,Eagle Materials Inc.,NYQ,Cement,USA,2.260307645497022,1393241000.0,True
+4212,ESS,"Essex Property Trust, Inc.",NYQ,REIT - Residential,USA,2.024613657138214,1400053000.0,True
+4225,PTEN,"Patterson-UTI Energy, Inc.",NMS,Oil & Gas Drilling & Exploration,USA,2.7844360971532387,3326997000.0,True
+4237,MEI,"Methode Electronics, Inc.",NYQ,Diversified Electronics,USA,2.272509225092251,1000300000.0,True
+4255,WERN,"Werner Enterprises, Inc.",NMS,Trucking,USA,2.075665920515541,2463701000.0,True
+4258,ESE,ESCO Technologies Inc.,NYQ,Scientific & Technical Instruments,USA,2.289968118557747,812970000.0,True
+4260,ENBL,"Enable Midstream Partners, LP",NYQ,Oil & Gas Pipelines,USA,2.5908806995627733,3431000000.0,True
+4302,NEP,"NextEra Energy Partners, LP",NYQ,Diversified Utilities,USA,2.4321179208688912,771000000.0,True
+4368,HSE.TO,Husky Energy Inc.,TOR,Major Integrated Oil & Gas,Canada,2.092885125742449,19983000000.0,True
+4421,S59.SI,SIA Engineering Company Limited,SES,"Air Services, Other",Singapore,6.561071090788848,1020896000.0,True
+4470,SU.PA,Schneider Electric S.E.,PAR,Diversified Machinery,France,2.058409184466908,27158000000.0,True
+4476,REI-UN.TO,Riocan Real Estate Investment Trust,TOR,REIT - Retail,Canada,2.2066064565244083,1362181000.0,True
+4522,CEU.TO,CES Energy Solutions Corp.,TOR,Oil & Gas Drilling & Exploration,Canada,2.117472634679986,1277257000.0,True
+4545,TATAELXSI.NS,Tata Elxsi Limited,NSI,Technical & System Software,India,5.698818906467978,15969316000.0,True
+4550,SWARAJENG.NS,Swaraj Engines Limited,NSI,Auto Parts,India,2.8548908807482465,8717372000.0,True
+4619,FPH.NZ,Fisher & Paykel Healthcare Corporation Limited,NZE,Medical Appliances & Equipment,New Zealand,4.111413969335604,1070400000.0,True
+4620,FPH.AX,Fisher & Paykel Healthcare Corporation Limited,ASX,Medical Appliances & Equipment,Australia,4.111413969335604,1070400000.0,True
+4626,EXXO34.SA,Exxon Mobil Corporation,SAO,Independent Oil & Gas,Brazil,2.2155640691926504,255583000000.0,True
+4629,EVN.AX,Evolution Mining Limited,ASX,Gold,Australia,4.500774643482157,1509824000.0,True
+4702,ALM.MC,"Almirall, S.A.",MCE,Biotechnology,Spain,2.1039883546150797,855339000.0,True
+4707,AIA.AX,Auckland International Airport Limited,ASX,"Air Services, Other",Australia,3.2644320996922147,734900000.0,True
+4713,ZOT.MC,"Zardoya Otis, S.A.",MCE,Diversified Machinery,Spain,2.479069474656054,803701000.0,True
+4718,XONA.DE,Exxon Mobil Corporation,FRA,Major Integrated Oil & Gas,France,2.2155640691926504,255583000000.0,True
+4719,XOM.MX,Exxon Mobil Corporation,MEX,Major Integrated Oil & Gas,Mexico,2.2155640691926504,255583000000.0,True
+4724,WEGE3.SA,WEG S.A.,SAO,Diversified Machinery,Brazil,2.321463626931904,13347434000.0,True
+4730,VIS.MC,"Viscofan, S.A.",MCE,Food - Major Diversified,Spain,3.608961459272293,849697000.0,True
+4751,TMO,Thermo Fisher Scientific Inc.,NYQ,Medical Laboratories & Research,USA,2.033756009196684,19496000000.0,True
+4756,FLIR,"FLIR Systems, Inc.",NMS,Scientific & Technical Instruments,USA,2.478099024727748,1887026000.0,True
+4758,WDR,"Waddell & Reed Financial, Inc.",NYQ,Asset Management,USA,2.7683475759185536,1070315000.0,True
+4766,UFPI,"Universal Forest Products, Inc.",NMS,"Lumber, Wood Production",USA,2.9259649840033943,4492184000.0,True
+4776,FII,"Federated Investors, Inc.",NYQ,Asset Management,USA,2.248424759890585,1135677000.0,True
+4891,OR.PA,L'Oréal S.A.,PAR,Personal Products,France,3.0457737176545843,29873600000.0,True
+4911,SAN.PA,Sanofi,PAR,Drug Manufacturers - Major,France,2.10218542552398,37631000000.0,True
+4936,WFT.TO,West Fraser Timber Co. Ltd.,TOR,Gold,Canada,2.127620783956244,4877000000.0,True
+4958,FRES.L,Fresnillo PLC,LSE,Industrial Metals & Minerals,United Kingdom,3.1119901625257413,2119641000.0,True
+4970,2354.TW,"Foxconn Technology Co., Ltd.",TAI,Computer Based Systems,Taiwan,2.9404182300058315,99802129000.0,True
+4985,SNW.DE,Sanofi,FRA,Drug Manufacturers - Major,France,2.10218542552398,37631000000.0,True
+4990,RI.PA,Pernod Ricard SA,PAR,Beverages - Wineries & Distillers,France,2.08874386059342,9182000000.0,True
+4991,RCO.PA,Rémy Cointreau SA,PAR,Beverages - Wineries & Distillers,France,2.189904046725073,1125900000.0,True
+4994,OFSS.NS,Oracle Financial Services Software Limited,NSI,Business Software & Services,India,5.131330325557807,49589030000.0,True
+4998,MFI.TO,Maple Leaf Foods Inc.,TOR,Food - Major Diversified,Canada,2.246588435363277,3941545000.0,True
+5009,GDS.PA,Ramsay Générale de Santé SA,PAR,Health Care Plans,France,2.1904570567554,3401100000.0,True
+5017,FII.PA,Lisi S.A.,PAR,Aerospace/Defense - Major Diversified,France,2.0429012238529825,1758035000.0,True
+5027,BB.PA,Société BIC SA,PAR,Personal Products,France,3.0508863665348818,1949400000.0,True
+5033,TRI.PA,Trigano S.A.,PAR,"Recreational Goods, Other",France,2.232393540493305,2328155000.0,True
+5035,TIFF34.SA,Tiffany & Co.,SAO,Jewelry Stores,Brazil,2.003218335488916,4424000000.0,True
+5109,FXPO.L,Ferrexpo Plc,LSE,Steel & Iron,United Kingdom,3.304607914128722,1506724000.0,True
+5157,F99.SI,"Fraser and Neave, Limited",SES,Real Estate Development,Singapore,3.4026343794521576,1902337000.0,True
+5202,MRVL,Marvell Technology Group Ltd.,NMS,Semiconductor - Integrated Circuits,USA,4.535559987045024,2699161000.0,True
+5210,GRMN,Garmin Ltd.,NMS,Scientific & Technical Instruments,USA,4.41259824704644,3347444000.0,True
+5211,TROW,"T. Rowe Price Group, Inc.",NMS,Asset Management,USA,4.913290734824281,5372600000.0,True
+5231,GGG,Graco Inc.,NYQ,Diversified Machinery,USA,2.0430106482740253,1653292000.0,True
+5232,RDN,Radian Group Inc.,NYQ,Property & Casualty Insurance,USA,2.467146568874362,1526955000.0,True
+5237,HCSG,"Healthcare Services Group, Inc.",NMS,Business Services,USA,2.7549668874172184,1840778000.0,True
+5248,GPN,Global Payments Inc.,NYQ,Business Services,USA,2.675592614837876,4911892000.0,True
+5255,MOV,"Movado Group, Inc.",NYQ,"Recreational Goods, Other",USA,2.641473200507527,700966000.0,True
+5285,WTM,"White Mountains Insurance Group, Ltd.",NYQ,Property & Casualty Insurance,USA,5.519190799501178,893400000.0,True
+5305,GGB,Gerdau S.A.,NYQ,Steel & Iron,USA,2.0235223039533072,11896772680.4124,True
+5329,ROCK,"Gibraltar Industries, Inc.",NMS,Steel & Iron,USA,3.1706743621290494,1047439000.0,True
+5404,GSH,Guangshen Railway Company Limited,NYQ,Railroads,USA,5.375452709026619,2869467149.0593,True
+5406,YRI.TO,Yamana Gold Inc.,TOR,Gold,Canada,2.4564939771511414,1612200000.0,True
+5420,CCL.L,Carnival plc,LSE,"Recreational Goods, Other",United Kingdom,2.2880211242573503,20825000000.0,True
+5440,RIO.L,Rio Tinto plc,LSE,Industrial Metals & Minerals,United Kingdom,2.063016917293233,43165000000.0,True
+5453,G13.SI,Genting Singapore PLC,SES,Resorts & Casinos,Singapore,7.756963388280122,2480340000.0,True
+5457,WTB.L,Whitbread PLC,LSE,Restaurants,United Kingdom,4.643755140406533,2049100000.0,True
+5465,SNR.L,Senior plc,LSE,Aerospace/Defense - Major Diversified,United Kingdom,2.1275438242998197,1110700000.0,True
+5471,RIO1.DE,Rio Tinto plc,GER,Industrial Metals & Minerals,Germany,2.063016917293233,43165000000.0,True
+5476,MGGT.L,Meggitt PLC,LSE,Aerospace/Defense - Major Diversified,United Kingdom,2.074198766997508,2080600000.0,True
+5499,TEP.L,Telecom Plus PLC,LSE,Wireless Communications,United Kingdom,2.078379142332881,804438000.0,True
+5500,TATE.L,Tate & Lyle plc,LSE,Food - Major Diversified,United Kingdom,2.141871165644172,2755000000.0,True
+5514,PSON.L,Pearson plc,LSE,Publishing - Newspapers,United Kingdom,2.2993688007213704,3869000000.0,True
+5526,KGF.L,Kingfisher plc,LSE,Home Improvement Stores,United Kingdom,2.991325157044571,11685000000.0,True
+5534,HOC.L,Hochschild Mining PLC,LSE,Industrial Metals & Minerals,United Kingdom,2.4802614335959765,755676000.0,True
+5541,CWK.L,Cranswick plc,LSE,Food - Major Diversified,United Kingdom,3.922950819672132,1437100000.0,True
+5554,SXS.L,Spectris plc,LSE,Scientific & Technical Instruments,United Kingdom,3.0259083243906177,1632000000.0,True
+5591,INF.L,Informa plc,LSE,Publishing - Newspapers,United Kingdom,2.195209335653598,2890300000.0,True
+5623,GAIL.NS,GAIL (India) Limited,NSI,Gas Utilities,India,3.0597275616296207,761898900000.0,True
+5628,BWY.L,Bellway p.l.c.,LSE,Residential Construction,United Kingdom,4.0156139831090245,3213243000.0,True
+5645,TW.L,Taylor Wimpey plc,LSE,Residential Construction,United Kingdom,2.7703917790622987,4341300000.0,True
+5670,SPI.L,Spire Healthcare Group Plc,LSE,Business Services,United Kingdom,2.500803271505769,980800000.0,True
+5674,SN.L,Smith & Nephew plc,LSE,Medical Appliances & Equipment,United Kingdom,2.2364117364117364,4904000000.0,True
+5708,QQ.L,QinetiQ Group plc,LSE,Aerospace/Defense - Major Diversified,United Kingdom,2.6627634660421546,911100000.0,True
+5711,PSN.L,Persimmon plc,LSE,Residential Construction,United Kingdom,3.646872461413485,3649400000.0,True
+5723,OV8.SI,Sheng Siong Group Ltd,SES,Grocery Stores,Singapore,2.4506313392672325,991284000.0,True
+5748,MNDI.L,Mondi plc,LSE,Paper & Paper Products,United Kingdom,2.055354993983153,7268000000.0,True
+5752,MGR.AX,Mirvac Group,ASX,REIT - Office,Australia,2.9274661508704063,2422000000.0,True
+5770,HP,"Helmerich & Payne, Inc.",NYQ,Oil & Gas Drilling & Exploration,USA,3.1957207715023106,2798490000.0,True
+5779,RHI,Robert Half International Inc.,NYQ,Staffing & Outsourcing Services,USA,2.265864109851304,5800271000.0,True
+5790,HST,"Host Hotels & Resorts, Inc.",NYQ,REIT - Hotel/Motel,USA,2.467910148415564,5469000000.0,True
+5800,HIMX,"Himax Technologies, Inc.",NMS,Semiconductor - Specialized,USA,2.1214429335355014,723605000.0,True
+5801,HCLP,Hi-Crush Partners LP,NYQ,Industrial Metals & Minerals,USA,2.288315663646621,842840000.0,True
+5859,MDC,"M.D.C. Holdings, Inc.",NYQ,Residential Construction,USA,2.105905154598664,3065216000.0,True
+5860,LHO,LaSalle Hotel Properties,NYQ,REIT - Hotel/Motel,USA,2.84317292571863,1104815000.0,True
+5894,PEB,Pebblebrook Hotel Trust,NYQ,REIT - Hotel/Motel,USA,2.1681900927540143,828678000.0,True
+5906,XHR,"Xenia Hotels & Resorts, Inc.",NYQ,REIT - Hotel/Motel,USA,2.141101126323422,1149087000.0,True
+5913,SHO,"Sunstone Hotel Investors, Inc.",NYQ,REIT - Hotel/Motel,USA,3.03420941889354,1159053000.0,True
+5918,HLI,"Houlihan Lokey, Inc.",NYQ,Investment Brokerage - National,USA,2.676284347853888,1084385000.0,True
+5947,0017.HK,NEW WORLD DEV,HKG,Real Estate Development,Hong Kong,2.208160831588572,76763600000.0,True
+5953,2498.TW,HTC Corporation,TAI,Communication Equipment,Taiwan,2.9730625051585498,10014966000.0,True
+5956,RCH.TO,Richelieu Hardware Ltd.,TOR,Home Furnishings & Fixtures,Canada,5.888632574729577,1041647000.0,True
+5963,0941.HK,CHINA MOBILE,HKG,Wireless Communications,Hong Kong,3.121442434251492,745917000000.0,True
+5978,0242.HK,SHUN TAK HOLD,HKG,Conglomerates,Hong Kong,2.626998482643044,15055465000.0,True
+5980,0006.HK,POWER ASSETS,HKG,Diversified Utilities,Hong Kong,11.582002723109296,1348000000.0,True
+5981,0004.HK,WHARF HOLDINGS,HKG,Property Management,Hong Kong,2.5263937418513693,16874000000.0,True
+5982,0003.HK,HK & CHINA GAS,HKG,Gas Utilities,Hong Kong,2.158640857862045,40628100000.0,True
+5999,0883.HK,CNOOC,HKG,Independent Oil & Gas,Hong Kong,2.4482027753994284,233199000000.0,True
+6001,0762.HK,CHINA UNICOM,HKG,Wireless Communications,Hong Kong,2.3904368369360363,290515000000.0,True
+6014,KHC.MX,The Kraft Heinz Company,MEX,Food - Major Diversified,Mexico,2.04120641435786,24977000000.0,True
+6022,CEM.MI,Cementir Holding S.p.A.,MIL,General Building Materials,Italy,2.089476794953008,1227136000.0,True
+6025,0900.HK,AEON CREDIT,HKG,Savings & Loans,Hong Kong,2.06709281523941,1089836000.0,True
+6033,0303.HK,VTECH HOLDINGS,HKG,Communication Equipment,Hong Kong,2.264846843092311,2161900000.0,True
+6036,0184.HK,KECK SENG INV,HKG,Real Estate Development,Hong Kong,2.7835660875414403,2022401000.0,True
+6037,0144.HK,CHINA MER PORT,HKG,Shipping,Hong Kong,2.7131469753221227,8898000000.0,True
+6039,0083.HK,SINO LAND,HKG,Real Estate Development,Hong Kong,5.226014511788018,8009912578.0,True
+6040,0071.HK,MIRAMAR HOTEL,HKG,Lodging,Hong Kong,14.858904769707394,3061704000.0,True
+6041,0045.HK,HK&S HOTELS,HKG,Lodging,Hong Kong,3.97997299729973,5874000000.0,True
+6042,0020.HK,WHEELOCK,HKG,Real Estate Development,Hong Kong,2.9172319415592725,48519000000.0,True
+6043,0016.HK,SHK PPT,HKG,Real Estate Development,Hong Kong,4.283957728566296,85302000000.0,True
+6046,WWIB.OL,Wilh. Wilhelmsen Holding ASA,OSL,Air Delivery & Freight Services,Norway,2.7192402972749794,836000000.0,True
+6051,TAH.AX,Tabcorp Holdings Limited,ASX,Gaming Activities,Australia,2.1828283491448643,5482200000.0,True
+6053,SHL.AX,Sonic Healthcare Limited,ASX,Hospitals,Australia,2.229164130092248,6133671000.0,True
+6056,QUB.AX,Qube Holdings Limited,ASX,Air Delivery & Freight Services,Australia,2.4545548547202984,1667100000.0,True
+6075,HTG.L,Hunting plc,LSE,Oil & Gas Equipment & Services,United Kingdom,7.331091567511638,960000000.0,True
+6089,HLMA.L,Halma plc,LSE,Security & Protection Services,United Kingdom,2.6291500664010625,1210900000.0,True
+6091,HGTX3.SA,Cia. Hering,SAO,Textile - Apparel Clothing,Brazil,4.701312484430789,1549159000.0,True
+6092,HFD.L,Halfords Group plc,LSE,"Specialty Retail, Other",United Kingdom,2.3107098381070985,1138600000.0,True
+6125,0887.HK,Emperor Watch & Jewellery Limited,HKG,Jewelry Stores,Hong Kong,3.772122151124057,4110117000.0,True
+6126,0882.HK,Tianjin Development Holdings Limited,HKG,Diversified Utilities,Hong Kong,3.333244066005074,5391500000.0,True
+6129,0639.HK,Shougang Fushan Resources Group Limited,HKG,Industrial Metals & Minerals,Hong Kong,4.851057225310512,3869308000.0,True
+6130,0450.HK,Hung Hing Printing Group Limited,HKG,Paper & Paper Products,Hong Kong,6.602203722253554,3083904000.0,True
+6132,0308.HK,China Travel International Investment Hong Kong Limited,HKG,"Air Services, Other",Hong Kong,4.9084179860226556,4476996000.0,True
+6134,0294.HK,Yangtzekiang Garment Limited,HKG,Textile - Apparel Clothing,Hong Kong,9.414400997471686,717614000.0,True
+6138,0247.HK,Tsim Sha Tsui Properties Limited,HKG,Conglomerates,Hong Kong,5.034259610796629,9063371079.0,True
+6144,0086.HK,SUN HUNG KAI CO,HKG,Real Estate Development,Hong Kong,2.2418540953384247,3453600000.0,True
+6146,0028.HK,TIAN AN,HKG,Asset Management,Hong Kong,2.656168031311105,2221904000.0,True
+6148,0019.HK,SWIRE PACIFIC A,HKG,Conglomerates,Hong Kong,3.944460827681117,84606000000.0,True
+6149,0012.HK,HENDERSON LAND,HKG,Real Estate Development,Hong Kong,3.5058759202784717,24184000000.0,True
+6153,WWI.OL,Wilh. Wilhelmsen Holding ASA,OSL,Air Delivery & Freight Services,Norway,2.7192402972749794,836000000.0,True
+6169,SOL.AX,Washington H. Soul Pattinson and Company Limited,ASX,Conglomerates,Australia,4.303290499725427,1624509000.0,True
+6196,MU,"Micron Technology, Inc.",NMS,Semiconductor- Memory Chips,USA,3.758803629094264,23406000000.0,True
+6204,TXN,Texas Instruments Incorporated,NMS,Semiconductor - Broad Line,USA,2.1045069384747634,15784000000.0,True
+6217,JNPR,"Juniper Networks, Inc.",NYQ,Networking & Communication Devices,USA,2.0623554547256666,4647500000.0,True
+6219,SWKS,"Skyworks Solutions, Inc.",NMS,Semiconductor - Integrated Circuits,USA,6.7469677959012975,3376800000.0,True
+6220,NOV,"National Oilwell Varco, Inc.",NYQ,Oil & Gas Equipment & Services,USA,3.3120294462104733,8453000000.0,True
+6226,XLNX,"Xilinx, Inc.",NMS,Semiconductor - Integrated Circuits,USA,2.2496551067564137,3059040000.0,True
+6234,INTU,Intuit Inc.,NMS,Application Software,USA,2.47947908445146,6784000000.0,True
+6240,TER,"Teradyne, Inc.",NYQ,Semiconductor Equipment & Materials,USA,2.1326098667335955,2294965000.0,True
+6247,NTES,"NetEase, Inc.",NMS,Internet Software & Services,USA,2.4459185303821966,9718734153.4009,True
+6257,WSO,"Watsco, Inc.",NYQ,Electronics Wholesale,USA,2.657495720525736,4546653000.0,True
+6262,MLM,"Martin Marietta Materials, Inc.",NYQ,General Building Materials,USA,2.119226907630522,4739100000.0,True
+6266,INFY,Infosys Limited,NYQ,Technical & System Software,USA,4.295932678821879,11799000000.0,True
+6285,SNA,Snap-on Incorporated,NYQ,Small Tools & Accessories,USA,2.3625291298421494,4070400000.0,True
+6286,RYN,Rayonier Inc.,NYQ,"Lumber, Wood Production",USA,2.0133467978874253,711556000.0,True
+6297,RES,"RPC, Inc.",NYQ,Oil & Gas Equipment & Services,USA,4.814477386107779,1595227000.0,True
+6316,WGO,"Winnebago Industries, Inc.",NYQ,Recreational Vehicles,USA,2.339378287738417,1985674000.0,True
+6324,WST,"West Pharmaceutical Services, Inc.",NYQ,Medical Instruments & Supplies,USA,3.0479041916167664,1839900000.0,True
+6367,MMS,"MAXIMUS, Inc.",NYQ,Business Services,USA,3.505908342370567,2886815000.0,True
+6383,LSTR,"Landstar System, Inc.",NMS,Trucking,USA,2.0215605982085463,4100000000.0,True
+6395,PLD,"Prologis, Inc.",NYQ,REIT - Industrial,USA,2.3832932030263088,2804449000.0,True
+6403,TYL,"Tyler Technologies, Inc.",NYQ,Technical & System Software,USA,3.842303541814609,935282000.0,True
+6450,OXM,"Oxford Industries, Inc.",NYQ,Textile - Apparel Clothing,USA,2.0472035834071294,1122790000.0,True
+6471,UFI,"Unifi, Inc.",NYQ,Textile Industrial,USA,2.9710645941416716,708804000.0,True
+6479,RMD,ResMed Inc.,NYQ,Medical Appliances & Equipment,USA,2.0180320306324417,2606572000.0,True
+6486,NVR,"NVR, Inc.",NYQ,Residential Construction,USA,2.3324006480173805,7163674000.0,True
+6496,WMK,"Weis Markets, Inc.",NYQ,Grocery Stores,USA,2.7164653373691063,3543299000.0,True
+6507,SCHN,"Schnitzer Steel Industries, Inc.",NMS,Steel & Iron,USA,2.502783635414915,2132781000.0,True
+6509,ROP,"Roper Technologies, Inc.",NYQ,Diversified Machinery,USA,2.0302889095992542,5191200000.0,True
+6525,KNX,"Knight Transportation, Inc.",NYQ,Trucking,USA,3.1663843133116703,4843950000.0,True
+6542,PSMT,"PriceSmart, Inc.",NMS,"Discount, Variety Stores",USA,2.597705686690979,3223918000.0,True
+6553,LOGM,"LogMeIn, Inc.",NMS,Application Software,USA,4.094555611615943,1203992000.0,True
+6556,KELYA,"Kelly Services, Inc.",NMS,Staffing & Outsourcing Services,USA,2.003983028833665,5513900000.0,True
+6563,WTS,"Watts Water Technologies, Inc.",NYQ,Industrial Equipment & Components,USA,2.1690713536201467,1564900000.0,True
+6594,LZB,La-Z-Boy Incorporated,NYQ,Home Furnishings & Fixtures,USA,2.8090128869121767,1745401000.0,True
+6600,IMO,Imperial Oil Limited,ASE,Major Integrated Oil & Gas,USA,2.3553682094802078,34101000000.0,True
+6645,TLK,PT Telekomunikasi Indonesia Tbk,NYQ,Diversified Communication Services,USA,2.316241816095587,8982137093.1742,True
+6669,KFY,Korn/Ferry International,NYQ,Staffing & Outsourcing Services,USA,2.1338517048133974,1973862000.0,True
+6713,0647.HK,JOYCE BOUTIQUE,HKG,Apparel Stores,Hong Kong,3.2767418249077696,845438000.0,True
+6734,LKOH.L,PJSC LUKOIL,LSE,Major Integrated Oil & Gas,United Kingdom,3.0132990406875555,7841246000000.0,True
+6735,KNM.L,Konami Holdings Corporation,LSE,Multimedia & Graphics Software,United Kingdom,3.719628467131739,262549000000.0,True
+6737,JYOTHYLAB.NS,Jyothy Laboratories Limited,NSI,Personal Products,India,3.0480716794062164,18143331000.0,True
+6767,JAGRAN.NS,Jagran Prakashan Limited,NSI,Publishing - Newspapers,India,3.101948031815786,23626518000.0,True
+6783,C07.SI,Jardine Cycle & Carriage Limited,SES,Auto Manufacturers - Major,Singapore,2.0636432683366577,18591100000.0,True
+6789,3653.TW,"Jentech Precision Industrial Co., Ltd.",TAI,Diversified Electronics,Taiwan,5.090632240156152,5488520000.0,True
+6793,JAICORPLTD.NS,Jai Corp Limited,NSI,Rubber & Plastics,India,4.1827940620219,6605232000.0,True
+6813,9136.TW,Ju Teng International Holdings Limited,TAI,Computer Based Systems,Taiwan,2.117485593165795,8916007000.0,True
+6855,KMT,Kennametal Inc.,NYQ,Machine Tools & Accessories,USA,2.0106540246476983,2375234000.0,True
+6859,KBAL,"Kimball International, Inc.",NMS,Printed Circuit Boards,USA,2.4610328258287444,768070000.0,True
+6866,0700.HK,TENCENT,HKG,Internet Information Providers,Hong Kong,2.0508682996461447,377289000000.0,True
+6867,KUBTY,Kubota Corporation,PNK,Diversified Machinery,USA,2.005093771706413,16782000000.0,True
+6879,3322.HK,WIN HANVERKY,HKG,Textile - Apparel Clothing,Hong Kong,2.8057439190105105,4137949000.0,True
+6881,2877.HK,SHINEWAY PHARM,HKG,Drugs - Generic,Hong Kong,5.2652593667815015,2705996000.0,True
+6886,0868.HK,XINYI GLASS,HKG,Chemicals - Major Diversified,Hong Kong,2.3654075012827143,16258489000.0,True
+6888,0829.HK,SHENGUAN HLDGS,HKG,Food - Major Diversified,Hong Kong,10.041527314174061,997500000.0,True
+6889,0210.HK,DAPHNE INT'L,HKG,Textile - Apparel Footwear & Accessories,Hong Kong,2.8068160549912373,2126362000.0,True
+6893,3998.HK,BOSIDENG,HKG,Textile - Apparel Clothing,Hong Kong,3.0324197628461675,10383453000.0,True
+6895,3818.HK,CHINA DONGXIANG,HKG,Textile - Apparel Clothing,Hong Kong,8.390306522957172,1715106400.0,True
+6897,2348.HK,DAWNRAYS PH-1K,HKG,Drug Manufacturers - Major,Hong Kong,3.665936914120317,950007000.0,True
+6898,2300.HK,AMVIG HOLDINGS,HKG,Business Services,Hong Kong,2.5886034454973883,2407532000.0,True
+6903,1313.HK,CHINARES CEMENT,HKG,General Building Materials,Hong Kong,3.235751862951199,38955561000.0,True
+6904,1234.HK,CHINA LILANG,HKG,Textile - Apparel Clothing,Hong Kong,4.768127617423578,3658471000.0,True
+6907,1125.HK,LAI FUNG-NEW,HKG,Property Management,Hong Kong,2.069655136216792,1441018000.0,True
+6908,1083.HK,TOWNGAS CHINA,HKG,Gas Utilities,Hong Kong,2.1344035018739445,12924371000.0,True
+6916,0713.HK,WORLD HOUSEWARE,HKG,Home Furnishings & Fixtures,Hong Kong,2.8008269379625936,809809000.0,True
+6919,0425.HK,MINTH GROUP,HKG,Auto Parts,Hong Kong,2.656784523980892,13198189000.0,True
+6928,KPRMILL.NS,K.P.R. Mill Limited,NSI,Textile - Apparel Clothing,India,2.512517214866886,33840100000.0,True
+6935,KNOW.ST,Knowit Aktiebolag (publ),STO,Information Technology Services,Sweden,2.2598720942036343,3335100000.0,True
+6951,AGK.L,Aggreko plc,LSE,Business Services,United Kingdom,2.1796875,1613000000.0,True
+6970,3918.HK,NAGACORP,HKG,Resorts & Casinos,Hong Kong,4.201236910409022,1755466000.0,True
+6972,3888.HK,KINGSOFT,HKG,Technical & System Software,Hong Kong,2.7753584353114937,8218263000.0,True
+6981,2313.HK,SHENZHOU INTL,HKG,Textile Industrial,Hong Kong,4.78047719744982,22665272000.0,True
+6992,1361.HK,361 DEGREES,HKG,"Recreational Goods, Other",Hong Kong,2.2736870091466566,5631866000.0,True
+6995,1198.HK,ROYALE FURN,HKG,Home Furnishings & Fixtures,Hong Kong,3.860711532047569,852084000.0,True
+7004,0896.HK,HANISON,HKG,General Contractors,Hong Kong,3.5360800391875298,1948123000.0,True
+7006,0867.HK,CMS,HKG,Drug Manufacturers - Major,Hong Kong,6.750470739235842,6073624000.0,True
+7013,0546.HK,FUFENG GROUP,HKG,Chemicals - Major Diversified,Hong Kong,2.4076056817610976,16170850000.0,True
+7017,0468.HK,GAPACK,HKG,Packaging & Containers,Hong Kong,3.1534090061209463,2706857000.0,True
+7020,0410.HK,SOHO CHINA,HKG,Real Estate Development,Hong Kong,2.138082328645829,1847091000.0,True
+7029,0208.HK,Polytec Asset Holdings Limited,HKG,Property Management,Hong Kong,6.093599639334368,906877000.0,True
+7054,KVAER.OL,Kværner ASA,OSL,Oil & Gas Equipment & Services,Norway,2.138963660834455,9032000000.0,True
+7061,KSCL.NS,Kaveri Seed Company Limited,NSI,Farm Products,India,2.845478689406721,8094181000.0,True
+7087,KITEX.NS,Kitex Garments Limited,NSI,Textile - Apparel Clothing,India,3.901821458918042,6068046000.0,True
+7089,KIRLOSENG.NS,Kirloskar Oil Engines Limited,NSI,Diversified Machinery,India,2.874212448553995,36276700000.0,True
+7161,3838.HK,CHINA STARCH,HKG,Food - Major Diversified,Hong Kong,3.0228804360078065,6750401000.0,True
+7162,3828.HK,MING FAI INT'L,HKG,Personal Products,Hong Kong,2.59723687536986,2043095000.0,True
+7163,3382.HK,TIANJINPORT DEV,HKG,Shipping,Hong Kong,2.4474384262841204,15066951000.0,True
+7165,3336.HK,JU TENG INTL,HKG,Computer Based Systems,Hong Kong,2.117485593165795,8916007000.0,True
+7171,2368.HK,EAGLE NICE,HKG,Textile - Apparel Clothing,Hong Kong,2.1945847389080204,2700780000.0,True
+7175,2331.HK,LI NING,HKG,Textile - Apparel Clothing,Hong Kong,2.313631545184548,13869630000.0,True
+7178,2288.HK,RYKADAN CAPITAL,HKG,General Contractors,Hong Kong,3.6481870952975672,881095000.0,True
+7182,2018.HK,AAC TECH,HKG,Communication Equipment,Hong Kong,2.3040954311848743,17883757000.0,True
+7185,1888.HK,KB LAMINATES,HKG,Electronic Equipment,Hong Kong,3.6579011161181336,18383952000.0,True
+7187,1882.HK,HAITIAN INT'L,HKG,Diversified Machinery,Hong Kong,3.1247617781897365,9809716000.0,True
+7188,1836.HK,STELLA HOLDINGS,HKG,Textile - Apparel Footwear & Accessories,Hong Kong,6.506024580518131,1544830000.0,True
+7193,1525.TW,Kian Shen Corporation,TAI,Auto Parts,Taiwan,5.410209071724976,1242120000.0,True
+7196,1382.HK,PACIFICTEXTILES,HKG,Textile Industrial,Hong Kong,3.59372059927114,6119081000.0,True
+7198,1308.HK,SITC,HKG,Shipping,Hong Kong,3.4562853620760503,1449088000.0,True
+7215,0929.HK,IPE Group Limited,HKG,Industrial Metals & Minerals,Hong Kong,4.009692944169567,812177000.0,True
+7226,0826.HK,TIANGONG INT'L,HKG,Steel & Iron,Hong Kong,2.037877876655889,5369873000.0,True
+7230,0777.HK,NETDRAGON,HKG,Multimedia & Graphics Software,Hong Kong,3.2376280436853206,5793075000.0,True
+7233,0746.HK,L & M CHEMICAL,HKG,Textile - Apparel Clothing,Hong Kong,2.7155944172783677,3476571000.0,True
+7238,0609.HK,TIANDE CHEMICAL,HKG,Chemicals - Major Diversified,Hong Kong,3.153203871630448,1381138000.0,True
+7239,0602.HK,JIAHUA STORES H,HKG,"Specialty Retail, Other",Hong Kong,2.7710102215049237,710336000.0,True
+7240,0596.HK,INSPUR INT'L,HKG,Information Technology Services,Hong Kong,2.0497256406642816,2897694000.0,True
+7244,0509.HK,SUNSHINE,HKG,Agricultural Chemicals,Hong Kong,2.2716947606870748,4314420000.0,True
+7246,0480.HK,HKR INT'L,HKG,Asset Management,Hong Kong,2.7755322814580947,2222300000.0,True
+7252,0423.HK,HKET HOLDINGS,HKG,Publishing - Newspapers,Hong Kong,3.7270794124836906,1280679000.0,True
+7262,0312.HK,SHIRBLE STORE,HKG,Department Stores,Hong Kong,2.041316890776644,1071251000.0,True
+7270,0175.HK,GEELY AUTO,HKG,Auto Manufacturers - Major,Hong Kong,2.036249833783345,97401248000.0,True
+7272,0151.HK,WANT WANT CHINA,HKG,Food - Major Diversified,Hong Kong,2.0707953705812843,19883569600.0,True
+7273,0148.HK,KINGBOARD CHEM,HKG,Chemicals - Major Diversified,Hong Kong,2.483909987427262,41160851000.0,True
+7292,KANSAINER.NS,Kansai Nerolac Paints Limited,NSI,Specialty Chemicals,India,4.1775453780502465,54243200000.0,True
+7297,SLB,Schlumberger Limited,NYQ,Oil & Gas Equipment & Services,USA,2.0529043528897946,32815000000.0,True
+7298,RIG,Transocean Ltd.,NYQ,Oil & Gas Drilling & Exploration,USA,2.0437171524128046,3018000000.0,True
+7303,RLJ,RLJ Lodging Trust,NYQ,REIT - Hotel/Motel,USA,2.208853988537846,1566192000.0,True
+7319,WIT,Wipro Limited,NYQ,Information Technology Services,USA,3.17497656410766,8465968208.0925,True
+7333,SHOO,"Steven Madden, Ltd.",NMS,Textile - Apparel Footwear & Accessories,USA,2.8405161880812004,1787157000.0,True
+7345,MRTN,"Marten Transport, Ltd.",NMS,Trucking,USA,4.0030050704281965,843271000.0,True
+7359,LFUS,"Littelfuse, Inc.",NMS,Electronics Wholesale,USA,2.3011332679045324,1718468000.0,True
+7420,MRF.NS,MRF Limited,NSI,Rubber & Plastics,India,2.425272134027899,161402100000.0,True
+7431,NOCIL.NS,NOCIL Limited,NSI,Chemicals - Major Diversified,India,5.164613621714532,10429000000.0,True
+7432,LUN.TO,Lundin Mining Corporation,TOR,Industrial Metals & Minerals,Canada,2.64032542370811,1892713000.0,True
+7435,IMO.TO,Imperial Oil Limited,TOR,Major Integrated Oil & Gas,Canada,2.3553682094802078,34002000000.0,True
+7438,WPK.TO,Winpak Ltd.,TOR,Packaging & Containers,Canada,8.268574468375324,873843000.0,True
+7442,TCS.NS,Tata Consultancy Services Limited,NSI,Information Technology Services,India,4.5896422296757695,1464630000000.0,True
+7446,SASKEN.NS,Sasken Technologies Limited,NSI,Technical & System Software,India,8.278673326798339,5043112000.0,True
+7448,RET.TO,Reitmans (Canada) Limited,TOR,Apparel Stores,Canada,3.2164012531001176,923018000.0,True
+7451,PRAJIND.NS,Praj Industries Limited,NSI,General Contractors,India,2.487538109611652,11411120000.0,True
+7460,MARUTI.NS,Maruti Suzuki India Limited,NSI,Auto Manufacturers - Major,India,3.7943353698321367,860685000000.0,True
+7477,VOLTAS.NS,Voltas Limited,NSI,General Contractors,India,2.2272565763759755,71240700000.0,True
+7479,VISAKAIND.NS,Visaka Industries Limited,NSI,General Building Materials,India,2.1708500815258414,11441991000.0,True
+7484,UFLEX.NS,Uflex Limited,NSI,Packaging & Containers,India,2.1775595935337844,78453184000.0,True
+7489,TRENT.NS,Trent Limited,NSI,Apparel Stores,India,2.7960006556302246,26302400000.0,True
+7494,TIDEWATER.NS,"Tide Water Oil Co. (India), Ltd.",NSI,Oil & Gas Refining & Marketing,India,3.2200020813820376,13794100000.0,True
+7495,TECHM.NS,Tech Mahindra Limited,NSI,Information Technology Services,India,2.6367699924318866,347421000000.0,True
+7497,TATACHEM.NS,Tata Chemicals Limited,NSI,Chemicals - Major Diversified,India,2.309637410314036,112963300000.0,True
+7501,SUNPHARMA.NS,Sun Pharmaceutical Industries Limited,NSI,Drugs - Generic,India,3.239353549434411,290659100000.0,True
+7515,SKFINDIA.NS,SKF India Limited,NSI,Diversified Machinery,India,3.829459432420716,30345300000.0,True
+7516,SIEMENS.NS,Siemens Limited,NSI,Diversified Machinery,India,2.4343863431026014,137672000000.0,True
+7518,MDT,Medtronic plc,NYQ,Medical Appliances & Equipment,USA,2.2648284220892356,30557000000.0,True
+7527,MLR,"Miller Industries, Inc.",NYQ,Auto Parts,USA,2.924253954043569,818166000.0,True
+7531,SMP,"Standard Motor Products, Inc.",NYQ,Auto Parts,USA,2.2427839151333617,1092051000.0,True
+7533,MED,"Medifast, Inc.",NYQ,"Specialty Retail, Other",USA,2.1671212745349084,713672000.0,True
+7551,MKSI,"MKS Instruments, Inc.",NMS,Scientific & Technical Instruments,USA,2.452533281262563,1899773000.0,True
+7571,VLGEA,"Village Super Market, Inc.",NMS,Grocery Stores,USA,2.735525577697054,1643502000.0,True
+7686,MINDTREE.NS,Mindtree Limited,NSI,Information Technology Services,India,4.789684813753581,70215000000.0,True
+7707,STM,STMicroelectronics N.V.,NYQ,Semiconductor - Broad Line,USA,2.445869907720009,9664000000.0,True
+7708,SNN,Smith & Nephew plc,NYQ,Medical Appliances & Equipment,USA,2.530298273155416,4904000000.0,True
+7766,STM.MI,STMicroelectronics N.V.,MIL,Semiconductor - Broad Line,Italy,2.2932031814895155,9556000000.0,True
+7784,NST.AX,Northern Star Resources Limited,ASX,Gold,Australia,3.108026091888826,1401165000.0,True
+7815,BOKA.AS,Royal Boskalis Westminster N.V.,AMS,General Contractors,Netherlands,2.186786326778668,2691639000.0,True
+7817,AUSS.OL,Austevoll Seafood ASA,OSL,Farm Products,Norway,2.414019260839525,23341679000.0,True
+7822,AKZA.AS,Akzo Nobel N.V.,AMS,Specialty Chemicals,Netherlands,2.0236907730673317,9276000000.0,True
+7826,YAR.OL,Yara International ASA,OSL,Agricultural Chemicals,Norway,2.1398413510747187,12858000000.0,True
+7831,TPW.NZ,Trustpower Limited,NZE,Electric Utilities,New Zealand,2.2935620850724474,1030083000.0,True
+7857,SCHA.OL,Schibsted ASA,OSL,Publishing - Newspapers,Norway,2.0618984714097,19075000000.0,True
+7873,NEM.BA,Newmont Mining Corporation,BUE,Gold,Argentina,2.276812667312184,9740000000.0,True
+7879,PGW.NZ,PGG Wrightson Limited,NZE,Business Services,New Zealand,3.3806802558431466,809255000.0,True
+7908,NVDA.MX,NVIDIA Corporation,MEX,Semiconductor - Broad Line,Mexico,3.387791038935629,10918000000.0,True
+7941,NMDC.NS,NMDC Limited,NSI,Steel & Iron,India,7.797698612698065,121526700000.0,True
+7948,NIITLTD.NS,NIIT Limited,NSI,Information Technology Services,India,2.3027799401937523,9102020000.0,True
+7950,NHY.OL,Norsk Hydro ASA,OSL,Aluminum,Norway,2.0468251992031874,149833000000.0,True
+7951,NHPC.NS,NHPC Limited,NSI,Electric Utilities,India,2.018364344900371,89828700000.0,True
+7952,NHC.AX,New Hope Corporation Limited,ASX,Industrial Metals & Minerals,Australia,3.333424162988859,1306429000.0,True
+7953,NGLB.F,Anglo American plc,FRA,Industrial Metals & Minerals,France,2.2672104009367304,29870000000.0,True
+7954,NGLB.DE,Anglo American plc,GER,Industrial Metals & Minerals,Germany,2.2672104009367304,29870000000.0,True
+7964,NET-B.ST,NetEnt AB (publ),STO,Multimedia & Graphics Software,Sweden,3.4153569019400773,1779421000.0,True
+7970,NELCAST.NS,Nelcast Limited,NSI,Metal Fabrication,India,2.0362799660042987,8602300000.0,True
+8032,CONCOR.NS,Container Corporation of India Limited,NSI,Air Delivery & Freight Services,India,5.414503739298162,69560600000.0,True
+8090,OIL.NS,Oil India Limited,NSI,Independent Oil & Gas,India,2.235167382629243,137804500000.0,True
+8094,OEM-B.ST,OEM International AB (publ),STO,Diversified Machinery,Sweden,2.620328167730173,3298700000.0,True
+8096,ODPV3.SA,Odontoprev S.A.,SAO,Health Care Plans,Brazil,2.7117588528307444,1920430000.0,True
+8112,MCX.NS,Multi Commodity Exchange of India Limited,NSI,Asset Management,India,4.2007046531405665,3950500000.0,True
+8114,LAOPALA.NS,La Opala RG Limited,NSI,Home Furnishings & Fixtures,India,8.341962858538318,2780977000.0,True
+8134,CULTIBAB.MX,"Organización Cultiba, S.A.B. de C.V.",MEX,Beverages - Soft Drinks,Mexico,6.899159625919952,4458584000.0,True
+8169,TCI.NS,Transport Corporation of India Limited,NSI,Air Delivery & Freight Services,India,2.2482626966309645,27642982000.0,True
+8178,ORIENTBELL.NS,Orient Bell Limited,NSI,General Building Materials,India,2.0283902325996848,5711390000.0,True
+8201,RIO,Rio Tinto plc,NYQ,Industrial Metals & Minerals,USA,2.21147206146963,40522000000.0,True
+8202,PSA,Public Storage,NYQ,REIT - Industrial,USA,6.041750516366724,2754280000.0,True
+8206,PSO,Pearson plc,NYQ,Publishing - Books,USA,2.3387573964497337,5239847715.736,True
+8208,STE,Steris Plc,NYQ,Medical Appliances & Equipment,USA,2.6767136557972755,2782170000.0,True
+8210,PKX,POSCO,NYQ,Steel & Iron,USA,2.4537772840133267,58544915086.7104,True
+8223,PEGA,"Pegasystems, Inc.",NMS,Business Software & Services,USA,2.721587604079529,891581000.0,True
+8224,IPAR,"Inter Parfums, Inc.",NMS,Personal Products,USA,2.2970279468333943,713500000.0,True
+8243,TSU,TIM Participações S.A.,NYQ,Wireless Communications,USA,2.627456414722262,4376631185.567,True
+8296,TIMP3.SA,TIM Participações S.A.,SAO,Wireless Communications,Brazil,2.2519777468526447,17377194000.0,True
+8310,Q01.SI,QAF Limited,SES,Food - Major Diversified,Singapore,2.428861097862934,863892000.0,True
+8427,TRI.TO,Thomson Reuters Corporation,TOR,Publishing - Newspapers,Canada,2.2359405300581767,5906000000.0,True
+8455,RMD.AX,ResMed Inc.,ASX,Medical Instruments & Supplies,Australia,2.0180320306324417,2606572000.0,True
+8472,INDOCO.NS,Indoco Remedies Limited,NSI,Drugs - Generic,India,2.1057785431334417,9719359000.0,True
+8479,GGBR4.SA,Gerdau S.A.,SAO,Steel & Iron,Brazil,2.0235223039533103,46159478000.0,True
+8481,CWN.AX,Crown Resorts Limited,ASX,Resorts & Casinos,Australia,3.009105601324451,2929200000.0,True
+8556,SEER3.SA,Ser Educacional S.A.,SAO,Education & Training Services,Brazil,2.046231293996488,1275986000.0,True
+8570,SNY,Sanofi,NYQ,Drug Manufacturers - Major,USA,2.1272029480839385,39612643678.1609,True
+8571,VALE,Vale S.A.,NYQ,Industrial Metals & Minerals,USA,2.033996033027354,36575000000.0,True
+8572,SAP,SAP SE,NYQ,Application Software,USA,2.276952330414785,28400000000.0,True
+8576,TS,Tenaris S.A.,NYQ,Metal Fabrication,USA,6.4129443938012765,7659000000.0,True
+8577,TX,Ternium S.A.,NYQ,Steel & Iron,USA,2.5185636031649423,11455000000.0,True
+8634,SJ.TO,Stella-Jones Inc.,TOR,"Lumber, Wood Production",Canada,2.29770386449829,2169023000.0,True
+8641,C52.SI,ComfortDelGro Corporation Limited,SES,Railroads,Singapore,2.2696202531645566,3905700000.0,True
+8643,U14.SI,UOL Group Limited,SES,Real Estate Development,Singapore,3.2682685377052088,2283341000.0,True
+8644,T39.SI,Singapore Press Holdings Limited,SES,Publishing - Newspapers,Singapore,2.9611139210129647,959255000.0,True
+8655,C38U.SI,CapitaLand Mall Trust,SES,REIT - Retail,Singapore,2.959237164578929,786736000.0,True
+8669,S68.SI,Singapore Exchange Limited,SES,Asset Management,Singapore,2.047443969353942,844678000.0,True
+8696,3042.TW,TXC Corporation,TAI,Diversified Electronics,Taiwan,2.8620671420946917,8430970000.0,True
+8698,1307.TW,"San Fang Chemical Industry Co., Ltd.",TAI,Textile Industrial,Taiwan,2.3030670380828453,9492260000.0,True
+8700,6271.TW,"Tong Hsing Electronic Industries, Ltd.",TAI,Semiconductor Equipment & Materials,Taiwan,5.530913397430616,7430654000.0,True
+8705,6277.TW,"Aten International CO., Ltd.",TAI,Computer Based Systems,Taiwan,2.86177133226131,5032719000.0,True
+8707,2330.TW,Taiwan Semiconductor Manufacturing Company Limited,TAI,Semiconductor - Broad Line,Taiwan,3.523838777041711,1031473600000.0,True
+8720,2486.TW,"I-Chiun Precision Industry Co., Ltd.",TAI,Semiconductor Equipment & Materials,Taiwan,2.0375689359859965,3665270000.0,True
+8721,2303.TW,United Microelectronics Corporation,TAI,Semiconductor - Broad Line,Taiwan,2.271465178118554,148201641000.0,True
+8723,1773.TW,Shiny Chemical Industrial Company Limited,TAI,Chemicals - Major Diversified,Taiwan,3.3773433998423568,7508185000.0,True
+8734,9904.TW,Pou Chen Corporation,TAI,Textile - Apparel Footwear & Accessories,Taiwan,2.000874621091401,293316089000.0,True
+8739,2488.TW,"Hanpin Electron Co., Ltd.",TAI,Electronic Equipment,Taiwan,3.1433150487447024,2537770000.0,True
+8741,2454.TW,MediaTek Inc.,TAI,Semiconductor - Broad Line,Taiwan,3.178741952696756,246222000000.0,True
+8742,2409.TW,AU Optronics Corp.,TAI,Diversified Electronics,Taiwan,2.0892163343638703,268791694000.0,True
+8745,2355.TW,"Chin Poon Industrial Co., Ltd.",TAI,Printed Circuit Boards,Taiwan,3.136150731173569,17848498000.0,True
+8747,1503.TW,Shihlin Electric & Engineering Corporation,TAI,Diversified Machinery,Taiwan,2.5340392716062907,26038773000.0,True
+8748,1323.TW,"Yonyu Plastics Co., Ltd.",TAI,Rubber & Plastics,Taiwan,2.1655464700269498,3639735000.0,True
+8749,1102.TW,Asia Cement Corporation,TAI,General Building Materials,Taiwan,2.3255866014124407,89347637000.0,True
+8763,8039.TW,"Taiflex Scientific Co., Ltd.",TAI,Printed Circuit Boards,Taiwan,2.8283839019080808,7583654000.0,True
+8764,6505.TW,Formosa Petrochemical Corporation,TAI,Oil & Gas Refining & Marketing,Taiwan,6.216353441620016,646022809000.0,True
+8765,6176.TW,Radiant Opto-Electronics Corporation,TAI,Semiconductor Equipment & Materials,Taiwan,2.1868846948657716,56120587000.0,True
+8766,6115.TW,"I-Sheng Electric Wire & Cable Co., Ltd.",TAI,Diversified Electronics,Taiwan,2.536583727361266,6540704000.0,True
+8768,4906.TW,"Gemtek Technology Co., Ltd.",TAI,Communication Equipment,Taiwan,2.445122400534544,18057131000.0,True
+8769,3380.TW,Alpha Networks Inc.,TAI,Communication Equipment,Taiwan,2.282497863156955,15825808000.0,True
+8776,2536.TW,"Hong Pu Real Estate Development CO.,LTD.",TAI,Property Management,Taiwan,2.5254883148963234,2885896000.0,True
+8778,2489.TW,"AmTRAN Technology Co.,Ltd",TAI,Diversified Electronics,Taiwan,2.7875631005444395,15220325000.0,True
+8779,2448.TW,EPISTAR corporation,TAI,Semiconductor - Broad Line,Taiwan,5.091402424498399,15959831000.0,True
+8780,2428.TW,"Thinking Electronic Industrial Co., Ltd.",TAI,Diversified Electronics,Taiwan,3.914287516349576,5814232000.0,True
+8782,2360.TW,Chroma ATE Inc.,TAI,Scientific & Technical Instruments,Taiwan,2.3880959989905755,13909634000.0,True
+8784,2332.TW,D-Link Corporation,TAI,Communication Equipment,Taiwan,2.315560376013398,16996048000.0,True
+8785,2308.TW,"Delta Electronics, Inc.",TAI,Diversified Electronics,Taiwan,2.2756131771559223,268131397000.0,True
+8790,1236.TW,"Hunya Foods Co., Ltd.",TAI,Confectioners,Taiwan,2.6018211849683777,1864663000.0,True
+8792,1101.TW,Taiwan Cement Corp.,TAI,General Building Materials,Taiwan,2.310911759198269,122783014000.0,True
+8794,VIVT4.SA,Telefônica Brasil S.A.,SAO,Wireless Communications,Brazil,2.8622220711535062,43462740000.0,True
+8801,TREL-B.ST,Trelleborg AB,STO,Diversified Machinery,Sweden,2.077853586575696,36588000000.0,True
+8804,TOD.MI,TOD'S S.p.A.,MIL,Textile - Apparel Footwear & Accessories,Italy,2.138317619173032,927121000.0,True
+8811,T14.SI,Tianjin Zhongxin Pharmaceutical Group Corporation Limited,SES,Drugs - Generic,Singapore,3.4644660237868368,6358622318.0,True
+8834,INTC.MX,Intel Corporation,MEX,Semiconductor - Broad Line,Mexico,2.313181972212809,71965000000.0,True
+8842,CHV.F,Chevron Corporation,FRA,Major Integrated Oil & Gas,France,2.574582520060724,139865000000.0,True
+8843,CHV.DE,Chevron Corporation,GER,Major Integrated Oil & Gas,Germany,2.574582520060724,158902000000.0,True
+8897,U06.SI,United Industrial Corporation Limited,SES,Property Management,Singapore,8.580142307882456,846992000.0,True
+8917,SSU.SG,"Samsung Electronics Co., Ltd.",STU,Electronic Equipment,Germany,3.458052708722254,239580000000000.0,True
+8918,SSU.F,"Samsung Electronics Co., Ltd.",FRA,Electronic Equipment,France,3.931182799943214,230400881000000.0,True
+8942,PLD.MX,"Prologis, Inc.",MEX,REIT - Industrial,Mexico,2.867597474109364,3530799000.0,True
+8984,INL.DE,Intel Corporation,FRA,Semiconductor - Broad Line,France,2.313181972212809,71965000000.0,True
+8999,H78.SI,Hongkong Land Holdings Limited,SES,Real Estate Development,Singapore,6.81929172670054,2665400000.0,True
+9005,GOAU4.SA,Metalurgica Gerdau S.A.,SAO,Steel & Iron,Brazil,2.0151285445327543,39644010000.0,True
+9010,GGBN.MX,Gerdau S.A.,MEX,Steel & Iron,Mexico,2.012794856831626,39644010000.0,True
+9014,GAZ.F,Public Joint Stock Company Gazprom,FRA,Major Integrated Oil & Gas,France,2.9584291911888165,8224177000000.0,True
+9039,CVX.MX,Chevron Corporation,MEX,Major Integrated Oil & Gas,Mexico,2.574582520060724,139865000000.0,True
+9059,CAR-UN.TO,Canadian Apartment Properties Real Estate Investment Trust,TOR,REIT - Residential,Canada,2.496938754062572,777884000.0,True
+9061,BXP.L,Beximco Pharmaceuticals Limited,LSE,Drug Manufacturers - Major,United Kingdom,2.5433943719534384,22816629795.0,True
+9070,BHP.F,BHP Billiton Limited,FRA,Industrial Metals & Minerals,France,2.0568346350714766,44609000000.0,True
+9110,VITR.ST,Vitrolife AB (publ),STO,Biotechnology,Sweden,6.2707244201149965,1480132000.0,True
+9112,V03.SI,Venture Corporation Limited,SES,Diversified Electronics,Singapore,4.221280935264783,3633431000.0,True
+9128,VSVS.L,Vesuvius plc,LSE,Conglomerates,United Kingdom,2.1255428744571256,1710400000.0,True
+9129,VSTTILLERS.NS,V.S.T. Tillers Tractors Limited,NSI,Farm & Construction Machinery,India,4.725219466515776,6147993704.0,True
+9130,VSTIND.NS,VST Industries Limited,NSI,"Tobacco Products, Other",India,2.2233016093967355,10990100000.0,True
+9138,VOLTAMP.NS,Voltamp Transformers Limited,NSI,Diversified Machinery,India,11.7505314802233,8288280000.0,True
+9139,VOC.AX,Vocus Group Limited,ASX,Communication Equipment,Australia,2.283970679215676,1892296000.0,True
+9146,VIPIND.NS,VIP Industries Limited,NSI,Textile - Apparel Footwear & Accessories,India,2.187265152752818,17846600000.0,True
+9148,VIMTALABS.NS,Vimta Labs Limited,NSI,Medical Laboratories & Research,India,3.6042049335863378,2129760000.0,True
+9174,HMVL.NS,Hindustan Media Ventures Limited,NSI,Publishing - Newspapers,India,4.987350123343469,8658300000.0,True
+9187,BOLSAA.MX,"Bolsa Mexicana de Valores, S.A.B. de C.V.",MEX,Asset Management,Mexico,9.737060041407867,3576529000.0,True
+9188,BN2.SI,Valuetronics Holdings Limited,SES,Electronic Equipment,Singapore,2.3573379698741928,2828786000.0,True
+9264,HEN3.F,Henkel AG & Co. KGaA,FRA,Personal Products,France,2.4548936835522204,20114000000.0,True
+9274,GEECEE.NS,GeeCee Ventures Limited,NSI,Real Estate Development,India,19.88879089026916,1516279000.0,True
+9280,GNFC.NS,Gujarat Narmada Valley Fertilizers & Chemicals Limited,NSI,Agricultural Chemicals,India,2.99045395773646,58960200000.0,True
+9285,VESUVIUS.NS,Vesuvius India Limited,NSI,Diversified Machinery,India,5.552889241043637,8870400000.0,True
+9316,CWY.AX,Cleanaway Waste Management Limited,ASX,Waste Management,Australia,2.6038251366120218,2286900000.0,True
+9317,2423.TW,"Good Will Instrument Co., Ltd.",TAI,Diversified Electronics,Taiwan,3.990532056825516,2552976000.0,True
+9337,WIPRO.NS,Wipro Limited,NSI,Information Technology Services,India,3.174976564107645,585845000000.0,True
+9372,B49.SI,World Precision Machinery Limited,SES,Diversified Machinery,Singapore,3.1689147817137795,837226000.0,True
+9401,WABCOINDIA.NS,Wabco India Limited,NSI,Auto Parts,India,4.21094256648948,28541356000.0,True
+9422,WENDT.NS,Wendt (India) Limited,NSI,Machine Tools & Accessories,India,3.6297147956206883,1645521000.0,True
+9428,ZYDUSWELL.NS,Zydus Wellness Limited,NSI,Personal Products,India,2.6341157394896344,8428200000.0,True
+9431,WSTCSTPAPR.NS,West Coast Paper Mills Limited,NSI,Paper & Paper Products,India,2.35142760944328,19793420000.0,True
+9436,WAC.F,Wacker Neuson SE,FRA,Farm & Construction Machinery,France,2.260806916426513,1901100000.0,True
+9459,WDP.F,The Walt Disney Company,FRA,Entertainment - Diversified,France,2.12860466137032,69570000000.0,True
+9484,LINX3.SA,Linx S.A.,SAO,Technical & System Software,Brazil,3.3121642063870382,788159000.0,True
+9487,CHVX34.SA,Chevron Corporation,SAO,Major Integrated Oil & Gas,Brazil,2.574582520060724,139865000000.0,True
+9490,XONA.F,Exxon Mobil Corporation,FRA,Major Integrated Oil & Gas,France,2.2155640691926504,255583000000.0,True
+9491,XOM.BA,Exxon Mobil Corporation,BUE,Major Integrated Oil & Gas,Argentina,2.2155640691926504,255583000000.0,True
+9493,XLNX.MX,"Xilinx, Inc.",MEX,Semiconductor - Broad Line,Mexico,2.2496551067564137,3059040000.0,True
+9515,XIX.F,"Xilinx, Inc.",FRA,Semiconductor - Broad Line,France,2.2496551067564137,3059040000.0,True
+9531,AUY.BA,Yamana Gold Inc.,BUE,Gold,Argentina,2.4564939771511414,1612200000.0,True
+9532,AGNN.MX,Allergan plc,MEX,Drugs - Generic,Mexico,2.594303982993039,16088900000.0,True
+9540,RNY.F,Yamana Gold Inc.,FRA,Gold,France,2.4564939771511414,1612200000.0,True
+9541,RNY.DE,Yamana Gold Inc.,GER,Gold,Germany,2.4564939771511414,1612200000.0,True
+9555,BS6.SI,Yangzijiang Shipbuilding (Holdings) Ltd.,SES,Aerospace/Defense - Major Diversified,Singapore,3.339473639459692,23597175000.0,True
+9572,IU2.F,Yara International ASA,FRA,Chemicals - Major Diversified,France,2.1398413510747187,12858000000.0,True
+9636,HINDZINC.NS,Hindustan Zinc Limited,NSI,Industrial Metals & Minerals,India,4.795888399412629,208340000000.0,True
+9644,AFX.F,Carl Zeiss Meditec AG,FRA,Medical Laboratories & Research,France,3.34140650689968,1280860000.0,True
+9645,AFX.DE,Carl Zeiss Meditec AG,GER,Medical Laboratories & Research,Germany,3.34140650689968,1459321000.0,True
+9673,ZEEL.NS,Zee Entertainment Enterprises Limited,NSI,Broadcasting - TV,India,3.2387558850045086,79339000000.0,True
+9718,ARZZ3.SA,Arezzo Indústria e Comércio S.A.,SAO,Textile - Apparel Footwear & Accessories,Brazil,2.1182488031679703,1679235000.0,True
+9739,ZENSARTECH.NS,Zensar Technologies Limited,NSI,Information Technology Services,India,2.7332979476291577,39663300000.0,True
+9743,ZODIACLOTH.NS,Zodiac Clothing Company Limited,NSI,Textile - Apparel Clothing,India,3.894952540777977,2158255000.0,True
+9752,ITSA4.SA,Itaúsa - Investimentos Itaú S.A.,SAO,Money Center Banks,Brazil,7.399495558723544,5008000000.0,True
+9756,TGMA3.SA,Tegma Gestão Logística S.A.,SAO,Trucking,Brazil,2.4900957051138093,1253779000.0,True
+9758,ITSA3.SA,Itaúsa - Investimentos Itaú S.A.,SAO,Money Center Banks,Brazil,7.399495558723544,5008000000.0,True
+9762,ALPA4.SA,Alpargatas S.A.,SAO,Textile - Apparel Footwear & Accessories,Brazil,2.52988618410158,3712184000.0,True
+9784,MDIA3.SA,M. Dias Branco S.A. IndÃºstria e ComÃ©rcio de Alimentos,SAO,Food - Major Diversified,Brazil,3.920970553870667,6103608000.0,True
+9785,IGTA3.SA,Iguatemi Empresa de Shopping Centers S.A.,SAO,Property Management,Brazil,2.1412152397776807,755459000.0,True
+9793,FESA4.SA,Companhia de Ferro Ligas da Bahia - FERBASA,SAO,Steel & Iron,Brazil,3.0238155792709445,1279550000.0,True
+9799,FESA3.SA,Companhia de Ferro Ligas da Bahia - FERBASA,SAO,Steel & Iron,Brazil,3.0238155792709445,1279550000.0,True
+9804,AALB.AS,Aalberts Industries N.V.,AMS,Diversified Machinery,Netherlands,2.129008477699963,2841300000.0,True
+9835,ALPA3.SA,Alpargatas S.A.,SAO,Textile - Apparel Footwear & Accessories,Brazil,2.52988618410158,3712184000.0,True
+9842,LATO-B.ST,Investment AB Latour (publ),STO,Asset Management,Sweden,3.0851982097186696,13738000000.0,True
+9848,BOL.ST,Boliden AB (publ.),STO,Industrial Metals & Minerals,Sweden,2.6587679622143057,49936000000.0,True
+9864,SSAB-B.ST,SSAB AB,STO,Steel & Iron,Sweden,2.8002145347278087,76485000000.0,True
+9865,SSAB-A.ST,SSAB AB,STO,Steel & Iron,Sweden,2.8050163775324517,76485000000.0,True
+9866,SOF-B.ST,Softronic AB,STO,Business Services,Sweden,2.5236242356864924,720000000.0,True
+9871,RROS.ST,Rottneros AB (publ),STO,Paper & Paper Products,Sweden,2.3897280966767367,2376000000.0,True
+9880,MIDW-A.ST,Midway Holding AB,STO,Conglomerates,Sweden,2.498442367601246,796000000.0,True
+9884,INVE-B.ST,Investor AB,STO,Asset Management,Sweden,4.709502139509612,143876000000.0,True
+9887,HMS.ST,HMS Networks AB (publ),STO,Communication Equipment,Sweden,2.3502673796791442,1519000000.0,True
+9913,BIOT.ST,Biotage AB,STO,Medical Instruments & Supplies,Sweden,2.9025063887488485,910896000.0,True
+9923,ABR.DE,Barrick Gold Corporation,GER,Gold,Germany,3.04785444558874,7243000000.0,True
+9940,SKIS-B.ST,SkiStar AB (publ),STO,"Recreational Goods, Other",Sweden,2.056155485643011,2675902000.0,True
+9944,AQ.ST,AQ Group AB (publ),STO,Diversified Electronics,Sweden,2.09689420776116,5112602000.0,True
+9948,ABR.F,Barrick Gold Corporation,FRA,Gold,France,3.04785444558874,9717000000.0,True
+9949,HIQ.ST,HiQ International AB (publ),STO,Business Services,Sweden,2.8246149981383533,1847053000.0,True
+9953,BURE.ST,Bure Equity AB,STO,Conglomerates,Sweden,64.6319737458978,4643100000.0,True
+9957,INVE-A.ST,Investor AB,STO,Asset Management,Sweden,5.360405250018129,143876000000.0,True
+9988,MTG-A.ST,Modern Times Group Mtg AB,STO,Broadcasting - TV,Sweden,3.7628043660789245,4242000000.0,True
+9993,LAMM-B.ST,Lammhults Design Group AB (publ),STO,Home Furnishings & Fixtures,Sweden,2.1395242451967063,1022100000.0,True
+9998,HUFV-A.ST,Hufvudstaden AB (publ),STO,Property Management,Sweden,2.6553017316405487,1981200000.0,True
+10005,MTG-B.ST,Modern Times Group Mtg AB,STO,Broadcasting - TV,Sweden,3.7628043660789245,4242000000.0,True
+10035,ORIENTABRA.NS,Orient Abrasives Limited,NSI,Specialty Chemicals,India,2.495540806480063,3129680000.0,True
+10041,BIOG-B.ST,BioGaia AB,STO,Drug Manufacturers - Major,Sweden,4.2138635414425485,768347000.0,True
+10054,ABBOTINDIA.NS,Abbott India Limited,NSI,Drug Manufacturers - Major,India,3.1543798395068507,36786030000.0,True
+10064,MIDW-B.ST,Midway Holding AB,STO,Conglomerates,Sweden,2.498442367601246,796000000.0,True
+10066,FABG.ST,Fabege AB (publ),STO,Real Estate Development,Sweden,2.098535943411745,2822000000.0,True
+10069,KABE-B.ST,KABE AB (publ.),STO,"Recreational Goods, Other",Sweden,2.9854280510018216,2358000000.0,True
+10080,HPOL-B.ST,Hexpol AB (Publ),STO,Specialty Chemicals,Sweden,2.272134567740253,15508000000.0,True
+10092,IMPAL.NS,India Motor Parts and Accessories Limited,NSI,Auto Parts,India,9.309935744678407,5242012000.0,True
+10125,ACCELYA.NS,Accelya Kale Solutions Limited,NSI,Information Technology Services,India,3.592313435961888,4330246845.0,True
+10129,ACOMO.AS,Amsterdam Commodities N.V.,AMS,Food Wholesale,Netherlands,2.3046445716929838,701441000.0,True
+10157,ACR.F,Accor SA,FRA,Lodging,France,2.00750794109154,4049000000.0,True
+10159,AC.MX,"Arca Continental, S. A. B. de C. V.",MEX,Beverages - Soft Drinks,Mexico,2.4473281529045128,162727594000.0,True
+10163,ACC.NS,ACC Limited,NSI,General Building Materials,India,3.065991537023286,156575500000.0,True
+10227,ADVANIHOTR.NS,Advani Hotels & Resorts (India) Limited,NSI,Lodging,India,3.527547131623473,702755025.0,True
+10267,CEON.MX,CNOOC Limited,MEX,Independent Oil & Gas,Mexico,2.596567131064136,233199000000.0,True
+10311,DRDN.MX,DRDGOLD Limited,MEX,Gold,Mexico,2.960478343298819,2762100000.0,True
+10353,ADORWELD.NS,Ador Welding Limited,NSI,Diversified Machinery,India,2.558828791221897,5132800000.0,True
+10359,REPA.SG,"Repsol, S.A.",STU,Major Integrated Oil & Gas,Germany,2.009028663489293,42378000000.0,True
+10381,VIVN.MX,Telefônica Brasil S.A.,MEX,Wireless Communications,Mexico,2.8622220711535062,44268171000.0,True
+10401,SAPA.F,SAP SE,FRA,Technical & System Software,France,2.0486170176572647,27553000000.0,True
+10408,NTESN.MX,"NetEase, Inc.",MEX,Internet Information Providers,Mexico,2.868884476276028,59241145000.0,True
+10421,CTMA.F,China Mobile Limited,FRA,Wireless Communications,France,3.121442434251492,745917000000.0,True
+10425,GAZ.DE,Public Joint Stock Company Gazprom,GER,Major Integrated Oil & Gas,Germany,2.9584291911888165,8224177000000.0,True
+10431,IFXA.F,Infineon Technologies AG,FRA,Semiconductor - Broad Line,France,2.806444862942038,8029000000.0,True
+10442,RIOA.F,Rio Tinto plc,FRA,Industrial Metals & Minerals,France,2.063016917293233,43165000000.0,True
+10461,AE9.F,Agnico Eagle Mines Limited,FRA,Gold,France,2.389613500106433,2494892000.0,True
+10517,P8Z.SI,Bumitama Agri Ltd.,SES,Farm Products,Singapore,2.1769866621539933,7691341000000.0,True
+10535,ATFL.NS,Agro Tech Foods Limited,NSI,Food - Major Diversified,India,5.0410341199458895,8236610000.0,True
+10545,AGL.AX,AGL Energy Limited,ASX,Diversified Utilities,Australia,2.3219489268369107,13246000000.0,True
+10604,AGLN.MX,Anglo American plc,MEX,Industrial Metals & Minerals,Mexico,2.2672104009367304,29870000000.0,True
+10679,DHANUKA.NS,Dhanuka Agritech Limited,NSI,Agricultural Chemicals,India,4.325775398632549,10058380000.0,True
+10714,AHLEAST.NS,Asian Hotels (East) Limited,NSI,Lodging,India,5.079404640145441,2023523295.0,True
+10729,AIAENG.NS,AIA Engineering Limited,NSI,Diversified Machinery,India,7.910944073406963,30694999000.0,True
+10730,AIA.NZ,Auckland International Airport Limited,NZE,"Air Services, Other",New Zealand,3.2644320996922147,734900000.0,True
+10765,AJANTPHARM.NS,Ajanta Pharma Limited,NSI,Drug Manufacturers - Major,India,5.9786238552453606,20553700000.0,True
+10774,HOLM-B.ST,Holmen Aktiebolag (publ),STO,Paper & Paper Products,Sweden,3.0859639086795987,17330000000.0,True
+10775,HOLM-A.ST,Holmen Aktiebolag (publ),STO,Paper & Paper Products,Sweden,3.0859639086795987,17330000000.0,True
+10778,AKZOINDIA.NS,Akzo Nobel India Limited,NSI,Specialty Chemicals,India,2.1816763727121464,29184000000.0,True
+10793,SCHO.CO,Aktieselskabet Schouw & Co.,CPH,Conglomerates,Denmark,2.0456466610312765,20946000000.0,True
+10812,ATE.PA,Alten SA,PAR,Information Technology Services,France,2.1884222110970093,2623990000.0,True
+10874,GUJALKALI.NS,Gujarat Alkalies and Chemicals Limited,NSI,Chemicals - Major Diversified,India,4.477080225867238,31613777000.0,True
+10929,ALKALI.NS,Alkali Metals Limited,NSI,Specialty Chemicals,India,2.3358445866875623,715562263.0,True
+10933,ALQ.AX,ALS Limited,ASX,Business Services,Australia,2.025755462575546,1664800000.0,True
+10939,ALEMBICLTD.NS,Alembic Limited,NSI,Drugs - Generic,India,22.083892184228894,1238099000.0,True
+10941,NATIONALUM.NS,National Aluminium Company Limited,NSI,Aluminum,India,3.2488048129202456,114993200000.0,True
+10943,ALLCARGO.NS,Allcargo Logistics Limited,NSI,Air Delivery & Freight Services,India,2.063746404980879,68948600000.0,True
+10952,MAITHANALL.NS,Maithan Alloys Limited,NSI,Steel & Iron,India,3.7428200537285448,19879301000.0,True
+11008,ALPHAGEO.NS,Alphageo (India) Limited,NSI,Oil & Gas Equipment & Services,India,3.212137665468345,4050768991.0,True
+11017,PA2.F,Pan American Silver Corp.,FRA,Silver,France,3.4831521498516858,1350759000.0,True
+11021,GAEL.NS,Gujarat Ambuja Exports Limited,NSI,Food - Major Diversified,India,3.383492464294169,40272200000.0,True
+11025,BANARISUG.NS,Bannari Amman Sugars Limited,NSI,Confectioners,India,2.188206050145172,11249861000.0,True
+11037,AMBIKCO.NS,Ambika Cotton Mills Limited,NSI,Textile Industrial,India,4.423830601936482,6555997000.0,True
+11046,NGLB.SG,Anglo American PLC Registered S,STU,Industrial Metals & Minerals,Germany,2.1247322715059,26243000000.0,True
+11058,AMBUJACEM.NS,Ambuja Cements Limited,NSI,General Building Materials,India,3.875764763074157,271035500000.0,True
+11059,AMDIND.NS,AMD Industries Limited,NSI,Packaging & Containers,India,2.0518194505905982,1557206000.0,True
+11070,AMRUTANJAN.NS,Amrutanjan Health Care Limited,NSI,Drugs - Generic,India,4.480095326562728,2535263000.0,True
+11084,BALAMINES.NS,Balaji Amines Limited,NSI,Specialty Chemicals,India,2.304348477480969,9468361062.0,True
+11089,AMARAJABAT.NS,Amara Raja Batteries Limited,NSI,Diversified Machinery,India,3.873399617459032,67931100000.0,True
+11128,ATM.AX,Perusahaan Perseroan (Persero) PT Aneka Tambang Tbk,ASX,Industrial Metals & Minerals,Australia,2.4549272361191368,25241268367000.0,True
+11136,ANANTRAJ.NS,Anant Raj Limited,NSI,Property Management,India,2.2391071719357014,5002800000.0,True
+11156,SESHAPAPER.NS,Seshasayee Paper and Boards Limited,NSI,Paper & Paper Products,India,2.6450870245878995,13128300000.0,True
+11162,MADHAV.NS,Madhav Marbles and Granites Limited,NSI,General Building Materials,India,4.549084227308019,769570120.0,True
+11169,BALMLAWRIE.NS,Balmer Lawrie & Co. Limited,NSI,Conglomerates,India,3.2101419959955764,17752081000.0,True
+11173,PGHH.NS,Procter & Gamble Hygiene and Health Care Limited,NSI,Personal Products,India,2.2576053123054574,29465000000.0,True
+11174,HDG.AS,Hunter Douglas N.V.,AMS,Home Furnishings & Fixtures,Netherlands,2.070025980303305,3686300000.0,True
+11200,ANDHRSUGAR.NS,The Andhra Sugars Limited,NSI,Chemicals - Major Diversified,India,2.861476769298585,13763779000.0,True
+11204,CARERATING.NS,CARE Ratings Limited,NSI,Investment Brokerage - National,India,9.797941119784905,3189691000.0,True
+11251,APTECHT.NS,Aptech Limited,NSI,Education & Training Services,India,6.395047057981082,2085515000.0,True
+11262,AP4.SI,Riverstone Holdings Limited,SES,Rubber & Plastics,Singapore,6.511820644584707,988968000.0,True
+11266,APOLLOTYRE.NS,Apollo Tyres Limited,NSI,Rubber & Plastics,India,2.00358999810574,172733920000.0,True
+11268,APCOTEXIND.NS,Apcotex Industries Limited,NSI,Rubber & Plastics,India,3.797859438115097,6256665000.0,True
+11291,INTC.BA,Intel Corporation,BUE,Semiconductor - Broad Line,Argentina,2.313181972212809,71965000000.0,True
+11312,CVX.BA,Chevron Corporation,BUE,Major Integrated Oil & Gas,Argentina,2.574582520060724,139865000000.0,True
+11329,ARCHIES.NS,Archies Limited,NSI,"Specialty Retail, Other",India,3.3381651892388837,1613644000.0,True
+11373,ARA.MX,"Consorcio ARA, S. A. B. de C. V.",MEX,Residential Construction,Mexico,2.811630930562276,7678505000.0,True
+11375,TECO2.BA,Telecom Argentina S.A.,BUE,Wireless Communications,Argentina,2.154831832548154,237024000000.0,True
+11376,AROGRANITE.NS,Aro Granite Industries Limited,NSI,General Building Materials,India,2.103929745297916,1724365000.0,True
+11388,OEST.BA,Grupo Concesionario del Oeste S.A.,BUE,Heavy Construction,Argentina,2.1699709837562584,5495158849.0,True
+11391,BOLT.BA,Boldt S.A.,BUE,Information Technology Services,Argentina,6.553153680157857,2818582709.0,True
+11431,TGSU2.BA,Transportadora de Gas Del Sur S.A.,BUE,Gas Utilities,Argentina,2.0119031675166488,48561494000.0,True
+11432,ESME.BA,Bodegas Esmeralda S.A.,BUE,Beverages - Wineries & Distillers,Argentina,2.513002853167233,6022030752.0,True
+11437,ASIANPAINT.NS,Asian Paints Limited,NSI,Specialty Chemicals,India,2.7102338113622872,191857700000.0,True
+11445,LSG.OL,Lerøy Seafood Group Asa,OSL,Food - Major Diversified,Norway,2.429512475648086,20426902000.0,True
+11486,EIHAHOTELS.NS,EIH Associated Hotels Limited,NSI,Lodging,India,4.704309199981681,2693220000.0,True
+11488,ASM.AS,ASM International NV,AMS,Semiconductor Equipment & Materials,Netherlands,6.101577051681964,1283860000.0,True
+11490,POL.OL,Polaris Media ASA,OSL,Publishing - Newspapers,Norway,2.2844115781964223,2342668000.0,True
+11496,ASTRAMICRO.NS,Astra Microwave Products Limited,NSI,Communication Equipment,India,5.286719845406383,3042839000.0,True
+11516,ASTRAZEN.NS,AstraZeneca Pharma India Limited,NSI,Drug Manufacturers - Major,India,2.152490421455939,7282900000.0,True
+11523,A17U.SI,Ascendas Real Estate Investment Trust,SES,REIT - Industrial,Singapore,2.5546681498624606,886664000.0,True
+11524,ASTRAL.NS,Astral Poly Technik Limited,NSI,Rubber & Plastics,India,2.6026964584264483,25072924000.0,True
+11534,ASAHISONG.NS,Asahi Songwon Colors Limited,NSI,Chemicals - Major Diversified,India,2.676628260244504,2936204000.0,True
+11535,ASHIANA.NS,Ashiana Housing Limited,NSI,Real Estate Development,India,2.897001019071189,3322500000.0,True
+11543,SALM.OL,SalMar ASA,OSL,Farm Products,Norway,2.5243943138781813,12237600000.0,True
+11577,ATUL.NS,Atul Ltd,NSI,Chemicals - Major Diversified,India,4.351312526090907,40378100000.0,True
+11621,ATULAUTO.NS,Atul Auto Limited,NSI,Auto Manufacturers - Major,India,3.76095411351046,6648828000.0,True
+11653,GPT.AX,GPT Group,ASX,REIT - Diversified,Australia,3.364594692838968,718600000.0,True
+11674,BAJAJ-AUTO.NS,Bajaj Auto Limited,NSI,Auto Manufacturers - Major,India,5.148459358746131,315881800000.0,True
+11697,SGM.AX,Sims Metal Management Limited,ASX,Steel & Iron,Australia,3.5924213375437013,6651900000.0,True
+11703,SCG.AX,Scentre Group,ASX,Property Management,Australia,2.441516941630192,2616400000.0,True
+11745,NCM.AX,Newcrest Mining Limited,ASX,Gold,Australia,2.8143128863528295,3742000000.0,True
+11751,MUNJALAU.NS,Munjal Auto Industries Limited,NSI,Auto Parts,India,2.211839336231284,12140343000.0,True
+11757,MPL.AX,Medibank Private Limited,ASX,Property & Casualty Insurance,Australia,2.141559513979002,6765000000.0,True
+11760,MND.AX,Monadelphous Group Limited,ASX,General Contractors,Australia,2.359539105423606,1479737000.0,True
+11772,MAH.AX,Macmahon Holdings Limited,ASX,General Contractors,Australia,2.186412465841653,1102984000.0,True
+11832,EVT.AX,Event Hospitality & Entertainment Limited,ASX,Diversified Utilities,Australia,2.7276008648173256,995879000.0,True
+11901,BSL.AX,BlueScope Steel Limited,ASX,Steel & Iron,Australia,2.6858409111784702,12573100000.0,True
+11905,BRG.AX,Breville Group Limited,ASX,Electronic Equipment,Australia,2.556094307834249,759967000.0,True
+12004,LUMAXTECH.NS,Lumax Auto Technologies Limited,NSI,Auto Parts,India,2.2809682406817604,11869787000.0,True
+12039,AVTNPL.NS,AVT Natural Products Limited,NSI,Specialty Chemicals,India,2.8344102515125824,3391536000.0,True
+12051,0595.HK,AV CONCEPT HOLD,HKG,"Specialty Retail, Other",Hong Kong,6.538503164949732,1698796000.0,True
+12085,AUTOAXLES.NS,Automotive Axles Limited,NSI,Auto Parts,India,2.363719252745472,19390420000.0,True
+12130,BAR.BR,Barco NV,BRU,Diversified Electronics,Belgium,2.708432712224872,1082570000.0,True
+12229,DANHOS13.MX,"Concentradora Fibra Danhos, S.A. de C.V.",MEX,REIT - Diversified,Mexico,8.44572435554443,5152971813.0,True
+12256,BACHOCOB.MX,"Industrias Bachoco, S.A.B. de C.V.",MEX,Farm Products,Mexico,3.5990911618047865,61052092000.0,True
+12273,BBL.NS,Bharat Bijlee Limited,NSI,Diversified Machinery,India,2.8967813540510545,9323223000.0,True
+12274,KHCB34.SA,The Kraft Heinz Company,SAO,Food - Major Diversified,Brazil,2.04120641435786,24977000000.0,True
+12278,DISB34.SA,The Walt Disney Company,SAO,Entertainment - Diversified,Brazil,2.12860466137032,69570000000.0,True
+12295,BBTC.NS,"The Bombay Burmah Trading Corporation, Limited",NSI,Farm Products,India,3.4011658048064515,116387709000.0,True
+12331,BCAM.PA,Societe Anonyme des Brasseries du Cameroun,PAR,Beverages - Brewers,France,2.1299692309385443,332755438000.0,True
+12360,BDT.F,Bertrandt Aktiengesellschaft,FRA,Auto Parts,France,2.0630711534045973,1059870000.0,True
+12369,SOF.BR,Sofina Société Anonyme,BRU,Asset Management,Belgium,148.36037010566167,1238318000.0,True
+12418,PIC.BR,Picanol NV,BRU,Diversified Machinery,Belgium,2.065506729124842,2221400000.0,True
+12430,TATAGLOBAL.NS,Tata Global Beverages Limited,NSI,Food - Major Diversified,India,4.240882392850912,72515000000.0,True
+12438,BERGEPAINT.NS,Berger Paints India Limited,NSI,Specialty Chemicals,India,2.312555989631648,60618600000.0,True
+12443,BEI.F,Beiersdorf Aktiengesellschaft,FRA,Personal Products,France,2.533987915407855,7653000000.0,True
+12451,BELA.AT,Jumbo S.A.,ATH,"Recreational Goods, Other",Greece,4.337180707627705,812177688.0,True
+12453,L09.SI,Lung Kee (Bermuda) Holdings Limited,SES,Metal Fabrication,Singapore,5.644177733277122,2326913000.0,True
+12469,NRBBEARING.NS,NRB Bearings Limited,NSI,Auto Parts,India,2.0258443779392903,9648500000.0,True
+12494,BKGN.MX,The Berkeley Group Holdings plc,MEX,Residential Construction,Mexico,2.5007090043553126,2957400000.0,True
+12533,BGA.AX,Bega Cheese Limited,ASX,Food - Major Diversified,Australia,2.246415523150265,1419952000.0,True
+12537,INFRATEL.NS,Bharti Infratel Limited,NSI,Wireless Communications,India,6.591442533379508,68262000000.0,True
+12543,BIL.DE,BHP Billiton plc,GER,Industrial Metals & Minerals,Germany,2.0568346350714766,44609000000.0,True
+12548,BIL.F,BHP Billiton plc,FRA,Industrial Metals & Minerals,France,2.0568346350714766,44609000000.0,True
+12561,BHPN.MX,BHP Billiton Limited,MEX,Industrial Metals & Minerals,Mexico,2.0568346350714766,44609000000.0,True
+12566,BHARATRAS.NS,Bharat Rasayan Limited,NSI,Agricultural Chemicals,India,2.1784974648907256,9921772000.0,True
+12569,BEPL.NS,Bhansali Engineering Polymers Limited,NSI,Chemicals - Major Diversified,India,2.288481097723514,12247799000.0,True
+12593,BIM.PA,bioMérieux S.A.,PAR,Medical Laboratories & Research,France,2.476199829764945,2421300000.0,True
+12687,HESTERBIO.NS,Hester Biosciences Limited,NSI,Drug Manufacturers - Major,India,2.5313683876101027,1841656989.0,True
+12696,FUNO11.MX,Fibra UNO,MEX,REIT - Diversified,Mexico,2.452032049026008,19189083000.0,True
+12702,FIHO12.MX,"Concentradora Fibra Hotelera Mexicana, S.A. de C.V.",MEX,REIT - Hotel/Motel,Mexico,3.4694690283652907,4371969000.0,True
+12704,FIBRAPL14.MX,FIBRA Prologis,MEX,REIT - Industrial,Mexico,2.9926935259717387,3824765000.0,True
+12732,BLISSGVS.NS,Bliss Gvs Pharma Limited,NSI,Drug Manufacturers - Major,India,3.6931629649069175,8982492000.0,True
+12759,0878.HK,SOUNDWILL HOLD,HKG,Asset Management,Hong Kong,7.843237642307741,733872000.0,True
+12768,0506.HK,CHINA FOODS,HKG,Food - Major Diversified,Hong Kong,2.0247121325099227,17172027000.0,True
+12769,0385.HK,CHINNEY ALLI,HKG,General Building Materials,Hong Kong,2.078212111418534,5219559000.0,True
+12775,0135.HK,KUNLUN ENERGY,HKG,Independent Oil & Gas,Hong Kong,2.152418791477471,113313000000.0,True
+12780,1218.HK,EASYKNIT INT'L,HKG,Textile - Apparel Clothing,Hong Kong,3.3977669914068778,830347000.0,True
+12783,1123.HK,CHINA-HK PHOTO,HKG,"Recreational Goods, Other",Hong Kong,4.371987880633694,959045000.0,True
+12785,1047.HK,NGAI HING HONG,HKG,Rubber & Plastics,Hong Kong,2.01047350575619,1852680000.0,True
+12786,1045.HK,APT SATELLITE,HKG,Wireless Communications,Hong Kong,5.756387305431068,1062565000.0,True
+12788,1038.HK,CKI HOLDINGS,HKG,Heavy Construction,Hong Kong,3.0869167087140963,7988000000.0,True
+12789,1031.HK,KINGSTON FIN,HKG,Lodging,Hong Kong,2.5672661260310767,2235646000.0,True
+12790,0999.HK,I.T,HKG,Apparel Stores,Hong Kong,2.481320414564608,8832157000.0,True
+12793,0912.HK,SUGA INT'L,HKG,Electronic Equipment,Hong Kong,3.278644605022357,1681862000.0,True
+12799,0710.HK,BOE VARITRONIX,HKG,Diversified Electronics,Hong Kong,4.5196563025274585,3627896000.0,True
+12800,0709.HK,GIORDANO INT'L,HKG,Apparel Stores,Hong Kong,2.212005108556833,4852000000.0,True
+12802,0659.HK,NWS HOLDINGS,HKG,Conglomerates,Hong Kong,2.98646003941926,26833500000.0,True
+12804,0636.HK,KERRY LOG NET,HKG,Money Center Banks,Hong Kong,2.223458587402484,41139102000.0,True
+12805,0610.HK,WAI KEE HOLD,HKG,General Contractors,Hong Kong,2.685055722218772,7904105000.0,True
+12807,0551.HK,YUE YUEN IND,HKG,Textile - Apparel Footwear & Accessories,Hong Kong,2.0650308953786154,10105387000.0,True
+12817,0372.HK,PT INTL DEV,HKG,Mortgage Investment,Hong Kong,138.33100948131624,1785780000.0,True
+12819,0341.HK,CAFE DE CORAL H,HKG,Restaurants,Hong Kong,4.1909189249678285,8493883000.0,True
+12822,0330.HK,ESPRIT HOLDINGS,HKG,Apparel Stores,Hong Kong,2.7261506814091025,12932000000.0,True
+12823,0296.HK,EMPEROR E HOTEL,HKG,Gaming Activities,Hong Kong,9.273398601232351,1381335000.0,True
+12825,0255.HK,LUNG KEE,HKG,Metal Fabrication,Hong Kong,5.644177733277122,2326913000.0,True
+12832,0179.HK,JOHNSON ELEC H,HKG,Diversified Machinery,Hong Kong,2.48789752984109,3280381000.0,True
+12833,0163.HK,EMPEROR INT'L,HKG,Asset Management,Hong Kong,2.149615925175776,4352386000.0,True
+12835,0129.HK,ASIA STANDARD,HKG,Real Estate Development,Hong Kong,2.168813159504168,2207480000.0,True
+12836,0113.HK,DICKSON CONCEPT,HKG,Jewelry Stores,Hong Kong,3.794162702125112,4009422000.0,True
+12841,0052.HK,FAIRWOOD HOLD,HKG,Restaurants,Hong Kong,2.5611948688093467,2970524000.0,True
+12850,HAL.AS,HAL Trust,AMS,Asset Management,Netherlands,2.145491269220745,5376700000.0,True
+12881,1170.HK,KINGMAKER,HKG,Textile - Apparel Footwear & Accessories,Hong Kong,4.122930461301754,1100649000.0,True
+12886,1114.HK,BRILLIANCE CHI,HKG,Trucks & Other Vehicles,Hong Kong,3.299198535574788,4377263000.0,True
+12895,1005.HK,MATRIX HOLDINGS,HKG,"Specialty Retail, Other",Hong Kong,4.922391730761964,1316101000.0,True
+12903,0934.HK,SINOPEC KANTONS,HKG,Oil & Gas Pipelines,Hong Kong,4.508107510421769,1447378000.0,True
+12911,0891.HK,TRINITY,HKG,Apparel Stores,Hong Kong,3.0329430782298417,1962226000.0,True
+12922,0771.HK,AUTOMATED SYS,HKG,Information Technology Services,Hong Kong,2.0794852170811637,2828773000.0,True
+12926,0738.HK,LE SAUNDA,HKG,Textile - Apparel Footwear & Accessories,Hong Kong,9.4730984627693,908784000.0,True
+12934,0693.HK,TAN CHONG INT'L,HKG,Auto Manufacturers - Major,Hong Kong,2.995130105809713,15731423000.0,True
+12936,0683.HK,KERRY PPT,HKG,Real Estate Development,Hong Kong,2.846099307937318,18025422000.0,True
+12939,0677.HK,GOLDEN RES DEV,HKG,Food Wholesale,Hong Kong,9.413979213761186,1458423000.0,True
+12943,0662.HK,ASIA FINANCIAL,HKG,Conglomerates,Hong Kong,3.276439078917164,1397501000.0,True
+12951,0601.HK,GROUP SENSE,HKG,Electronic Equipment,Hong Kong,2.189851659369516,1515291000.0,True
+12952,0590.HK,LUK FOOK HOLD,HKG,"Specialty Retail, Other",Hong Kong,3.7360417504175456,15859990000.0,True
+12954,0582.HK,LANDING INTL,HKG,Chemicals - Major Diversified,Hong Kong,4.673724518735744,815533000.0,True
+12955,0581.HK,CHINA ORIENTAL,HKG,Steel & Iron,Hong Kong,2.2720622499879046,43014224000.0,True
+12957,0517.HK,COSCO SHIP INTL,HKG,Shipping,Hong Kong,8.092454909568861,9521575000.0,True
+12970,0393.HK,GLORIOUS SUN,HKG,Textile - Apparel Clothing,Hong Kong,6.281812664373863,1212288000.0,True
+12980,0333.HK,TOP FORM INT'L,HKG,Textile - Apparel Clothing,Hong Kong,2.765800611571252,1225402000.0,True
+12982,0328.HK,ALCO HOLDINGS,HKG,Electronic Equipment,Hong Kong,4.345681218212794,1545212000.0,True
+12983,0315.HK,SMARTONE TELE,HKG,Wireless Communications,Hong Kong,2.056224928007583,8415037000.0,True
+12993,0214.HK,ASIA ORIENT,HKG,Asset Management,Hong Kong,2.3177733052670098,2419878000.0,True
+12997,0173.HK,K. Wah International Holdings Limited,HKG,Real Estate Development,Hong Kong,2.164827236664656,10651931000.0,True
+13003,0127.HK,Chinese Estates Holdings Limited,HKG,Real Estate Development,Hong Kong,3.281732519426784,748670000.0,True
+13004,0125.HK,Sun Hing Vision Group Holdings Limited,HKG,Computer Based Systems,Hong Kong,4.676483738427264,1223917000.0,True
+13008,0084.HK,Stelux Holdings International Limited,HKG,"Recreational Goods, Other",Hong Kong,2.0025090514815327,1457779000.0,True
+13012,0062.HK,TRANSPORT INT'L,HKG,Trucking,Hong Kong,2.9552711635607483,8009275000.0,True
+13015,0057.HK,CHEN HSONG HOLD,HKG,Diversified Machinery,Hong Kong,5.034127253820722,1635938000.0,True
+13016,0053.HK,GUOCO GROUP,HKG,Conglomerates,Hong Kong,2.849411450449648,2238337000.0,True
+13018,0041.HK,GREAT EAGLE H,HKG,Real Estate Development,Hong Kong,3.362895824809612,9236830000.0,True
+13019,0025.HK,CHEVALIER INT'L,HKG,Conglomerates,Hong Kong,2.294016006381724,6892714000.0,True
+13024,0701.HK,CNT GROUP,HKG,Conglomerates,Hong Kong,4.492824930653702,807923000.0,True
+13033,1120.HK,ARTS OPTICAL,HKG,Jewelry Stores,Hong Kong,3.2086610708483883,1040962000.0,True
+13039,0684.HK,ALLAN INT'L,HKG,Home Furnishings & Fixtures,Hong Kong,4.1245728709684535,1209200000.0,True
+13045,0927.HK,Fujikon Industrial Holdings Limited,HKG,Electronic Equipment,Hong Kong,3.4030608240680182,1411795000.0,True
+13062,0460.HK,SIHUAN PHARM,HKG,Drugs - Generic,Hong Kong,4.78139174712712,2886979000.0,True
+13088,0015.HK,VANTAGE INT'L,HKG,General Contractors,Hong Kong,2.8695101403592984,3544519000.0,True
+13091,0114.HK,HERALD HOLD,HKG,Conglomerates,Hong Kong,4.037758506234593,952465000.0,True
+13093,0497.HK,CSI PROPERTIES,HKG,Asset Management,Hong Kong,2.070786575886473,3439180000.0,True
+13097,1999.HK,Man Wah Holdings Limited,HKG,Home Furnishings & Fixtures,Hong Kong,2.044533637835777,11257792000.0,True
+13102,0030.HK,BAN LOONG HOLD,HKG,Asset Management,Hong Kong,8.377229997603175,910081910.0,True
+13108,0289.HK,WING ON CO,HKG,Department Stores,Hong Kong,14.614165421542582,1541978000.0,True
+13111,0126.HK,CARRIANNA,HKG,Textile - Apparel Clothing,Hong Kong,2.575098411110873,970210000.0,True
+13113,0116.HK,CHOW SANG SANG,HKG,Jewelry Stores,Hong Kong,2.897267031557339,17736226000.0,True
+13116,0398.HK,ORIENTAL WATCH,HKG,Electronic Equipment,Hong Kong,12.373497132992167,2437184000.0,True
+13125,1199.HK,COSCO SHIP PORT,HKG,Shipping,Hong Kong,2.2236939044381048,1027658000.0,True
+13129,0592.HK,BOSSINI INT'L,HKG,"Specialty Retail, Other",Hong Kong,3.9390462034564417,1641171000.0,True
+13136,2343.HK,Pacific Basin Shipping Limited,HKG,Shipping,Hong Kong,2.1409537486709773,1585900000.0,True
+13139,CBA.F,Brilliance China Automotive Holdings Limited,FRA,Auto Manufacturers - Major,France,4.0972960284121696,4377263000.0,True
+13149,1105.HK,SING TAO,HKG,Entertainment - Diversified,Hong Kong,6.17106462062646,1261779000.0,True
+13150,T15.SI,Tan Chong International Limited,SES,Auto Dealerships,Singapore,2.799639552366999,14533351000.0,True
+13183,0152.HK,SHENZHEN INT'L,HKG,Heavy Construction,Hong Kong,2.074291014212393,16820326000.0,True
+13184,0138.HK,CCT FORTIS,HKG,Electronic Equipment,Hong Kong,2.083333333333333,1097000000.0,True
+13190,0321.HK,Texwinca Holdings Limited,HKG,Textile Industrial,Hong Kong,2.6797496846694044,8210053000.0,True
+13269,BOY.L,Bodycote plc,LSE,Diversified Machinery,United Kingdom,3.1967009025832565,719700000.0,True
+13355,BRML3.SA,BR Malls Participações S.A.,SAO,Property Management,Brazil,2.630939871389561,1399176000.0,True
+13379,HYPE3.SA,Hypermarcas S.A.,SAO,Drugs - Generic,Brazil,3.7139552093476143,3294749000.0,True
+13385,GGBR3.SA,Gerdau S.A.,SAO,Steel & Iron,Brazil,2.012794856831626,39644010000.0,True
+13414,MULT3.SA,Multiplan Empreendimentos Imobiliários S.A.,SAO,Real Estate Development,Brazil,2.4027482419861967,1311235000.0,True
+13420,UBL.NS,United Breweries Limited,NSI,Beverages - Brewers,India,2.4501319621405173,64754300000.0,True
+13429,GOAU3.SA,Metalurgica Gerdau S.A.,SAO,Steel & Iron,Brazil,2.0151285445327543,39644010000.0,True
+13430,TRPL4.SA,CTEEP - Companhia de Transmissão de Energia Elétrica Paulista,SAO,Electric Utilities,Brazil,2.7558698342976515,3305155000.0,True
+13439,CSMG3.SA,Companhia de Saneamento de Minas Gerais,SAO,Water Utilities,Brazil,2.4093143678024,5157224000.0,True
+13446,BRE.MI,Brembo S.p.A.,MIL,Auto Parts,Italy,2.0247616052259323,2625148000.0,True
+13447,SAPR4.SA,Companhia de Saneamento do ParanÃ¡ - SANEPAR,SAO,Water Utilities,Brazil,2.0708022803862156,4722826000.0,True
+13462,BRNL.AS,Brunel International N.V.,AMS,Staffing & Outsourcing Services,Netherlands,2.6733784725192797,1041117000.0,True
+13463,RBL.NS,Rane Brake Lining Limited,NSI,Auto Parts,India,2.4365840295849885,5138900000.0,True
+13532,BVNN.MX,CompaÃ±Ã­a de Minas Buenaventura S.A.A.,MEX,Industrial Metals & Minerals,Mexico,3.6058008522712313,867888000.0,True
+13540,BAP.AX,Bapcor Limited,ASX,"Specialty Retail, Other",Australia,2.1442960836228986,1296582000.0,True
+13541,FBU.NZ,Fletcher Building Limited,NZE,General Building Materials,New Zealand,2.1798134011874466,8308000000.0,True
+13550,IRCP.BA,IRSA Propiedades Comerciales S.A.,BUE,Property Management,Argentina,2.005619752954116,9766231000.0,True
+13613,CCO.TO,Cameco Corporation,TOR,Industrial Metals & Minerals,Canada,3.0536092604279514,1862925000.0,True
+13626,CFX.TO,Canfor Pulp Products Inc.,TOR,Drugs - Generic,Canada,2.540137931034483,1087900000.0,True
+13658,CVC1.SG,Carnival Corp. Paired Ctf(1Sh.C,STU,"Recreational Goods, Other",Germany,2.4621422533510446,17510000000.0,True
+13676,CASTROLIND.NS,Castrol India Limited,NSI,Specialty Chemicals,India,2.586214899048503,38768000000.0,True
+13703,KIN2.DE,Kinross Gold Corporation,GER,Gold,Germany,2.424533846236042,3497300000.0,True
+13714,ITLC34.SA,Intel Corporation,SAO,Semiconductor - Broad Line,Brazil,2.313181972212809,71965000000.0,True
+13750,CCL.NS,CCL Products (India) Limited,NSI,Food - Major Diversified,India,2.4396908487672406,10814167000.0,True
+13796,CERA.NS,Cera Sanitaryware Limited,NSI,General Building Materials,India,2.4831150161543176,13515490000.0,True
+13804,CE2.F,CropEnergies AG,FRA,Major Integrated Oil & Gas,France,4.274378452534717,778612000.0,True
+13832,SHREECEM.NS,Shree Cement Limited,NSI,General Building Materials,India,2.6898496828025875,125546500000.0,True
+13834,KAKATCEM.NS,Kakatiya Cement Sugar and Industries Limited,NSI,General Building Materials,India,2.994751785175953,1106143000.0,True
+13840,CENTURYPLY.NS,Century Plyboards (India) Limited,NSI,"Lumber, Wood Production",India,2.232419863408908,22803936000.0,True
+13847,GCC.MX,"Grupo Cementos de Chihuahua, S.A.B. de C.V.",MEX,General Building Materials,Mexico,2.093394767583131,934115000.0,True
+13850,CEN.NZ,Contact Energy Limited,NZE,Diversified Utilities,New Zealand,2.2808471454880292,2460000000.0,True
+13858,CEN.AX,Contact Energy Limited,ASX,Diversified Utilities,Australia,2.055340557275542,2460000000.0,True
+13889,DECCANCE.NS,Deccan Cements Limited,NSI,General Building Materials,India,2.8914082661782947,6514152000.0,True
+13891,CENTENKA.NS,Century Enka Limited,NSI,Textile Industrial,India,4.4552922019178585,17913800000.0,True
+13894,VCX.AX,Vicinity Centres,ASX,REIT - Retail,Australia,3.39207102278512,1329700000.0,True
+13897,KAJARIACER.NS,Kajaria Ceramics Limited,NSI,General Building Materials,India,3.2402583217279703,29562000000.0,True
+13952,CLNINDIA.NS,Clariant Chemicals (India) Limited,NSI,Specialty Chemicals,India,3.2165670507232256,10280927000.0,True
+13964,1735.TW,"Evermore Chemical Industry Co., Ltd.",TAI,Chemicals - Major Diversified,Taiwan,2.01892786381563,3174698000.0,True
+13973,UHRN.SG,"SWATCH GROUP AG, THE NAMENS-AKT",STU,Jewelry Stores,Germany,6.154794520547945,7960000000.0,True
+14008,TIRUMALCHM.NS,Thirumalai Chemicals Limited,NSI,Specialty Chemicals,India,2.41197488318992,12610400000.0,True
+14019,2002.TW,China Steel Corporation,TAI,Steel & Iron,Taiwan,2.0333671282003976,366240735000.0,True
+14049,CIPLA.NS,Cipla Limited,NSI,Drug Manufacturers - Major,India,2.780267476653514,163232400000.0,True
+14058,TRPL3.SA,CTEEP - Companhia de Transmissão de Energia Elétrica Paulista,SAO,Electric Utilities,Brazil,2.7558698342976515,3305155000.0,True
+14065,OPTOCIRCUI.NS,Opto Circuits (India) Ltd,NSI,Medical Appliances & Equipment,India,2.1685351327633504,2555837132.0,True
+14088,SAPR3.SA,Companhia de Saneamento do ParanÃ¡ - SANEPAR,SAO,Water Utilities,Brazil,2.0708022803862156,4722826000.0,True
+14093,FSHOP13.MX,Fibra Shop,MEX,REIT - Retail,Mexico,2.3071219792341564,1523931000.0,True
+14094,TERRA13.MX,Terrafina,MEX,REIT - Industrial,Mexico,2.3221291810670506,4077899000.0,True
+14097,CJ6.F,Cameco Corporation,FRA,Industrial Metals & Minerals,France,3.0536092604279514,2091661000.0,True
+14120,KKCL.NS,Kewal Kiran Clothing Limited,NSI,Textile - Apparel Clothing,India,2.9979379373984187,5023962000.0,True
+14137,RET-A.TO,Reitmans (Canada) Limited,TOR,Apparel Stores,Canada,3.2164012531001176,923018000.0,True
+14149,CMO.NZ,The Colonial Motor Company Limited,NZE,Auto Dealerships,New Zealand,2.2103282744780564,906924000.0,True
+14159,0386.HK,SINOPEC CORP,HKG,Major Integrated Oil & Gas,Hong Kong,2.164129425787573,2966193000000.0,True
+14163,0338.HK,SHANGHAI PECHEM,HKG,Oil & Gas Refining & Marketing,Hong Kong,2.9216046604188275,100346048000.0,True
+14165,0857.HK,PETROCHINA,HKG,Major Integrated Oil & Gas,Hong Kong,2.121034104912883,2516810000000.0,True
+14173,0728.HK,CHINA TELECOM,HKG,Wireless Communications,Hong Kong,2.0199631705502297,375734000000.0,True
+14178,3378.HK,XIAMEN PORT,HKG,Shipping,Hong Kong,2.1719227444268414,13933106000.0,True
+14195,1088.HK,CHINA SHENHUA,HKG,Industrial Metals & Minerals,Hong Kong,3.941364224967627,241871000000.0,True
+14197,1053.HK,CHONGQING IRON,HKG,Steel & Iron,Hong Kong,3.558932958368004,23477597000.0,True
+14198,0995.HK,ANHUIEXPRESSWAY,HKG,Heavy Construction,Hong Kong,3.659546229569259,2946420820.0,True
+14203,0694.HK,BEIJING AIRPORT,HKG,"Air Services, Other",Hong Kong,3.5513205317390333,10810484000.0,True
+14218,3983.HK,China BlueChemical Ltd,HKG,Agricultural Chemicals,Hong Kong,4.513573208772701,10858435000.0,True
+14224,2880.HK,Dalian Port (PDA) Company Limited,HKG,Shipping,Hong Kong,2.563066749562326,6754444902.0,True
+14225,2698.HK,Weiqiao Textile Company Limited,HKG,Textile Industrial,Hong Kong,4.071247742616157,15167562000.0,True
+14241,1066.HK,WEIGAO GROUP,HKG,Medical Appliances & Equipment,Hong Kong,2.821946744577726,10364081000.0,True
+14245,0914.HK,CONCH CEMENT,HKG,General Building Materials,Hong Kong,4.903818005669766,157030328135.0,True
+14249,0696.HK,TRAVELSKY TECH,HKG,Business Services,Hong Kong,5.358506984573298,8121673000.0,True
+14251,0525.HK,GUANGSHEN RAIL,HKG,Railroads,Hong Kong,4.758040420399738,21178351087.0,True
+14253,0347.HK,ANGANG STEEL,HKG,Steel & Iron,Hong Kong,2.490300623936472,105587000000.0,True
+14254,0168.HK,TSINGTAO BREW,HKG,Beverages - Brewers,Hong Kong,2.144511542675097,27983760363.0,True
+14260,2238.HK,GAC GROUP,HKG,Auto Parts,Hong Kong,2.500386865603226,59704321649.0,True
+14261,0811.HK,XINHUA WINSHARE,HKG,"Specialty Retail, Other",Hong Kong,2.469886651689863,8842457723.0,True
+14269,1666.HK,TONG REN TANG,HKG,Drug Manufacturers - Major,Hong Kong,3.426714573168257,4476449000.0,True
+14272,PC6.F,PetroChina Company Limited,FRA,Major Integrated Oil & Gas,France,2.121034104912883,2516810000000.0,True
+14291,0177.HK,Jiangsu Expressway Company Limited,HKG,Heavy Construction,Hong Kong,2.560638889568159,9969011165.0,True
+14298,1122.HK,QINGLING MOTORS,HKG,Trucks & Other Vehicles,Hong Kong,3.772385688858515,4723287000.0,True
+14307,IMG.TO,IAMGOLD Corporation,TOR,Gold,Canada,2.6758816600845283,1065300000.0,True
+14353,CRISIL.NS,CRISIL Limited,NSI,Investment Brokerage - National,India,3.267603181052998,17317200000.0,True
+14356,SHARDACROP.NS,Sharda Cropchem Limited,NSI,Agricultural Chemicals,India,2.397026416861256,20011428000.0,True
+14371,BAYERCROP.NS,Bayer CropScience Limited,NSI,Agricultural Chemicals,India,2.8499165111482165,26938000000.0,True
+14380,CSR.AX,CSR Limited,ASX,General Building Materials,Australia,2.6198684210526317,2322800000.0,True
+14397,CTM.F,China Mobile Limited,FRA,Wireless Communications,France,3.121442434251492,745917000000.0,True
+14402,CTSH.MX,Cognizant Technology Solutions Corporation,MEX,Information Technology Services,Mexico,3.1269780007719032,16783000000.0,True
+14419,CUMMINSIND.NS,Cummins India Limited,NSI,Diversified Machinery,India,3.4098374491501104,56973100000.0,True
+14434,VITROA.MX,"Vitro, S.A.B. de C.V.",MEX,Packaging & Containers,Mexico,2.048928647647293,2180256000.0,True
+14435,MEDICAB.MX,"Médica Sur, S.A.B. de C.V.",MEX,Medical Laboratories & Research,Mexico,2.724595307875402,3698068000.0,True
+14438,GISSAA.MX,"Grupo Industrial Saltillo, S.A.B. de C.V.",MEX,General Building Materials,Mexico,2.1094054507150517,17129099000.0,True
+14444,CVC1.F,Carnival Corporation,FRA,"Recreational Goods, Other",France,2.2880211242573503,20825000000.0,True
+14468,CYBERTECH.NS,CyberTech Systems and Software Limited,NSI,Information Technology Services,India,2.695264444494282,967644000.0,True
+14479,CYIENT.NS,Cyient Limited,NSI,Information Technology Services,India,2.9308214016578757,46175000000.0,True
+14536,DATAMATICS.NS,Datamatics Global Services Limited,NSI,Business Services,India,4.624699196969293,11389810000.0,True
+14549,DBCORP.NS,D. B. Corp Limited,NSI,Publishing - Newspapers,India,4.220628988470895,24627010000.0,True
+14567,DD.MX,E. I. du Pont de Nemours and Company,MEX,Agricultural Chemicals,Mexico,2.492672413793104,21512000000.0,True
+14578,DELTACORP.NS,Delta Corp Limited,NSI,Resorts & Casinos,India,14.478092605390465,7978100000.0,True
+14579,DEEPIND.NS,Deep Industries Limited,NSI,Oil & Gas Equipment & Services,India,2.928283242983375,3087371000.0,True
+14649,RHK.F,Rhön-Klinikum Aktiengesellschaft,FRA,Hospitals,France,3.695451395832268,1533836000.0,True
+14723,UTDI.F,United Internet AG,FRA,Wireless Communications,France,2.0320035924316517,5194092000.0,True
+14744,DHUNINV.NS,Dhunseri Investments Limited,NSI,Investment Brokerage - National,India,18.139615877483312,26936043000.0,True
+14761,WDP.DE,The Walt Disney Company,GER,Entertainment - Diversified,Germany,2.12860466137032,69570000000.0,True
+14762,DIA.MI,DiaSorin S.p.A.,MIL,Medical Laboratories & Research,Italy,13.461086637298093,706300000.0,True
+14772,GDL.NS,Gateway Distriparks Limited,NSI,Air Delivery & Freight Services,India,2.338280547879781,4306122000.0,True
+14780,DO.MX,"Diamond Offshore Drilling, Inc.",MEX,Oil & Gas Drilling & Exploration,Mexico,2.24228140611584,934934000.0,True
+14808,DIVISLAB.NS,Divi's Laboratories Limited,NSI,Drugs - Generic,India,7.43525113310517,49462700000.0,True
+14815,DSV.CO,DSV A/S,CPH,Air Delivery & Freight Services,Denmark,2.0224097184792083,94701000000.0,True
+14818,0QBON.MX,Coloplast A/S,MEX,Medical Instruments & Supplies,Mexico,2.1880048118233373,17939000000.0,True
+14834,TIV.CO,Tivoli A/S,CPH,"Recreational Goods, Other",Denmark,2.367461247883288,1051300000.0,True
+14846,GABR.CO,Gabriel Holding A/S,CPH,Textile Industrial,Denmark,2.0002419093764785,708345000.0,True
+14847,NORTHM.CO,North Media A/S,CPH,Publishing - Newspapers,Denmark,3.2629804450438304,1130000000.0,True
+14857,DLF.NS,DLF Limited,NSI,Real Estate Development,India,2.0093618650151406,83660872000.0,True
+14860,DLINKINDIA.NS,D-Link (India) Limited,NSI,Communication Equipment,India,2.589300940025837,7157016000.0,True
+14861,DLG.MI,De'Longhi S.p.A.,MIL,Electronic Equipment,Italy,2.0519572324821067,2101100000.0,True
+14866,GIL.F,DMG Mori Aktiengesellschaft,FRA,Machine Tools & Accessories,France,2.078554553129027,2722451000.0,True
+14921,LALPATHLAB.NS,Dr. Lal PathLabs Limited,NSI,Medical Laboratories & Research,India,7.816027694755628,12034180000.0,True
+14924,DREDGECORP.NS,Dredging Corporation of India Limited,NSI,Shipping,India,2.786894142712899,6917386000.0,True
+14931,JINDRILL.NS,Jindal Drilling & Industries Limited,NSI,Oil & Gas Drilling & Exploration,India,3.3326705843445645,2073937000.0,True
+15034,LEVE3.SA,Mahle Metal Leve S.A.,SAO,Auto Parts,Brazil,2.4046460199960547,2591654000.0,True
+15040,EBRO.MC,"Ebro Foods, S.A.",MCE,Food - Major Diversified,Spain,2.1004930361702323,2815154000.0,True
+15054,ECLERX.NS,eClerx Services Limited,NSI,Business Services,India,7.418138582223687,14305930000.0,True
+15106,NAUKRI.NS,Info Edge (India) Limited,NSI,Internet Information Providers,India,4.83271276313616,11510090000.0,True
+15108,NAVNETEDUL.NS,Navneet Education Limited,NSI,Publishing - Newspapers,India,2.5037531117572165,14450100000.0,True
+15115,EDG.SG,Gold Fields Ltd.,STU,Gold,Germany,2.057784961611389,2761800000.0,True
+15129,SKMEGGPROD.NS,SKM Egg Products Export (India) Limited,NSI,Confectioners,India,2.1354728495546618,3345142547.0,True
+15133,EICHERMOT.NS,Eicher Motors Limited,NSI,Auto Manufacturers - Major,India,4.613582863000434,97510400000.0,True
+15136,EIHOTEL.NS,EIH Limited,NSI,Lodging,India,3.634656811956957,18196210000.0,True
+15137,EIMCOELECO.NS,Eimco Elecon (India) Limited,NSI,Diversified Machinery,India,9.125448834774515,1843710000.0,True
+15153,LIVEPOLC-1.MX,"El Puerto de Liverpool, SAB de CV",MEX,Department Stores,Mexico,2.1922365294490884,144849077000.0,True
+15154,ELGIEQUIP.NS,ELGI Equipments Limited,NSI,Diversified Machinery,India,2.2544178235994767,18634690000.0,True
+15205,SND.F,Schneider Electric S.E.,FRA,Diversified Machinery,France,2.058409184466908,27158000000.0,True
+15209,MEL.L,Mitsubishi Electric Corporation,LSE,Diversified Electronics,United Kingdom,2.361018310555344,4519921000000.0,True
+15219,INDNIPPON.NS,India Nippon Electricals Limited,NSI,Auto Parts,India,4.6643684367064,5252121000.0,True
+15247,SND.DE,Schneider Electric S.E.,FRA,Diversified Machinery,France,2.058409184466908,27158000000.0,True
+15255,EMG.L,Man Group plc,LSE,Asset Management,United Kingdom,2.4384410983170954,1113000000.0,True
+15266,EMAMILTD.NS,Emami Limited,NSI,Personal Products,India,3.780779787159796,26929381000.0,True
+15270,EMKAY.NS,Emkay Global Financial Services Limited,NSI,Investment Brokerage - National,India,2.1006601831878213,1397696947.0,True
+15277,EZTC3.SA,EZTEC Empreendimentos e Participações S.A.,SAO,Real Estate Development,Brazil,9.168466374482174,804390000.0,True
+15285,TOT.TO,Total Energy Services Inc.,TOR,Oil & Gas Equipment & Services,Canada,2.196297952288341,757398000.0,True
+15334,SGR.AX,The Star Entertainment Group Limited,ASX,Resorts & Casinos,Australia,3.0300086824397656,2158100000.0,True
+15418,ESCORTS.NS,Escorts Limited,NSI,Farm & Construction Machinery,India,2.3203798803386797,62620200000.0,True
+15419,ESABINDIA.NS,ESAB India Limited,NSI,Machine Tools & Accessories,India,3.3766604261388964,6743900000.0,True
+15425,ITXN.MX,"Industria de Diseño Textil, S.A.",MEX,Apparel Stores,Mexico,2.1121112929623567,28286000000.0,True
+15444,TL5.MC,"Mediaset España Comunicación, S.A.",MCE,Broadcasting - TV,Spain,4.105411100890982,939001000.0,True
+15578,EVERESTIND.NS,Everest Industries Limited,NSI,General Building Materials,India,2.0014179113418264,14083190000.0,True
+15596,EXE.PA,Exel Industries Société Anonyme,PAR,Farm & Construction Machinery,France,2.020179939451653,776687000.0,True
+15605,EXCELINDUS.NS,Excel Industries Limited,NSI,Specialty Chemicals,India,4.236729236164768,8249602000.0,True
+15618,NUCLEUS.NS,Nucleus Software Exports Limited,NSI,Information Technology Services,India,3.8760886777513854,4840300000.0,True
+15623,ORBTEXP.NS,Orbit Exports Limited,NSI,Textile Industrial,India,4.731220600144262,1385568000.0,True
+15628,SELAN.NS,Selan Exploration Technology Limited,NSI,Independent Oil & Gas,India,6.2207227417525015,934642000.0,True
+15635,KABRAEXTRU.NS,Kabra Extrusiontechnik Limited,NSI,Diversified Machinery,India,3.5515721007960805,2451419000.0,True
+15672,SUNDRMFAST.NS,Sundram Fasteners Limited,NSI,Auto Parts,India,2.028611182628416,45579000000.0,True
+15699,FDC.NS,FDC Limited,NSI,Drug Manufacturers - Major,India,8.424846621039144,10906975000.0,True
+15710,1722.TW,"Taiwan Fertilizer Co., Ltd.",TAI,Agricultural Chemicals,Taiwan,3.0345570303688763,12890565000.0,True
+15715,GSFC.NS,Gujarat State Fertilizers & Chemicals Limited,NSI,Agricultural Chemicals,India,3.330542665593624,84906734000.0,True
+15756,FIE.F,Fielmann AG,FRA,"Specialty Retail, Other",France,4.0105485679841415,1427999000.0,True
+15777,NAHARPOLY.NS,Nahar Poly Films Limited,NSI,Packaging & Containers,India,43.99978370041567,2657277000.0,True
+15795,NAVINFLUOR.NS,Navin Fluorine International Limited,NSI,Chemicals - Major Diversified,India,5.568446750622255,9959373000.0,True
+15809,FMTY14.MX,"FIBRA MTY, S.A.P.I. de C.V.",MEX,Money Center Banks,Mexico,2.6115335056935987,945824000.0,True
+15828,FOSECOIND.NS,Foseco India Limited,NSI,Chemicals - Major Diversified,India,3.2180215553611453,3225239000.0,True
+15838,3532.TW,Formosa Sumco Technology Corporation,TAI,Semiconductor Equipment & Materials,Taiwan,9.422909168251527,11636040000.0,True
+15850,RELAXO.NS,Relaxo Footwears Limited,NSI,Textile - Apparel Footwear & Accessories,India,3.2123966445774688,22920800000.0,True
+15897,FPE3.SG,FUCHS PETROLUB SE Inhaber-Vorzu,STU,Chemicals - Major Diversified,Germany,3.9436936936936937,2473000000.0,True
+15903,FPE.SG,FUCHS PETROLUB SE Inhaber-Stamm,STU,Chemicals - Major Diversified,Germany,3.9436936936936937,2473000000.0,True
+15920,SANF.MI,Sanofi,MIL,Drug Manufacturers - Major,Italy,2.077422242112329,35677000000.0,True
+16009,RUI.PA,Rubis,PAR,Gas Utilities,France,2.006991941965933,4753724000.0,True
+16028,SNW.SG,Sanofi S.A. Actions Port. EO 2,STU,Drug Manufacturers - Major,Germany,2.4015107775211697,36204000000.0,True
+16067,IGL.NS,Indraprastha Gas Limited,NSI,Gas Utilities,India,3.310856830764948,57648400000.0,True
+16069,GABRIEL.NS,Gabriel India Limited,NSI,Auto Parts,India,2.556104148204414,20764630000.0,True
+16077,GATI.NS,Gati Limited,NSI,Air Delivery & Freight Services,India,2.3161080472601814,18631940000.0,True
+16082,GANDHITUBE.NS,Gandhi Special Tubes Limited,NSI,Metal Fabrication,India,11.14304309000923,1229068000.0,True
+16167,PES.DE,Pearson plc,GER,Publishing - Newspapers,Germany,2.2993688007213704,3869000000.0,True
+16195,LAND.L,Land Securities Group plc,LSE,REIT - Office,United Kingdom,3.4112785610111813,757000000.0,True
+16249,FRES.MX,Fresnillo PLC,MEX,Industrial Metals & Minerals,Mexico,3.1119901625257413,2119641000.0,True
+16285,SSUN.SG,SAMSUNG ELECTRONICS CO. LTD. R.,STU,Electronic Equipment,Germany,3.7046111523514256,243770000000000.0,True
+16288,SSUN.F,"Samsung Electronics Co., Ltd.",FRA,Electronic Equipment,France,3.931182799943214,230400881000000.0,True
+16291,SMSNN.MX,"Samsung Electronics Co., Ltd.",MEX,Electronic Equipment,Mexico,3.931182799943214,230400881000000.0,True
+16304,GENUSPOWER.NS,Genus Power Infrastructures Limited,NSI,Diversified Electronics,India,2.324280418774141,10554666000.0,True
+16322,GENESYS.NS,Genesys International Corporation Limited,NSI,Information Technology Services,India,5.653352685155992,1147309448.0,True
+16337,SHANTIGEAR.NS,Shanthi Gears Limited,NSI,Diversified Machinery,India,6.977047882865058,2429700000.0,True
+16415,GIPCL.NS,Gujarat Industries Power Company Limited,NSI,Electric Utilities,India,3.0392337287780378,14073526000.0,True
+16434,GILLETTE.NS,Gillette India Limited,NSI,Personal Products,India,2.8034291010194625,18616500000.0,True
+16450,GLAXO.NS,GlaxoSmithkline Pharmaceuticals Limited,NSI,Drug Manufacturers - Major,India,2.2079334793506002,31281188000.0,True
+16453,GLB.L,Glanbia plc,LSE,Food - Major Diversified,United Kingdom,2.001706886403767,3875700000.0,True
+16479,GSKCONS.NS,GlaxoSmithKline Consumer Healthcare Limited,NSI,Food - Major Diversified,India,3.0749798581141663,47820053000.0,True
+16486,HGS.NS,Hinduja Global Solutions Limited,NSI,Staffing & Outsourcing Services,India,2.2533596610522526,48166682000.0,True
+16492,GMBREW.NS,G.M.Breweries Limited,NSI,Beverages - Wineries & Distillers,India,7.466908310076917,9822619000.0,True
+16494,GMDCLTD.NS,Gujarat Mineral Development Corporation Limited,NSI,Industrial Metals & Minerals,India,5.852908521025329,18796782000.0,True
+16563,GOLDIAM.NS,Goldiam International Limited,NSI,Jewelry Stores,India,5.612886432569447,4536941000.0,True
+16577,GODFRYPHLP.NS,Godfrey Phillips India Limited,NSI,"Tobacco Products, Other",India,3.6049977433659417,24972305000.0,True
+16591,GPPL.NS,Gujarat Pipavav Port Limited,NSI,Shipping,India,7.309866677386843,7019800000.0,True
+16595,GULFPETRO.NS,GP Petroleums Limited,NSI,Oil & Gas Refining & Marketing,India,2.1801372527407046,6068772474.0,True
+16599,GREAVESCOT.NS,Greaves Cotton Limited,NSI,Diversified Machinery,India,3.0785678030623465,20153200000.0,True
+16600,GRANULES.NS,Granules India Limited,NSI,Drug Manufacturers - Major,India,2.0523848478411897,22791977000.0,True
+16653,GULFOILLUB.NS,Gulf Oil Lubricants India Limited,NSI,Oil & Gas Refining & Marketing,India,2.0558119464794657,17057963000.0,True
+16654,GULPOLY.NS,Gulshan Polyols Limited,NSI,Chemicals - Major Diversified,India,2.5159012886732404,6738861000.0,True
+16660,TAJGVK.NS,TAJGVK Hotels & Resorts Limited,NSI,Lodging,India,2.2288746682923555,3235380000.0,True
+16704,HAVELLS.NS,Havells India Limited,NSI,Diversified Machinery,India,2.427745997359781,100734300000.0,True
+16718,HBLPOWER.NS,HBL Power Systems Limited,NSI,Diversified Electronics,India,2.9423564170455365,12617395000.0,True
+16730,HCLTECH.NS,HCL Technologies Limited,NSI,Information Technology Services,India,3.53274868566212,8632425000.0,True
+16759,HMSB.SG,H & M HENNES & MAURITZ AB Namn-,STU,Textile - Apparel Clothing,Germany,2.2745843027599317,200004000000.0,True
+16770,UDG.L,UDG Healthcare plc,LSE,Medical Equipment Wholesale,United Kingdom,2.3685577428659137,1298523000.0,True
+16782,HEG.NS,HEG Limited,NSI,Diversified Electronics,India,3.8087397236338663,65928300000.0,True
+16784,HEN.F,Henkel AG & Co. KGaA,FRA,Personal Products,France,2.4548936835522204,20114000000.0,True
+16794,HERCULES.NS,Hercules Hoists Limited,NSI,Diversified Machinery,India,18.85621760032133,1021684000.0,True
+16797,HEROMOTOCO.NS,Hero MotoCorp Limited,NSI,Auto Manufacturers - Major,India,3.5127034989673187,339708200000.0,True
+16802,HEXAWARE.NS,Hexaware Technologies Limited,NSI,Information Technology Services,India,2.9707178269151417,55825180000.0,True
+16826,HINDCOMPOS.NS,Hindustan Composites Limited,NSI,Auto Parts,India,9.109053805614751,1966131000.0,True
+16844,HIK.L,Hikma Pharmaceuticals PLC,LSE,Drugs - Generic,United Kingdom,2.1821210438645195,2207000000.0,True
+16846,1883.HK,CITIC Telecom International Holdings Limited,HKG,Wireless Communications,Hong Kong,2.051481005829154,9013980000.0,True
+16848,1137.HK,Hong Kong Television Network Limited,HKG,Wireless Communications,Hong Kong,2.5253703332026816,1413958000.0,True
+16852,0880.HK,SJM HOLDINGS,HKG,Resorts & Casinos,Hong Kong,2.0298172570236988,33875000000.0,True
+16853,0823.HK,LINK REIT,HKG,REIT - Retail,Hong Kong,6.033793305150089,10037000000.0,True
+16857,0623.HK,SINOMEDIA,HKG,Advertising Agencies,Hong Kong,4.953848200258002,1496813000.0,True
+16859,0560.HK,CHU KONG SHIP,HKG,Shipping,Hong Kong,4.719170344923574,2147876000.0,True
+16860,0533.HK,GOLDLION HOLD,HKG,Apparel Stores,Hong Kong,5.4097567800662825,1591930000.0,True
+16863,0511.HK,TVB,HKG,Broadcasting - TV,Hong Kong,2.8587225556602838,3648762000.0,True
+16865,0435.HK,SUNLIGHT REIT,HKG,REIT - Diversified,Hong Kong,4.322018255049283,850705000.0,True
+16866,0420.HK,FOUNTAIN SET,HKG,Textile Industrial,Hong Kong,3.0942655989681302,6605655000.0,True
+16869,0373.HK,ALLIED GROUP,HKG,Asset Management,Hong Kong,3.4330281451339437,5225200000.0,True
+16875,0270.HK,GUANGDONG INV,HKG,Conglomerates,Hong Kong,2.9700752396838417,16691209000.0,True
+16890,0160.HK,HON KWOK LAND,HKG,Asset Management,Hong Kong,2.6159760812299813,1478353000.0,True
+16892,0156.HK,LIPPO CHINA RES,HKG,Asset Management,Hong Kong,3.5995118900324954,2484874000.0,True
+16899,0066.HK,MTR CORPORATION,HKG,Railroads,Hong Kong,2.8239142321512265,54504000000.0,True
+16900,0051.HK,HARBOUR CENTRE,HKG,Lodging,Hong Kong,2.599835134640044,1395000000.0,True
+16901,0031.HK,CHINA AEROSPACE,HKG,Aerospace/Defense - Major Diversified,Hong Kong,2.7619240893378167,3450824000.0,True
+16902,0014.HK,HYSAN DEV,HKG,Real Estate Development,Hong Kong,6.038392134901375,4178000000.0,True
+16903,0010.HK,HANG LUNG GROUP,HKG,Real Estate Development,Hong Kong,3.883285984848485,9618000000.0,True
+16904,0002.HK,CLP HOLDINGS,HKG,Electric Utilities,Hong Kong,2.1665298062447453,85689000000.0,True
+16910,0229.HK,RAYMOND IND,HKG,Electronic Equipment,Hong Kong,3.5864410686312587,1155578000.0,True
+16911,0411.HK,LAM SOON (HK),HKG,Food - Major Diversified,Hong Kong,4.210423611340309,5316205000.0,True
+16916,1093.HK,CSPC Pharmaceutical Group Limited,HKG,Drug Manufacturers - Major,Hong Kong,3.8702521132967966,22103192000.0,True
+16926,0118.HK,COSMOS MACH,HKG,Diversified Machinery,Hong Kong,2.1388092140280324,2344923000.0,True
+16929,0087.HK,Swire Pacific Limited,HKG,Conglomerates,Hong Kong,3.944460827681117,85652000000.0,True
+16930,0194.HK,LIU CHONG HING,HKG,Asset Management,Hong Kong,6.8574738016861225,1276508000.0,True
+16936,0605.HK,China Financial Services Holdings Limited,HKG,"Specialty Retail, Other",Hong Kong,2.780756708520117,797035000.0,True
+16942,0034.HK,KOWLOON DEV,HKG,Real Estate Development,Hong Kong,2.505092780267257,11623523000.0,True
+16943,1881.HK,REGAL REIT,HKG,REIT - Hotel/Motel,Hong Kong,2.371238219983126,975632000.0,True
+16946,0097.HK,HENDERSON INV,HKG,Real Estate Development,Hong Kong,2.023847376788553,1707000000.0,True
+16949,0518.HK,Tungtex (Holdings) Company Limited,HKG,Textile - Apparel Clothing,Hong Kong,2.2606092210970066,965928000.0,True
+16950,0216.HK,"Chinney Investments, Limited",HKG,Textile - Apparel Clothing,Hong Kong,2.46445601367082,1478353000.0,True
+16951,1203.HK,Guangnan (Holdings) Limited,HKG,Steel & Iron,Hong Kong,6.590797392068045,2369724000.0,True
+16956,0570.HK,TRAD CHI MED,HKG,Medical Instruments & Supplies,Hong Kong,2.4192598524919915,14320949000.0,True
+16957,2778.HK,CHAMPION REIT,HKG,REIT - Retail,Hong Kong,4.440431282351058,3080669000.0,True
+16961,1126.HK,DREAM INT'L,HKG,"Specialty Retail, Other",Hong Kong,3.6368562446540738,3973461000.0,True
+16962,0226.HK,LIPPO,HKG,Asset Management,Hong Kong,5.363372411557669,2554210000.0,True
+16967,0345.HK,Vitasoy International Holdings Limited,HKG,Beverages - Soft Drinks,Hong Kong,2.4404589460730888,7526495000.0,True
+16968,0056.HK,Allied Properties (H.K.) Limited,HKG,Real Estate Development,Hong Kong,3.4477997211781446,3183900000.0,True
+16969,0018.HK,ORIENTAL PRESS,HKG,Publishing - Newspapers,Hong Kong,12.641016975092144,1004986000.0,True
+16986,BAJAJHLDNG.NS,Bajaj Holdings & Investment Limited,NSI,Asset Management,India,473.0192644483362,4313300000.0,True
+16991,PHBN.F,Sonova Holding AG,FRA,Medical Appliances & Equipment,France,2.239876852431643,2763200000.0,True
+16997,HLBN.F,LafargeHolcim Ltd,FRA,General Building Materials,France,2.174853604863676,26722000000.0,True
+17030,HTMEDIA.NS,HT Media Limited,NSI,Publishing - Newspapers,India,2.3291143398847405,21938700000.0,True
+17041,1905.TW,Chung Hwa Pulp Corporation,TAI,Paper & Paper Products,Taiwan,2.2693953971837484,20689397000.0,True
+17069,ROMI3.SA,Indústrias Romi S.A.,SAO,Machine Tools & Accessories,Brazil,2.2474246292074254,765506000.0,True
+17084,ICRA.NS,ICRA Limited,NSI,Investment Brokerage - National,India,6.003909993483345,3280600000.0,True
+17093,IDFC.NS,IDFC Limited,NSI,Credit Services,India,73.03957108267035,3660800000.0,True
+17104,MDTN.MX,Medtronic plc,MEX,Medical Appliances & Equipment,Mexico,2.2717694139101363,30557000000.0,True
+17143,IGARASHI.NS,Igarashi Motors India Limited,NSI,Auto Parts,India,2.7846284674995783,6256404000.0,True
+17163,IVC.NS,IL&FS Investment Managers Limited,NSI,Asset Management,India,7.45751938917818,979302000.0,True
+17212,IOSP,Innospec Inc.,NMS,Specialty Chemicals,USA,2.272362739049969,1476900000.0,True
+17228,IPCALAB.NS,Ipca Laboratories Limited,NSI,Drugs - Generic,India,3.221165961181817,37731800000.0,True
+17229,IP.MI,Interpump Group S.p.A.,MIL,Diversified Machinery,Italy,2.0831452300813282,1368618000.0,True
+17230,IPAPPM.NS,International Paper APPM Limited,NSI,Paper & Paper Products,India,2.808725384493157,14273332000.0,True
+17296,SPM.MI,Saipem S.p.A.,MIL,Oil & Gas Equipment & Services,Italy,4.106174698795181,8536000000.0,True
+17302,MS.MI,Mediaset S.p.A.,MIL,Broadcasting - TV,Italy,3.0390828924162263,2925700000.0,True
+17309,ITC.NS,ITC Limited,NSI,"Tobacco Products, Other",India,5.830599468737794,483526800000.0,True
+17336,CALT.MI,Caltagirone SpA,MIL,Asset Management,Italy,2.4336684548574805,1441431000.0,True
+17357,CAI.MI,Cairo Communication S.p.A.,MIL,Advertising Agencies,Italy,2.032049518569464,1182000000.0,True
+17428,JAGSNPHARM.NS,Jagsonpal Pharmaceuticals Limited,NSI,Drug Manufacturers - Major,India,4.336626105841399,1668256000.0,True
+17435,JBCHEPHARM.NS,J. B. Chemicals & Pharmaceuticals Limited,NSI,Drug Manufacturers - Major,India,5.813524832280993,16432004000.0,True
+17443,2233.HK,West China Cement Limited,HKG,General Building Materials,Hong Kong,2.723086899524089,7247389000.0,True
+17479,JOCIL.NS,Jocil Limited,NSI,Chemicals - Major Diversified,India,5.5106405532197975,4024368092.0,True
+17486,MAW.L,"Maruwa Co., Ltd.",LSE,Diversified Electronics,United Kingdom,6.681174402977359,41193000000.0,True
+17497,NTO.F,"Nintendo Co., Ltd.",FRA,Multimedia & Graphics Software,France,6.13527110117384,1200560000000.0,True
+17561,KIRLOSIND.NS,Kirloskar Industries Limited,NSI,Asset Management,India,3.2319932222236933,22209800000.0,True
+17576,KOTHARIPET.NS,Kothari Petrochemicals Limited,NSI,Chemicals - Major Diversified,India,2.327176383644674,2998205000.0,True
+17608,KRBL.NS,KRBL Limited,NSI,Food - Major Diversified,India,2.4291298151485936,41204900000.0,True
+17635,0947.HK,MOBI DEV,HKG,General Contractors,Hong Kong,2.020254843912052,1257215000.0,True
+17646,0320.HK,Computime Group Limited,HKG,Electronic Equipment,Hong Kong,2.3894734686089496,3420131000.0,True
+17660,0743.HK,ASIA CEMENT CH,HKG,General Building Materials,Hong Kong,2.567309231961433,12608716000.0,True
+17662,0822.HK,KA SHUI INT'L,HKG,Diversified Machinery,Hong Kong,2.6064794375795906,1554364000.0,True
+17666,2020.HK,Fidelity RMT-Fidelity SaveEasy 2020,HKG,Textile - Apparel Footwear & Accessories,Hong Kong,2.0448386278211577,33927845000.0,True
+17668,0483.HK,BAUHAUS INT'L,HKG,Textile - Apparel Clothing,Hong Kong,7.160058798126433,1300583000.0,True
+17669,2008.HK,PHOENIX TV,HKG,Broadcasting - TV,Hong Kong,2.7638946349996,3688231000.0,True
+17670,1899.HK,XINGDA INT'L,HKG,Auto Parts,Hong Kong,2.301202586370688,7582682000.0,True
+17672,1164.HK,CGN MINING,HKG,Medical Instruments & Supplies,Hong Kong,2.6889920729720926,2076688000.0,True
+17680,0220.HK,U-PRESID CHINA,HKG,Food - Major Diversified,Hong Kong,2.6780824784296424,22019737000.0,True
+17683,0543.HK,PACIFIC ONLINE,HKG,Internet Information Providers,Hong Kong,3.4433310423046937,990823000.0,True
+17689,1368.HK,XTEP INT'L,HKG,Apparel Stores,Hong Kong,2.29798399767266,8182721000.0,True
+17705,0215.HK,HUTCHTEL HK,HKG,Wireless Communications,Hong Kong,8.369694203560018,5582000000.0,True
+17707,0633.HK,CH ALL ACCESS,HKG,Communication Equipment,Hong Kong,2.1385210354265056,1702670000.0,True
+17708,3398.HK,CHINA TING,HKG,Textile - Apparel Clothing,Hong Kong,3.3433244771479944,1899011000.0,True
+17717,1177.HK,SINO BIOPHARM,HKG,Biotechnology,Hong Kong,3.236207431460215,24234030000.0,True
+17721,3339.HK,LONKING,HKG,Diversified Machinery,Hong Kong,2.638223103131749,11743824000.0,True
+17729,0580.HK,SUN.KING ELEC,HKG,Diversified Electronics,Hong Kong,2.9235009591856262,1395638000.0,True
+17735,0573.HK,TAO HEUNG HLDGS,HKG,Restaurants,Hong Kong,2.149765242390918,3905708000.0,True
+17738,0374.HK,FOUR SEAS MER,HKG,Food Wholesale,Hong Kong,2.3662808744212422,3028987000.0,True
+17745,2005.HK,SSY GROUP,HKG,Drug Manufacturers - Major,Hong Kong,3.04444279783099,4635675000.0,True
+17750,2314.HK,LEE & MAN PAPER,HKG,Paper & Paper Products,Hong Kong,2.1790473291268184,32208082000.0,True
+17758,UNICHEMLAB.NS,Unichem Laboratories Limited,NSI,Drug Manufacturers - Major,India,5.945977248451308,11800468000.0,True
+17785,LAXMIMACH.NS,Lakshmi Machine Works Limited,NSI,Diversified Machinery,India,3.2914669249085318,27142265000.0,True
+17825,LEN.MX,Lennar Corporation,MEX,Residential Construction,Mexico,2.203227812522301,22259561000.0,True
+17846,3588.TW,Leadtrend Technology Corporation,TAI,Semiconductor - Broad Line,Taiwan,6.747831782356224,1048390000.0,True
+17856,LGBBROSLTD.NS,L.G. Balakrishnan & Bros Limited,NSI,Auto Parts,India,2.259880376258525,16879987000.0,True
+17859,SUVEN.NS,Suven Life Sciences Limited,NSI,Drugs - Generic,India,4.997207225234448,6637950000.0,True
+17861,RPGLIFE.NS,RPG Life Sciences Limited,NSI,Drugs - Generic,India,2.7687899493057087,3301600000.0,True
+17873,MOIL.NS,MOIL Limited,NSI,Industrial Metals & Minerals,India,6.903878306373677,14406660000.0,True
+17874,SYMPHONY.NS,Symphony Limited,NSI,Electronic Equipment,India,2.6687939372787555,8436100000.0,True
+17879,BANCOINDIA.NS,Banco Products (India) Limited,NSI,Auto Parts,India,3.1256492003842418,15665937000.0,True
+17887,LJ3.SI,OUE Limited,SES,Lodging,Singapore,2.3248158307082734,930837000.0,True
+17889,LLIS3.SA,Restoque ComÃ©rcio e ConfecÃ§Ãµes de Roupas S.A.,SAO,Apparel Stores,Brazil,2.5013753274749826,1244145000.0,True
+17896,PETRONET.NS,Petronet LNG Limited,NSI,Oil & Gas Refining & Marketing,India,3.0384676693047683,383954300000.0,True
+17899,PATINTLOG.NS,Patel Integrated Logistics Limited,NSI,Air Delivery & Freight Services,India,2.2944836820756076,4477482834.0,True
+17901,SHREYAS.NS,Shreyas Shipping and Logistics Limited,NSI,Shipping,India,2.084928492849285,6247900000.0,True
+17916,LOKESHMACH.NS,Lokesh Machines Limited,NSI,Diversified Machinery,India,2.001290689184956,1904407000.0,True
+17917,LOR.DE,L'Oréal S.A.,FRA,Personal Products,France,3.0457737176545843,29873600000.0,True
+17919,LOR.F,L'Oréal S.A.,FRA,Personal Products,France,3.0457737176545843,29873600000.0,True
+17951,TITAN.NS,Titan Company Limited,NSI,Jewelry Stores,India,2.0804845303337585,197785200000.0,True
+17958,TAKE.NS,TAKE Solutions Limited,NSI,Information Technology Services,India,2.893865374505272,20389990000.0,True
+17960,0973.HK,L'OCCITANE,HKG,Personal Products,Hong Kong,2.23239131645561,1426874000.0,True
+17962,TEN.MI,Tenaris S.A.,MIL,Steel & Iron,Italy,5.5871733959593,7294055000.0,True
+17984,MFT.NZ,Mainfreight Limited,NZE,Air Delivery & Freight Services,New Zealand,2.2614321354732505,2953414000.0,True
+17986,MASTEK.NS,Mastek Limited,NSI,Information Technology Services,India,3.6483309304646783,10332100000.0,True
+18000,MLM.MX,"Martin Marietta Materials, Inc.",MEX,General Building Materials,Mexico,2.1203356842391647,4422300000.0,True
+18011,TSMN.MX,Taiwan Semiconductor Manufacturing Company Limited,MEX,Semiconductor - Broad Line,Mexico,3.523838777041711,1069985448000.0,True
+18024,MARICO.NS,Marico Limited,NSI,Personal Products,India,2.737875288683602,73340000000.0,True
+18028,MRO.MX,Marathon Oil Corporation,MEX,Independent Oil & Gas,Mexico,2.5018536826495303,5125000000.0,True
+18036,MANINFRA.NS,Man Infraconstruction Limited,NSI,General Contractors,India,2.2074625466077187,3712571000.0,True
+18088,MDN.DE,Medion AG,GER,Electronic Equipment,Germany,2.1611676747506885,741570000.0,True
+18111,POLYMED.NS,Poly Medicure Limited,NSI,Medical Instruments & Supplies,India,2.3991063947183444,6108253000.0,True
+18122,SHILPAMED.NS,Shilpa Medicare Limited,NSI,Drugs - Generic,India,3.8321711559131337,7333877000.0,True
+18132,RATNAMANI.NS,Ratnamani Metals & Tubes Limited,NSI,Steel & Iron,India,3.871100260025088,27549032000.0,True
+18133,INDRAMEDCO.NS,Indraprastha Medical Corporation Limited,NSI,Hospitals,India,2.3684363995244824,7881720000.0,True
+18166,MIRZAINT.NS,Mirza International Limited,NSI,Textile - Apparel Footwear & Accessories,India,2.2149894720114416,11517000000.0,True
+18194,SARDAEN.NS,Sarda Energy & Minerals Limited,NSI,Steel & Iron,India,2.029712626715964,23238896000.0,True
+18258,CHLN.MX,China Mobile Limited,MEX,Wireless Communications,Mexico,3.121442434251492,745917000000.0,True
+18278,SANGHVIMOV.NS,Sanghvi Movers Limited,NSI,Farm & Construction Machinery,India,2.436073199777494,2823972000.0,True
+18285,MPHASIS.NS,MphasiS Limited,NSI,Information Technology Services,India,3.4748770061341365,77309800000.0,True
+18289,MPSLTD.NS,MPS Limited,NSI,Publishing - Newspapers,India,8.110792161692263,3682057000.0,True
+18305,MRN.PA,Mersen S.A.,PAR,Diversified Electronics,France,2.004047158191096,950200000.0,True
+18328,MUNJALSHOW.NS,Munjal Showa Limited,NSI,Auto Parts,India,4.3764180197156985,16692945000.0,True
+18362,CADUA.MX,"Corpovael, S.A. de C.V.",MEX,Real Estate Development,Mexico,2.064259986936116,4585188000.0,True
+18375,NATCOPHARM.NS,Natco Pharma Limited,NSI,Drug Manufacturers - Major,India,5.298731683290235,20945000000.0,True
+18398,NOV.MX,"National Oilwell Varco, Inc.",MEX,Oil & Gas Equipment & Services,Mexico,2.4795398830850464,8479000000.0,True
+18434,SUNTV.NS,Sun TV Network Limited,NSI,Broadcasting - TV,India,9.294581664942037,37836600000.0,True
+18438,NESCO.NS,Nesco Limited,NSI,Business Services,India,7.566168794194947,3918317000.0,True
+18439,NEC.AX,Nine Entertainment Co. Holdings Limited,ASX,Broadcasting - TV,Australia,2.6954598391548754,1965074000.0,True
+18453,TVTODAY.NS,T.V. Today Network Limited,NSI,Broadcasting - TV,India,5.428630187946173,7422417000.0,True
+18461,NMM.F,Newmont Mining Corporation,FRA,Gold,France,2.276812667312184,9740000000.0,True
+18479,NMM.DE,Newmont Mining Corporation,FRA,Gold,France,2.276812667312184,9740000000.0,True
+18495,NIITTECH.NS,NIIT Technologies Limited,NSI,Information Technology Services,India,3.6207157258064515,36762000000.0,True
+18499,NIPPOBATRY.NS,Indo National Limited,NSI,Diversified Electronics,India,2.041790711584702,4432326000.0,True
+18503,NILKAMAL.NS,Nilkamal Limited,NSI,Rubber & Plastics,India,3.7466095767925895,23623637000.0,True
+18541,GRINDWELL.NS,Grindwell Norton Limited,NSI,General Building Materials,India,4.294133333333333,15980636000.0,True
+18589,NUE.MX,Nucor Corporation,MEX,Steel & Iron,Mexico,2.4286344457992266,22588858000.0,True
+18600,NVD.F,NVIDIA Corporation,FRA,Semiconductor - Broad Line,France,3.387791038935629,10918000000.0,True
+18610,MEZ.AX,Meridian Energy Limited,ASX,Diversified Utilities,Australia,2.2992857142857144,3491000000.0,True
+18642,SCI.NS,The Shipping Corporation of India Limited,NSI,Shipping,India,2.002256158391528,39258600000.0,True
+18643,TINPLATE.NS,The Tinplate Company Of India Limited,NSI,Steel & Iron,India,2.528526537821401,25871932000.0,True
+18666,SOTL.NS,Savita Oil Technologies Limited,NSI,Specialty Chemicals,India,2.468772884770277,22625187000.0,True
+18697,ORIENTPPR.NS,Orient Paper & Industries Limited,NSI,Home Furnishings & Fixtures,India,4.297031918309616,7100448000.0,True
+18705,OR.MI,L'Oréal S.A.,MIL,Personal Products,Italy,3.0457737176545843,29873600000.0,True
+18707,VINATIORGA.NS,Vinati Organics Limited,NSI,Chemicals - Major Diversified,India,6.963142690053836,11279236000.0,True
+18710,ORIENTHOT.NS,Oriental Hotels Limited,NSI,Lodging,India,2.678120040842708,3467858000.0,True
+18733,PAGEIND.NS,Page Industries Limited,NSI,Textile - Apparel Clothing,India,2.346415982015195,28521990000.0,True
+18747,TSUN.MX,TIM Participações S.A.,MEX,Wireless Communications,Mexico,2.2519777468526447,16981329000.0,True
+18788,STARPAPER.NS,Star Paper Mills Limited,NSI,Paper & Paper Products,India,4.338751938751939,3777481000.0,True
+18816,PES.F,Pearson plc,FRA,Publishing - Newspapers,France,2.2993688007213704,3869000000.0,True
+18825,SUPPETRO.NS,Supreme Petrochem Limited,NSI,Chemicals - Major Diversified,India,2.110628796112836,31876432000.0,True
+18827,PTRN.MX,PetroChina Company Limited,MEX,Major Integrated Oil & Gas,Mexico,2.121034104912883,2516810000000.0,True
+18840,PERSISTENT.NS,Persistent Systems Limited,NSI,Business Software & Services,India,5.589142310229215,33659410000.0,True
+18841,TNPETRO.NS,Tamilnadu Petroproducts Limited,NSI,Chemicals - Major Diversified,India,3.0809108138216748,12453273000.0,True
+18849,MANALIPETC.NS,Manali Petrochemicals Limited,NSI,Chemicals - Major Diversified,India,3.290529138247335,8102458000.0,True
+18851,WOPA.F,Woodside Petroleum Ltd,FRA,Independent Oil & Gas,France,2.4575519089082385,4873000000.0,True
+18856,PFIZER.NS,Pfizer Limited,NSI,Drug Manufacturers - Major,India,4.242707155548377,20815000000.0,True
+18893,PIIND.NS,PI Industries Limited,NSI,Agricultural Chemicals,India,3.6287094547964114,28409000000.0,True
+18895,SRIPIPES.NS,Srikalahasthi Pipes Limited,NSI,Metal Fabrication,India,2.368364818575912,15588044000.0,True
+18898,PIDILITIND.NS,Pidilite Industries Limited,NSI,Specialty Chemicals,India,3.7931275532781368,70787400000.0,True
+18908,PLASTIBLEN.NS,Plastiblends India Ltd.,NSI,Specialty Chemicals,India,2.8368540179966097,6268538000.0,True
+18928,PONNIERODE.NS,Ponni Sugars (Erode) Limited,NSI,Confectioners,India,3.9828781084386464,1848400000.0,True
+18933,POLYPLEX.NS,Polyplex Corporation Limited,NSI,Packaging & Containers,India,4.343953492137709,45698925000.0,True
+18935,HONDAPOWER.NS,Honda Siel Power Products Limited,NSI,Diversified Machinery,India,4.736811677988149,8158800000.0,True
+18954,TDPOWERSYS.NS,TD Power Systems Limited,NSI,Diversified Machinery,India,2.24928249948138,4590220000.0,True
+18970,TTKPRESTIG.NS,TTK Prestige Limited,NSI,Home Furnishings & Fixtures,India,3.401700953440004,21069100000.0,True
+19000,PUM.DE,PUMA SE,GER,Textile - Apparel Footwear & Accessories,Germany,2.1597306397306397,4648300000.0,True
+19029,INGERRAND.NS,Ingersoll-Rand (India) Limited,NSI,Diversified Machinery,India,3.313892497609032,7390747000.0,True
+19034,RAA.F,RATIONAL Aktiengesellschaft,FRA,Industrial Equipment Wholesale,France,3.85331068485898,843633000.0,True
+19039,RALLIS.NS,Rallis India Limited,NSI,Agricultural Chemicals,India,2.436343991586511,19839589000.0,True
+19044,RAMCOIND.NS,Ramco Industries Limited,NSI,General Building Materials,India,7.723653108942178,10364955000.0,True
+19054,RANEHOLDIN.NS,Rane Holdings Limited,NSI,Auto Parts,India,2.013411036504805,25490700000.0,True
+19067,RDW.L,Redrow plc,LSE,Residential Construction,United Kingdom,2.5554465161923456,2112000000.0,True
+19071,RIIL.NS,Reliance Industrial Infrastructure Limited,NSI,General Contractors,India,10.423230818508594,845858000.0,True
+19093,RIO1.F,Rio Tinto plc,FRA,Industrial Metals & Minerals,France,2.063016917293233,43165000000.0,True
+19097,RION.MX,Rio Tinto plc,MEX,Industrial Metals & Minerals,Mexico,2.063016917293233,43165000000.0,True
+19127,RPL.F,UPM-Kymmene Oyj,FRA,Paper & Paper Products,France,3.2377391686826478,10238000000.0,True
+19162,SAP.TO,Saputo Inc.,TOR,Food - Major Diversified,Canada,2.2139705717677094,13501900000.0,True
+19164,SAKSOFT.NS,Saksoft Limited,NSI,Information Technology Services,India,2.8319707138499086,3580450000.0,True
+19174,SANDESH.NS,The Sandesh Limited,NSI,Publishing - Newspapers,India,11.440471136459472,4388445000.0,True
+19176,SAPN.MX,SAP SE,MEX,Technical & System Software,Mexico,2.0486170176572647,27553000000.0,True
+19203,TMO.MX,Thermo Fisher Scientific Inc.,MEX,Medical Laboratories & Research,Mexico,2.033756009196684,25542000000.0,True
+19204,MAHSCOOTER.NS,Maharashtra Scooters Limited,NSI,Auto Parts,India,29.322525471778807,949730000.0,True
+19230,MAHSEAMLES.NS,Maharashtra Seamless Limited,NSI,Steel & Iron,India,2.7800472893889467,30727087000.0,True
+19231,SSM.AX,Service Stream Limited,ASX,General Contractors,Australia,2.0279118390685587,850959000.0,True
+19255,S08.SI,Singapore Post Limited,SES,Business Services,Singapore,2.731855269786405,1556690000.0,True
+19258,0778.HK,FORTUNE REIT,HKG,REIT - Retail,Hong Kong,4.129301226652025,1959697000.0,True
+19297,CH8.SI,China Sunsine Chemical Holdings Ltd.,SES,Rubber & Plastics,Singapore,6.514175627452607,3283260000.0,True
+19319,S58.SI,SATS Ltd.,SES,"Air Services, Other",Singapore,4.07303952241633,1828019000.0,True
+19350,TRS.AX,The Reject Shop Limited,ASX,"Discount, Variety Stores",Australia,2.253270130805232,793687000.0,True
+19356,2611.TW,Tze Shin International Co. Ltd.,TAI,Shipping,Taiwan,2.35304430313038,902882000.0,True
+19370,SIYSIL.NS,Siyaram Silk Mills Limited,NSI,Textile Industrial,India,2.0098075109765654,18161688000.0,True
+19376,SICAGEN.NS,Sicagen India Limited,NSI,General Building Materials,India,2.264724362578128,8203400000.0,True
+19397,SJVN.NS,SJVN Limited,NSI,Electric Utilities,India,4.017172782173144,26540500000.0,True
+19423,SNW.F,Sanofi,FRA,Drug Manufacturers - Major,France,2.10218542552398,35677000000.0,True
+19430,SOW.DE,Software Aktiengesellschaft,GER,Business Software & Services,Germany,2.7893458224804646,890607000.0,True
+19445,AURIONPRO.NS,aurionPro Solutions Limited,NSI,Business Software & Services,India,2.4430459534122737,5221508000.0,True
+19463,SXSN.MX,Spectris plc,MEX,Scientific & Technical Instruments,Mexico,3.0259083243906177,1632000000.0,True
+19502,STERTOOLS.NS,Sterling Tools Limited,NSI,Machine Tools & Accessories,India,2.5801411384022748,5122035000.0,True
+19526,SUNTECK.NS,Sunteck Realty Limited,NSI,Real Estate Development,India,3.9304303575164377,8567921000.0,True
+19534,SUPRAJIT.NS,Suprajit Engineering Limited,NSI,Auto Parts,India,2.1531198997847216,15899000000.0,True
+19541,SUPREMEIND.NS,The Supreme Industries Limited,NSI,Rubber & Plastics,India,3.003134009113736,56119900000.0,True
+19568,UHR.F,The Swatch Group AG,FRA,Jewelry Stores,France,6.226466575716237,8475000000.0,True
+19578,SWELECTES.NS,Swelect Energy Systems Limited,NSI,Diversified Utilities,India,3.6869899713329204,2276688000.0,True
+19615,TATAMETALI.NS,Tata Metaliks Limited,NSI,Steel & Iron,India,2.246453583789669,21604238000.0,True
+19626,VIVT3.SA,Telefônica Brasil S.A.,SAO,Wireless Communications,Brazil,2.8622220711535062,44268171000.0,True
+19630,TATAINVEST.NS,Tata Investment Corporation Limited,NSI,Investment Brokerage - National,India,6.104451091361287,1771483000.0,True
+19633,TTK.F,TAKKT AG,FRA,Marketing Services,France,2.4113876212363867,1183064000.0,True
+19637,TANLA.NS,Tanla Solutions Limited,NSI,Technical & System Software,India,2.8683987625240657,10039647404.0,True
+19653,TIIL.NS,Technocraft Industries (India) Limited,NSI,Machine Tools & Accessories,India,2.0520889837745733,13134594000.0,True
+19670,TIMETECHNO.NS,Time Technoplast Limited,NSI,Packaging & Containers,India,2.1557217097471573,35669606000.0,True
+19674,TIPSINDLTD.NS,Tips Industries Limited,NSI,Entertainment - Diversified,India,3.953359353801841,2032388000.0,True
+19709,TOTS3.SA,TOTVS S.A.,SAO,Technical & System Software,Brazil,3.3436092813550222,2282124000.0,True
+19730,TRITURBINE.NS,Triveni Turbine Limited,NSI,Diversified Machinery,India,2.409339533673702,8399860000.0,True
+19735,9945.TW,"Ruentex Development Co.,Ltd.",TAI,Property Management,Taiwan,2.318997958411262,17257930000.0,True
+19738,9908.TW,The Great Taipei Gas Corporation,TAI,Gas Utilities,Taiwan,3.42113187133987,4236594000.0,True
+19739,9907.TW,Ton Yi Industrial Corp.,TAI,Packaging & Containers,Taiwan,2.1635594162183147,32527535000.0,True
+19740,8926.TW,Taiwan Cogeneration Corporation,TAI,Diversified Utilities,Taiwan,2.4533105792703136,7186086000.0,True
+19741,6239.TW,Powertech Technology Inc.,TAI,Semiconductor Equipment & Materials,Taiwan,2.0507185746261225,66525144000.0,True
+19742,6206.TW,"Flytech Technology Co., Ltd.",TAI,Business Equipment,Taiwan,5.468549944884534,5330472000.0,True
+19743,6201.TW,"YaHorng Electronic Co., Ltd.",TAI,Electronic Equipment,Taiwan,4.04747596910944,3235177000.0,True
+19744,6168.TW,Harvatek Corporation,TAI,Semiconductor - Broad Line,Taiwan,3.897033579214872,2163869000.0,True
+19754,3545.TW,"FocalTech Systems Co., Ltd.",TAI,Semiconductor Equipment & Materials,Taiwan,2.994469906697096,9160261000.0,True
+19755,3504.TW,Young Optics Inc.,TAI,Diversified Electronics,Taiwan,2.231455728723143,4819901000.0,True
+19759,3035.TW,Faraday Technology Corporation,TAI,Semiconductor Equipment & Materials,Taiwan,3.1574902184571894,5306351000.0,True
+19760,3034.TW,Novatek Microelectronics Corp.,TAI,Semiconductor - Broad Line,Taiwan,2.7078252764712984,64372306000.0,True
+19761,3026.TW,"Holy Stone Enterprise Co., Ltd.",TAI,Diversified Electronics,Taiwan,3.1343326047533195,14601179000.0,True
+19763,3022.TW,IEI Integration Corp.,TAI,Computer Based Systems,Taiwan,3.7129828534577203,5606591000.0,True
+19764,3019.TW,"Asia Optical Co., Inc.",TAI,Diversified Electronics,Taiwan,4.691093477374054,18117631000.0,True
+19767,2915.TW,Ruentex Industries Limited,TAI,Textile Industrial,Taiwan,2.083097321359526,3486392000.0,True
+19769,2906.TW,"Collins Co., Ltd.",TAI,"Specialty Retail, Other",Taiwan,2.376671381915608,7224546000.0,True
+19778,2605.TW,Sincere Navigation Corporation,TAI,Shipping,Taiwan,3.53063958178161,4317241000.0,True
+19781,2495.TW,Infortrend Technology Inc.,TAI,Data Storage Devices,Taiwan,5.192521765645823,1378533000.0,True
+19782,2478.TW,"TA-I Technology Co., Ltd.",TAI,Semiconductor - Broad Line,Taiwan,3.2011003514193983,4509466000.0,True
+19783,2457.TW,"Phihong Technology Co., Ltd.",TAI,Electronic Equipment,Taiwan,2.064190996941234,10694604000.0,True
+19784,2456.TW,Chilisin Electronics Corp.,TAI,Diversified Electronics,Taiwan,2.4211705373307137,15870564000.0,True
+19787,2419.TW,Hitron Technologies Inc.,TAI,Communication Equipment,Taiwan,2.268070318626128,10325500000.0,True
+19789,2383.TW,"Elite Material Co., Ltd.",TAI,Printed Circuit Boards,Taiwan,2.185825812603575,24865522000.0,True
+19791,2377.TW,"Micro-Star International Co., Ltd.",TAI,Computer Based Systems,Taiwan,2.057138264091963,120491417000.0,True
+19792,2374.TW,"Ability Enterprise Co., Ltd.",TAI,Diversified Electronics,Taiwan,2.9922584703470783,6591161000.0,True
+19797,2338.TW,Taiwan Mask Corporation,TAI,Semiconductor Equipment & Materials,Taiwan,2.994418472739784,3468682000.0,True
+19799,2328.TW,Pan-International Industrial Corp.,TAI,Printed Circuit Boards,Taiwan,2.3806963628811366,25600708000.0,True
+19805,2227.TW,"Yulon Nissan Motor Co., Ltd",TAI,Auto Manufacturers - Major,Taiwan,4.082748101551253,32498607000.0,True
+19809,2010.TW,"Chun Yuan Steel Industry Co.,Ltd.",TAI,Steel & Iron,Taiwan,2.582198723515872,16735011000.0,True
+19810,2006.TW,Tung Ho Steel Enterprise Corporation,TAI,Steel & Iron,Taiwan,2.0389617535493234,44863600000.0,True
+19811,1809.TW,"China Glaze Co., Ltd.",TAI,General Building Materials,Taiwan,4.789798169968512,2276913000.0,True
+19813,1731.TW,Maywufa Company Ltd.,TAI,Drugs - Generic,Taiwan,2.797534836719498,1100863000.0,True
+19814,1614.TW,"Taiwan Sanyo Electric Co.,Ltd.",TAI,Electronic Equipment,Taiwan,5.733169629098746,5201892000.0,True
+19815,1605.TW,Walsin Lihwa Corporation,TAI,Industrial Equipment Wholesale,Taiwan,2.3204324994191623,134804405000.0,True
+19816,1582.TW,Syncmold Enterprise Corp.,TAI,Diversified Machinery,Taiwan,2.3283306381809616,8582344000.0,True
+19819,1521.TW,"Ta Yih Industrial Co., Ltd.",TAI,Auto Parts,Taiwan,2.0957555984393568,5390196000.0,True
+19822,1326.TW,Formosa Chemicals & Fibre Corporation,TAI,Chemicals - Major Diversified,Taiwan,3.897469924086594,315499063000.0,True
+19825,1232.TW,TTET Union Corporation,TAI,Food - Major Diversified,Taiwan,3.4650865155131263,17150108000.0,True
+19829,9943.TW,"Holiday Entertainment Co.,Ltd",TAI,Entertainment - Diversified,Taiwan,3.1659533639377417,2990311000.0,True
+19834,9927.TW,"Thye Ming Industrial Co., Ltd.",TAI,Industrial Metals & Minerals,Taiwan,5.270874715104356,9840519000.0,True
+19835,9925.TW,"Taiwan Shin Kong Security Co.,Ltd.",TAI,Security & Protection Services,Taiwan,2.912813631765538,7078709000.0,True
+19836,9924.TW,"Taiwan Fu Hsing Industrial Co., Ltd.",TAI,Home Furnishings & Fixtures,Taiwan,3.0344363162176147,8681906000.0,True
+19838,9918.TW,Shin Shin Natural Gas Company Limited,TAI,Gas Utilities,Taiwan,2.4543954703077486,2160628000.0,True
+19839,9914.TW,"Merida Industry Co.,Ltd.",TAI,"Recreational Goods, Other",Taiwan,2.2772855732898942,28243214000.0,True
+19840,9911.TW,Taiwan Sakura Corporation,TAI,Home Furnishings & Fixtures,Taiwan,3.171752866415518,6298976000.0,True
+19843,8081.TW,Global Mixed-Mode Technology Inc.,TAI,Semiconductor - Broad Line,Taiwan,3.24002276484704,5672678000.0,True
+19844,8072.TW,AV TECH Corporation,TAI,Computer Based Systems,Taiwan,14.167176996240798,804056000.0,True
+19845,8046.TW,Nan Ya Printed Circuit Board Corporation,TAI,Printed Circuit Boards,Taiwan,4.2155217487171885,31093989000.0,True
+19846,8016.TW,Sitronix Technology Corporation,TAI,Semiconductor Equipment & Materials,Taiwan,2.589736456286707,13802738000.0,True
+19849,6281.TW,E-Life Mall Corporation,TAI,Electronics Wholesale,Taiwan,2.137838713026806,17525668000.0,True
+19850,6257.TW,Sigurd Microelectronics Corporation,TAI,Semiconductor Equipment & Materials,Taiwan,2.2041556951140318,10046619000.0,True
+19854,6205.TW,"Chant Sincere Co., Ltd.",TAI,Diversified Electronics,Taiwan,4.568035470723703,1176905000.0,True
+19855,6197.TW,"Jess-link Products Co., Ltd.",TAI,Computer Based Systems,Taiwan,3.6687461683625764,3609423000.0,True
+19856,6192.TW,"Lumax International Corp., Ltd.",TAI,Diversified Electronics,Taiwan,2.61683288993712,6257649000.0,True
+19857,6184.TW,Dafeng TV Ltd.,TAI,CATV Systems,Taiwan,2.1083486258350286,2007085000.0,True
+19858,6166.TW,"ADLINK Technology, Inc.",TAI,Computer Based Systems,Taiwan,2.25249344855994,10497070000.0,True
+19860,6141.TW,"Plotech Co.,Ltd",TAI,Printed Circuit Boards,Taiwan,2.089765952378288,3046243000.0,True
+19867,5471.TW,"Sonix Technology Co., Ltd.",TAI,Semiconductor - Broad Line,Taiwan,5.803859424022776,3234503000.0,True
+19869,4904.TW,"Far EasTone Telecommunications Co., Ltd.",TAI,Wireless Communications,Taiwan,2.1109233866752546,83865872000.0,True
+19872,4106.TW,Apex Medical Corporation,TAI,Medical Appliances & Equipment,Taiwan,3.049599819067937,2036232000.0,True
+19877,3533.TW,"LOTES Co., Ltd.",TAI,Diversified Electronics,Taiwan,4.358858324584928,15088872000.0,True
+19879,3515.TW,ASRock Inc.,TAI,Computer Based Systems,Taiwan,2.6933280513575952,13415090000.0,True
+19880,3501.TW,"Well Shin Technology Co., Ltd.",TAI,Diversified Electronics,Taiwan,4.071057996255589,4861898000.0,True
+19881,3443.TW,Global UniChip Corp.,TAI,Semiconductor - Broad Line,Taiwan,2.070817115599042,10710068000.0,True
+19884,3356.TW,GeoVision Inc.,TAI,Security & Protection Services,Taiwan,2.324972119541382,1480385000.0,True
+19887,3189.TW,Kinsus Interconnect Technology Corp.,TAI,Semiconductor Equipment & Materials,Taiwan,3.3104872908342027,22327410000.0,True
+19888,3130.TW,104 Corporation,TAI,Staffing & Outsourcing Services,Taiwan,2.379960539411332,1636383000.0,True
+19890,3090.TW,Nichidenbo Corporation,TAI,Diversified Electronics,Taiwan,2.531760494641921,8820029000.0,True
+19897,3031.TW,Bright LED Electronics Corp.,TAI,Semiconductor - Broad Line,Taiwan,5.883702777275909,1650740000.0,True
+19898,3008.TW,"Largan Precision Co., Ltd.",TAI,Diversified Electronics,Taiwan,5.6082599309230865,60745008000.0,True
+19899,3003.TW,K.S. Terminals Inc.,TAI,Electronic Equipment,Taiwan,3.3920043937650384,3502493000.0,True
+19913,2617.TW,"Taiwan Navigation Co., Ltd.",TAI,Shipping,Taiwan,3.1018337324764738,3113990000.0,True
+19923,2504.TW,"Taiwan Building Materials Co., Ltd.",TAI,General Building Materials,Taiwan,2.3793880915344894,18644806000.0,True
+19924,2493.TW,"Ampoc Far-East Co., Ltd.",TAI,Semiconductor Equipment & Materials,Taiwan,3.3066421127855565,2482446000.0,True
+19925,2492.TW,Walsin Technology Corporation,TAI,Electronic Equipment,Taiwan,2.5480777421858627,30134180000.0,True
+19926,2485.TW,Zinwell Corporation,TAI,Communication Equipment,Taiwan,4.70488682051216,7779711000.0,True
+19927,2483.TW,"Excel Cell Electronic Co., Ltd.",TAI,Diversified Electronics,Taiwan,2.8635363124416995,1788578000.0,True
+19928,2477.TW,"Meiloon Industrial Co., Ltd.",TAI,Electronic Equipment,Taiwan,2.280581659835696,3869031000.0,True
+19929,2468.TW,Fortune Information Systems Corp,TAI,Computer Based Systems,Taiwan,2.478714228186176,2219941000.0,True
+19932,2462.TW,"Taiwan Line Tek Electronic Co., Ltd.",TAI,Electronic Equipment,Taiwan,2.1865903077273257,4709422000.0,True
+19934,2455.TW,"Visual Photonics Epitaxy Co., Ltd.",TAI,Semiconductor Equipment & Materials,Taiwan,2.8763572853629924,2530909000.0,True
+19935,2451.TW,"Transcend Information, Inc.",TAI,Data Storage Devices,Taiwan,11.817990771162055,13496186000.0,True
+19940,2441.TW,Greatek Electronics Inc.,TAI,Semiconductor Equipment & Materials,Taiwan,6.8200798789200805,12030481000.0,True
+19941,2431.TW,"Lien Chang Electronic Enterprise Co., Ltd.",TAI,Diversified Electronics,Taiwan,2.47338688193563,2967216000.0,True
+19942,2426.TW,Tyntek Corporation,TAI,Semiconductor - Broad Line,Taiwan,2.482416546264793,2519855000.0,True
+19944,2420.TW,Zippy Technology Corp.,TAI,Diversified Electronics,Taiwan,2.133595347648262,2669131000.0,True
+19946,2412.TW,"Chunghwa Telecom Co., Ltd.",TAI,Wireless Communications,Taiwan,5.243079131419341,207520061000.0,True
+19947,2402.TW,"Ichia Technologies, Inc.",TAI,Printed Circuit Boards,Taiwan,3.226683172719857,6148946000.0,True
+19948,2401.TW,Sunplus Technology Company Limited,TAI,Semiconductor - Broad Line,Taiwan,5.9933810657480455,5512330000.0,True
+19949,2397.TW,DFI Inc.,TAI,Computer Based Systems,Taiwan,2.5910923794790683,7031784000.0,True
+19950,2395.TW,"Advantech Co., Ltd.",TAI,Computer Based Systems,Taiwan,3.2597391067034627,54144662000.0,True
+19951,2393.TW,Everlight Electronics Co. Ltd.,TAI,Semiconductor - Broad Line,Taiwan,2.541459144729316,20966541000.0,True
+19956,2369.TW,"Lingsen Precision Industries, Ltd.",TAI,Semiconductor Equipment & Materials,Taiwan,3.6878515254320114,4719390000.0,True
+19958,2365.TW,KYE Systems Corp.,TAI,Computer Based Systems,Taiwan,6.798768021854468,1605479000.0,True
+19963,2357.TW,ASUSTeK Computer Inc.,TAI,Computer Based Systems,Taiwan,2.0863543416073367,351330493000.0,True
+19971,2103.TW,TSRC Corporation,TAI,Rubber & Plastics,Taiwan,2.024313170051425,28910723000.0,True
+19972,2034.TW,"YC Inox Co., Ltd.",TAI,Steel & Iron,Taiwan,2.5867366753108763,16308739000.0,True
+19973,2029.TW,"Sheng Yu Steel Co., Ltd.",TAI,Steel & Iron,Taiwan,10.862161947904868,9877956000.0,True
+19978,2015.TW,"Feng Hsin Steel Co.,Ltd",TAI,Steel & Iron,Taiwan,6.7510637588599405,30865647000.0,True
+19983,1737.TW,"Taiyen Biotech Co., Ltd.",TAI,Personal Products,Taiwan,5.24718966944231,2906615000.0,True
+19984,1734.TW,"Sinphar Pharmaceutical Co., Ltd.",TAI,Biotechnology,Taiwan,2.394055555713943,2394589000.0,True
+19985,1725.TW,"Yuan Jen Enterprises Co., Ltd.",TAI,Chemicals - Major Diversified,Taiwan,2.7689265084278367,8587730000.0,True
+19986,1724.TW,"T.N.C. Industrial Co., Ltd.",TAI,Chemicals - Major Diversified,Taiwan,3.5688439406428207,1901165000.0,True
+19987,1720.TW,Standard Chemical & Pharmaceutical Co. Ltd.,TAI,Biotechnology,Taiwan,3.036490015923155,3937129000.0,True
+19992,1707.TW,Grape King Bio Ltd,TAI,Drugs - Generic,Taiwan,2.9214072046867727,9239070000.0,True
+19993,1701.TW,"China Chemical & Pharmaceutical Co., Ltd.",TAI,Biotechnology,Taiwan,2.0533472068715515,7969700000.0,True
+19994,1617.TW,"Jung Shing Wire Co., Ltd.",TAI,Electronics Wholesale,Taiwan,2.317827789012783,2908588000.0,True
+19995,1612.TW,"Hong Tai Electric Industrial Co., Ltd.",TAI,Diversified Electronics,Taiwan,4.930417137746579,3504313000.0,True
+19996,1611.TW,China Electric Mfg. Corporation,TAI,Home Furnishings & Fixtures,Taiwan,5.505868230066897,2351604000.0,True
+20000,1560.TW,Kinik Company,TAI,Diversified Machinery,Taiwan,2.387273190600321,4868003000.0,True
+20001,1537.TW,"Kung Long Batteries Industrial Co., Ltd",TAI,Diversified Electronics,Taiwan,3.9376353594038656,7933589000.0,True
+20008,1514.TW,"Allis Electric Co., Ltd.",TAI,Diversified Machinery,Taiwan,2.1493545492967145,4819154000.0,True
+20009,1507.TW,"Yungtay Engineering Co., Ltd.",TAI,Diversified Machinery,Taiwan,2.115451014727121,13718348000.0,True
+20014,1459.TW,"Lan Fa Textile Co., Ltd.",TAI,Textile Industrial,Taiwan,2.0144184821039253,3122224000.0,True
+20016,1455.TW,"Zig Sheng Industrial Co., Ltd.",TAI,Textile Industrial,Taiwan,3.976342891251706,11841377000.0,True
+20017,1454.TW,"Taiwan Taffeta Fabric Co., Ltd.",TAI,Textile Industrial,Taiwan,3.9285795278738176,1904529000.0,True
+20026,1325.TW,Universal Incorporation,TAI,Textile Industrial,Taiwan,16.92751097223978,772775000.0,True
+20027,1319.TW,"Tong Yang Industry Co.,Ltd.",TAI,Auto Parts,Taiwan,2.421739398342765,21613680000.0,True
+20028,1315.TW,Tah Hsin Industrial Corporation,TAI,Textile - Apparel Clothing,Taiwan,6.4783001737500365,2440599000.0,True
+20029,1310.TW,Taiwan Styrene Monomer Corporation,TAI,Chemicals - Major Diversified,Taiwan,4.483843048130146,12219389000.0,True
+20030,1303.TW,Nan Ya Plastics Corporation,TAI,Chemicals - Major Diversified,Taiwan,2.785818437743271,286303059000.0,True
+20031,1301.TW,Formosa Plastics Corporation,TAI,Chemicals - Major Diversified,Taiwan,3.360186379337432,230370027000.0,True
+20033,1227.TW,Standard Foods Corporation,TAI,Food - Major Diversified,Taiwan,2.9854224396766567,31266232000.0,True
+20034,1220.TW,"Tai Roun Products Co.,Ltd.",TAI,Food - Major Diversified,Taiwan,4.6918921012373875,2982351000.0,True
+20042,1608.TW,"Hua Eng Wire & Cable Co., Ltd.",TAI,Industrial Equipment Wholesale,Taiwan,2.8003858024691355,7832617000.0,True
+20044,6269.TW,"Flexium Interconnect, Inc.",TAI,Electronic Equipment,Taiwan,2.7505990195503154,26770491000.0,True
+20045,1517.TW,Leechi Machinery Industry Ltd. Co.,TAI,Metal Fabrication,Taiwan,3.739903929113933,2999007000.0,True
+20046,1730.TW,"Farcent Enterprise Co., Ltd",TAI,Personal Products,Taiwan,3.028309755236904,3391259000.0,True
+20049,3059.TW,Altek Corporation,TAI,Diversified Electronics,Taiwan,2.8930537629284814,6189352000.0,True
+20050,6164.TW,Ledtech Electronics Corp.,TAI,Diversified Electronics,Taiwan,2.5772547112736977,909011000.0,True
+20052,9942.TW,NAK Sealing Technologies Corporation,TAI,Rubber & Plastics,Taiwan,3.4424728734768952,3016735000.0,True
+20054,2102.TW,Federal Corporation,TAI,Rubber & Plastics,Taiwan,2.1649622768981507,4541002000.0,True
+20063,8021.TW,"Topoint Technology Co., Ltd.",TAI,Machine Tools & Accessories,Taiwan,4.078328438287736,3006253000.0,True
+20065,1210.TW,"Great Wall Enterprise Co., Ltd.",TAI,Food - Major Diversified,Taiwan,2.058682460272617,77769986000.0,True
+20069,8131.TW,"Formosa Advanced Technologies Co., Ltd.",TAI,Semiconductor Equipment & Materials,Taiwan,7.19566523023552,9457849000.0,True
+20071,1419.TW,"Shinkong Textile Co.,Ltd.",TAI,Textile - Apparel Clothing,Taiwan,3.0909098521841014,2083581000.0,True
+20072,6215.TW,Aurotek Corporation,TAI,Diversified Machinery,Taiwan,2.2516692368826883,1542260000.0,True
+20073,2450.TW,"Senao International Co., Ltd.",TAI,"Specialty Retail, Other",Taiwan,2.393500476700165,28864873000.0,True
+20080,6133.TW,Golden Bridge Electech Inc.,TAI,Diversified Electronics,Taiwan,4.633052570577863,1145115000.0,True
+20086,2439.TW,"Merry Electronics Co., Ltd.",TAI,Electronic Equipment,Taiwan,2.015723310248557,36397793000.0,True
+20092,4104.TW,"Excelsior Medical Co., Ltd.",TAI,Medical Appliances & Equipment,Taiwan,2.681626908798474,6457362000.0,True
+20093,2471.TW,Ares International Corp.,TAI,Information Technology Services,Taiwan,2.8676021416507966,722504000.0,True
+20096,1726.TW,"Yung Chi Paint & Varnish Mfg. Co.,Ltd",TAI,Chemicals - Major Diversified,Taiwan,7.1595900771552285,7940129000.0,True
+20103,1324.TW,Globe Industries Corporation,TAI,Rubber & Plastics,Taiwan,4.894058914827911,1137469000.0,True
+20105,1233.TW,"Ten Ren Tea Co., Ltd.",TAI,Farm Products,Taiwan,2.8513479780329507,2247585000.0,True
+20108,2436.TW,"Weltrend Semiconductor, Inc.",TAI,Semiconductor Equipment & Materials,Taiwan,4.580610505904528,2322116000.0,True
+20110,5203.TW,CyberLink Corp.,TAI,Technical & System Software,Taiwan,4.181272847919983,1454646000.0,True
+20111,6216.TW,DrayTek Corporation,TAI,Communication Equipment,Taiwan,9.06168379958202,921333000.0,True
+20114,1733.TW,Apex Biotechnology Corp.,TAI,Biotechnology,Taiwan,2.4742599154189047,2198862000.0,True
+20115,3305.TW,Shenmao Technology Inc,TAI,Diversified Electronics,Taiwan,2.273557941773053,5224806000.0,True
+20124,2480.TW,"Stark Technology, Inc.",TAI,Computer Based Systems,Taiwan,2.2080041727259854,5521432000.0,True
+20128,2108.TW,"NANTEX Industry Co., Ltd.",TAI,Rubber & Plastics,Taiwan,5.542088143628233,12391836000.0,True
+20136,2474.TW,"Catcher Technology Co., Ltd.",TAI,Computer Based Systems,Taiwan,2.5719365553726377,91628115000.0,True
+20138,9905.TW,"Great China Metal Ind. Co., Ltd.",TAI,Packaging & Containers,Taiwan,3.81306391854316,8060828000.0,True
+20141,2607.TW,Evergreen International Storage & Transport Corp.,TAI,Shipping,Taiwan,2.8724035866360444,7730682000.0,True
+20142,1110.TW,Southeast Cement Corporation,TAI,General Building Materials,Taiwan,8.329611652145951,1584940000.0,True
+20144,3014.TW,ITE Tech. Inc.,TAI,Semiconductor - Broad Line,Taiwan,4.052779210486114,3664910000.0,True
+20149,TX.MX,Ternium S.A.,MEX,Steel & Iron,Mexico,2.4777581761692966,10192818000.0,True
+20175,CARBORUNIV.NS,Carborundum Universal Limited,NSI,General Building Materials,India,4.898889425398358,26889040000.0,True
+20180,MAYURUNIQ.NS,Mayur Uniquoters Limited,NSI,Textile Industrial,India,6.075538792892264,5912600000.0,True
+20200,VTL.NS,Vardhman Textiles Limited,NSI,Textile Industrial,India,2.7225599168999333,68779200000.0,True
+20202,VAKRANGEE.NS,Vakrangee Limited,NSI,Technical & System Software,India,23.52575066243195,15082269000.0,True
+20230,VGUARD.NS,V-Guard Industries Limited,NSI,Electronic Equipment,India,2.9076336769114017,25940087000.0,True
+20252,VVU.F,Vivendi SA,FRA,Wireless Communications,France,2.0394214239136885,15898000000.0,True
+20259,VVU.SG,Vivendi S.A. Actions Port. EO 5,STU,Wireless Communications,Germany,2.0864782740808265,12444000000.0,True
+20307,WEIZMANIND.NS,Weizmann Limited,NSI,Textile Industrial,India,3.7005974409821785,1064614000.0,True
+20338,HONAUT.NS,Honeywell Automation India Limited,NSI,Diversified Machinery,India,2.5286491593330647,31747400000.0,True
+20342,BALAJITELE.NS,Balaji Telefilms Limited,NSI,Entertainment - Diversified,India,7.395722405754081,4277087000.0,True
+20344,BALKRISIND.NS,Balkrishna Industries Limited,NSI,Rubber & Plastics,India,3.5494617470622067,52099900000.0,True
+20357,BATAINDIA.NS,Bata India Limited,NSI,Textile - Apparel Footwear & Accessories,India,3.378788375396045,29311030000.0,True
+20388,2000.HK,SIM TECH,HKG,Communication Equipment,Hong Kong,3.964943994706312,2312230000.0,True
+20389,0383.HK,CHINA MED&HCARE,HKG,Conglomerates,Hong Kong,2.213000184918676,1227564614.0,True
+20392,0259.HK,YEEBO (INT'L H),HKG,Electronic Equipment,Hong Kong,6.082623153095689,934152000.0,True
+20396,0458.HK,TRISTATE HOLD,HKG,Textile - Apparel Clothing,Hong Kong,2.3463853768320133,2578322000.0,True
+20398,0539.HK,VICTORY CITY,HKG,Textile Industrial,Hong Kong,2.0539388926835085,5413027000.0,True
+20400,0369.HK,WING TAI PPT,HKG,Real Estate Development,Hong Kong,4.7176756328497405,829500000.0,True
+20403,1100.HK,MAINLAND HOLD,HKG,Textile - Apparel Clothing,Hong Kong,3.00082890178914,941493000.0,True
+20406,0099.HK,WONG'S INT'L,HKG,Electronic Equipment,Hong Kong,2.5757649011083372,3781156000.0,True
+20416,BRITANNIA.NS,Britannia Industries Limited,NSI,Food - Major Diversified,India,3.1912939889257577,110321800000.0,True
+20419,FINCABLES.NS,Finolex Cables Limited,NSI,Diversified Electronics,India,7.562796719896418,30777900000.0,True
+20423,CAJN.MX,Canon Inc.,MEX,Business Equipment,Mexico,2.5411783953916816,3593299000000.0,True
+20474,COLPAL.NS,Colgate-Palmolive (India) Limited,NSI,Personal Products,India,2.226342845624481,44624318000.0,True
+20481,COO.MX,"The Cooper Companies, Inc.",MEX,Medical Instruments & Supplies,Mexico,2.3714048149967875,2653400000.0,True
+20482,THOMASCOOK.NS,Thomas Cook (India) Limited,NSI,"Recreational Goods, Other",India,3.141296976641642,66687470000.0,True
+20535,GRAPHITE.NS,Graphite India Limited,NSI,Diversified Machinery,India,4.439383420754911,78579000000.0,True
+20563,INDHOTEL.NS,The Indian Hotels Company Limited,NSI,Lodging,India,2.1604995604048782,45795400000.0,True
+20573,LINDEINDIA.NS,Linde India Limited,NSI,Specialty Chemicals,India,3.0148027414339467,17806020000.0,True
+20575,RESPONIND.NS,Responsive Industries Limited,NSI,Rubber & Plastics,India,7.387092583077912,7750380000.0,True
+20577,INFY.NS,Infosys Limited,NSI,Information Technology Services,India,4.295932678821879,11799000000.0,True
+20590,INL.F,Intel Corporation,FRA,Semiconductor - Broad Line,France,2.313181972212809,71965000000.0,True
+20603,INTU.MX,Intuit Inc.,MEX,Technical & System Software,Mexico,2.47947908445146,6784000000.0,True
+20611,0637.HK,LEE KEE,HKG,Industrial Metals & Minerals,Hong Kong,4.465454545454546,2276977000.0,True
+20618,2320.HK,HOP FUNG GROUP,HKG,Paper & Paper Products,Hong Kong,4.286106693963567,1194082000.0,True
+20624,LIN.F,Linde Aktiengesellschaft,FRA,Chemicals - Major Diversified,France,2.4762558252565974,28228000000.0,True
+20632,MANAKSIA.NS,Manaksia Limited,NSI,Conglomerates,India,6.2969981309042025,9902471000.0,True
+20638,MAN.PA,Manutan International SA,PAR,Business Services,France,2.9982398345009824,773885000.0,True
+20641,MANUGRAPH.NS,Manugraph India Limited,NSI,Diversified Machinery,India,3.8996209249431386,2510400000.0,True
+20690,REPRO.NS,Repro India Limited,NSI,Business Services,India,2.071667874506846,3994872000.0,True
+20696,SAP.F,SAP SE,FRA,Technical & System Software,France,2.0486170176572647,27553000000.0,True
+20722,1304.TW,USI Corporation,TAI,Rubber & Plastics,Taiwan,2.2148327882439425,55656741000.0,True
