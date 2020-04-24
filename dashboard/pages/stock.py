@@ -1,28 +1,12 @@
 from os.path import abspath, dirname
-
 import dash_core_components as dcc
 import dash_html_components as html
-
-import plotly.graph_objects as go
 import plotly.express as px
-
 from dash.dependencies import Input, Output
-
 import pandas as pd
-
-from datetime import datetime as dt
-from datetime import date
-
-from collections import Counter
-
 import requests
-import json
-
 import yfinance as yf
 
-from itertools import chain
-
-from . import utils
 from ..server import app
 
 @app.callback(
