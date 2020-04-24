@@ -8,11 +8,10 @@ import dash_bootstrap_components as dbc
 import dash_core_components as dcc
 from yahooquery import Ticker
 import plotly.express as px
-
+import requests
+import yfinance as yf
 
 from ..server import app
-
-# app = dash.Dash(external_stylesheets=[dbc.themes.BOOTSTRAP])
 
 PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
 DATA_PATH = os.path.join(PROJECT_ROOT, '../data/')
@@ -88,13 +87,14 @@ def set_content(active_cell, n_clicks):
                     html.H5('Current ratio', style={'textAlign': 'center', 'padding': 10}),
                     dcc.Graph(id="current_ratio_stocks"),
                 ], className='pretty_container seven columns')
-            # ]),
-            # html.Div([
-            #     html.Div([
-            #         html.H5('Dividends', style={'textAlign': 'center', 'padding': 10}),
-            #         dcc.Graph(id="dividends")
-            #     ], className='pretty_container twelve columns'),
-            # ]),
+            ])),
+       # dbc.ModalBody(
+       #      html.Div([
+       #          html.Div([
+       #              html.H5('Dividends', style={'textAlign': 'center', 'padding': 10}),
+       #              dcc.Graph(id="dividends_stocks")
+       #          ], className='pretty_container twelve columns'),
+       #      ])),
             # html.Div([
             #     html.Div([
             #         html.H5('Earnings growth/10 years', style={'textAlign': 'center', 'padding': 10}),
@@ -104,9 +104,22 @@ def set_content(active_cell, n_clicks):
             #         html.H5('Earnings', style={'textAlign': 'center', 'padding': 10}),
             #         dcc.Graph(id="earnings")
             #     ], className='pretty_container seven columns')
-            ]), className='pretty_container twelve columns'),
-        dbc.ModalFooter(dbc.Button("Close", id="close")),
+            # ]), className='pretty_container twelve columns'),
+        dbc.ModalFooter(dbc.Button("Close", id="close"))
     ]
+
+@app.callback(
+    Output('dividends_stocks', 'figure'),
+    [Input('table', 'value')])
+def update_dividends(active_cell):
+    df = pd.read_csv(DATA_PATH + 'tickers_september_2017_red.csv')
+    row = df.iloc[[active_cell.get("row")]]
+    ticker = row['Ticker'].values[0]
+    stock = yf.Ticker(ticker)
+    dividends = stock.dividends
+    df = pd.DataFrame(dividends).reset_index()
+    fig = px.line(df, x='Date', y='Dividends')
+    return fig
 
 @app.callback(
     Output('current_ratio_stocks', 'figure'),
@@ -120,37 +133,10 @@ def update_current_ratio(active_cell):
     df = df.reset_index(drop=True)
     cols = df.columns
 
-    # I need to get rid of it if doesn't exists
-    # Assets
-    # cash = df["cash"][0]
-    # shortTermInvestments = df["shortTermInvestments"][0]
-    # netReceivables = df["netReceivables"][0]
-    # inventory = df["inventory"][0]
-    # otherCurrentAssets = df["otherCurrentAssets"][0]
-    # totalCurrentAssets = df["totalCurrentAssets"][0]
-    # longTermInvestments = df["longTermInvestments"][0]
-    # propertyPlantEquipment = df["propertyPlantEquipment"][0]
-    # goodWill = df["goodWill"][0]
-    # intangibleAssets = df["intangibleAssets"][0]
-    # otherAssets = df["otherAssets"][0]
-    # deferredLongTermAssetCharges = df["deferredLongTermAssetCharges"][0]
-    totalAssets = df["totalAssets"][0]
+    totalCurrentAssets = df["totalCurrentAssets"][0]
+    totalCurrentLiabilities = df["totalCurrentLiabilities"][0]
 
-    # liabilities
-    # accountsPayable = df["accountsPayable"][0]
-    # otherCurrentLiab = df["otherCurrentLiab"][0]
-    # longTermDebt = df["longTermDebt"][0]
-    # otherLiab = df["otherLiab"][0]
-    # totalCurrentLiabilities = df["totalCurrentLiabilities"][0]
-    totalLiab = df["totalLiab"][0]
-    # commonStock = df["commonStock"][0]
-    # retainedEarnings = df["retainedEarnings"][0]
-    # treasuryStock = df["treasuryStock"][0]
-    # otherStockholderEquity = df["otherStockholderEquity"][0]
-    # totalStockholderEquity = df["totalStockholderEquity"][0]
-    # netTangibleAssets = df["netTangibleAssets"][0]
-
-    ratio = float(totalAssets) / float(totalLiab)
+    ratio = float(totalCurrentAssets) / float(totalCurrentLiabilities)
 
     if ratio > 2:
         financial_status = "Conservatively financed"
@@ -159,11 +145,11 @@ def update_current_ratio(active_cell):
     else:
         financial_status = "indebted"
 
-    print(financial_status)
     data = dict(
-        asset_and_liability=[financial_status, "totalAssets", "totalLiab"],
+        asset_and_liability=[financial_status, "totalCurrentAssets", "totalCurrentLiabilities"],
         parent=["", financial_status, financial_status],
-        value=[ratio, totalAssets, totalLiab]
+        value=[ratio, totalCurrentAssets, totalCurrentLiabilities]
+
     )
 
     fig = px.sunburst(
@@ -196,6 +182,25 @@ def toggle_modal(n1, n2, is_open):
     if n1 or n2:
         return not is_open
     return is_open
+
+# @app.callback(
+#     Output('earnings_growth', 'children'),
+#     [Input('select-stock', 'value')])
+def update_earnings_growth(entity):
+    ticker = entity
+    url = 'https://financialmodelingprep.com/'
+    api = 'api/v3/financials/income-statement/'
+    search_api_url = url + api + ticker
+    response = requests.get(
+        search_api_url
+    )
+    json = response.json()
+    earnings = json['financials']
+    df = pd.DataFrame(earnings)['Revenue']
+    pct_change = pd.to_numeric(df).pct_change(-1)
+    mean_growth = pct_change.mean(skipna = True)
+    return '{:.2%}'.format(mean_growth)
+
 
 
 if __name__ == '__main__':

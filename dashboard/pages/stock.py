@@ -6,6 +6,8 @@ from dash.dependencies import Input, Output
 import pandas as pd
 import requests
 import yfinance as yf
+from yahooquery import Ticker
+
 
 from ..server import app
 
@@ -30,43 +32,42 @@ def update_earnings(entity):
     Output('current_ratio', 'figure'),
     [Input('select-stock', 'value')])
 def update_current_ratio(entity):
-    bs = requests.get(f'https://financialmodelingprep.com/api/v3/financials/balance-sheet-statement/{entity}?period=quarter')
-    bs = bs.json()
+    ticker = Ticker(entity)
+    df = ticker.balance_sheet()
+    df = df.reset_index(drop=True)
+    cols = df.columns
 
-    total_assets = bs.get("financials")[0].get("Total assets")
-
+    # I need to get rid of it if doesn't exists
     # Assets
-    cash_and_cash_equivalents = bs.get("financials")[0].get('Cash and cash equivalents')
-    short_term_investments = bs.get("financials")[0].get('Short-term investments')
-    cash_and_short_term_investments = bs.get("financials")[0].get('Cash and short-term investments')
-    receivables = bs.get("financials")[0].get('Receivables')
-    inventories = bs.get("financials")[0].get('Inventories')
-    current_assets = [cash_and_cash_equivalents, short_term_investments, cash_and_short_term_investments, receivables,
-                      inventories]
-
-    property_plant_equipment_net = bs.get("financials")[0].get('Property, Plant & Equipment Net')
-    goodwill_and_intangible_assets = bs.get("financials")[0].get('Goodwill and Intangible Assets')
-    long_term_investments = bs.get("financials")[0].get('Long-term investments')
-    tax_assets = bs.get("financials")[0].get('Tax assets')
-
-    total_current_assets = bs.get("financials")[0].get('Total current assets')
-    total_non_current_assets = bs.get("financials")[0].get('Total non-current assets')
+    cash = df["cash"][0]
+    shortTermInvestments = df["shortTermInvestments"][0]
+    netReceivables = df["netReceivables"][0]
+    inventory = df["inventory"][0]
+    otherCurrentAssets = df["otherCurrentAssets"][0]
+    totalCurrentAssets = df["totalCurrentAssets"][0]
+    longTermInvestments = df["longTermInvestments"][0]
+    propertyPlantEquipment = df["propertyPlantEquipment"][0]
+    goodWill = df["goodWill"][0]
+    intangibleAssets = df["intangibleAssets"][0]
+    otherAssets = df["otherAssets"][0]
+    deferredLongTermAssetCharges = df["deferredLongTermAssetCharges"][0]
+    totalAssets = df["totalAssets"][0]
 
     # liabilities
-    payables = bs.get("financials")[0].get('Payables')
-    short_term_debt = bs.get("financials")[0].get('Short-term debt')
-    total_current_liabilities = bs.get("financials")[0].get('Total current liabilities')
+    accountsPayable = df["accountsPayable"][0]
+    otherCurrentLiab = df["otherCurrentLiab"][0]
+    longTermDebt = df["longTermDebt"][0]
+    otherLiab = df["otherLiab"][0]
+    totalCurrentLiabilities = df["totalCurrentLiabilities"][0]
+    totalLiab = df["totalLiab"][0]
+    commonStock = df["commonStock"][0]
+    retainedEarnings = df["retainedEarnings"][0]
+    treasuryStock = df["treasuryStock"][0]
+    otherStockholderEquity = df["otherStockholderEquity"][0]
+    totalStockholderEquity = df["totalStockholderEquity"][0]
+    netTangibleAssets = df["netTangibleAssets"][0]
 
-    long_term_debt = bs.get("financials")[0].get('Long-term debt')
-    # total_debt = bs.get("financials")[0].get('Total debt')
-    deferred_revenue = bs.get("financials")[0].get('Deferred revenue')
-    tax_liabilities = bs.get("financials")[0].get('Tax Liabilities')
-    deposit_liabilities = bs.get("financials")[0].get('Deposit Liabilities')
-    total_non_current_liabilities = bs.get("financials")[0].get("Total non-current liabilities")
-
-    total_liabilities = bs.get("financials")[0].get('Total liabilities')
-
-    ratio = float(total_assets)/float(total_liabilities)
+    ratio = float(totalCurrentAssets) / float(totalCurrentLiabilities)
 
     if ratio > 2:
         financial_status = "Conservatively financed"
@@ -76,19 +77,11 @@ def update_current_ratio(entity):
         financial_status = "indebted"
 
     data = dict(
-        asset_and_liability =[financial_status, "total_assets", "total_liabilities", "total_current_assets",
-                              "Cash_and_cash_equivalents", "Short_term_investments", "Cash_and_short_term_investments",
-                              "Receivables", "Inventories", "total_non_current_assets", "property_plant_equipment_net",
-                              "goodwill_and_intangible_assets", "long_term_investments", "tax_assets",
-                              "total_current_liabilities", "total_non_current_liabilities"],
-        parent=["", financial_status, financial_status, "total_assets", "total_current_assets",
-                "total_current_assets", "total_current_assets", "total_current_assets", "total_current_assets",
-                "total_assets", "total_non_current_assets", "total_non_current_assets", "total_non_current_assets",
-                "total_non_current_assets", "total_liabilities", "total_liabilities"],
-        value=[ratio, total_assets, total_liabilities, total_current_assets, cash_and_cash_equivalents,
-               short_term_investments, cash_and_short_term_investments, receivables, inventories,
-               total_non_current_assets, property_plant_equipment_net, goodwill_and_intangible_assets,
-               long_term_investments, tax_assets, total_current_liabilities, total_non_current_liabilities])
+        asset_and_liability=[financial_status, totalCurrentAssets, "totalCurrentLiabilities"],
+        parent=["", financial_status, financial_status],
+        value=[ratio, totalCurrentAssets, totalCurrentLiabilities]
+
+    )
 
     fig = px.sunburst(
         data,
@@ -102,7 +95,7 @@ def update_current_ratio(entity):
 @app.callback(
     Output('dividends', 'figure'),
     [Input('select-stock', 'value')])
-def update_current_ratio(entity):
+def update_dividends(entity):
     stock = yf.Ticker(entity)
     dividends = stock.dividends
     df = pd.DataFrame(dividends).reset_index()

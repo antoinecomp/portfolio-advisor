@@ -23,25 +23,25 @@ app.layout = html.Div(
         dcc.Tabs(
             [
                 dcc.Tab(
-                    label='Geography',
-                    value='Geography',
-                    children=imap.layout()
+                    label='Best defensive stocks',
+                    value='Stocks',
+                    children=stocks.layout()
                 ),
                 dcc.Tab(
-                    label='Stock',
+                    label='Search a stock',
                     value='Stock',
                     children=stock.layout()
                 ),
                 dcc.Tab(
-                    label='Markets',
+                    label='Markets worldwide',
                     value='Markets',
                     children=markets.layout()
                 ),
-                dcc.Tab(
-                    label='Stocks',
-                    value='Stocks',
-                    children=stocks.layout()
-                )
+                # dcc.Tab(
+                #     label='Geography',
+                #     value='Geography',
+                #     children=imap.layout()
+                # )
             ]
         )
     ]
