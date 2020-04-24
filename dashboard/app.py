@@ -3,19 +3,9 @@ import dash_daq as daq
 import plotly.graph_objects as go
 import dash_core_components as dcc
 import dash_html_components as html
-from dash import Dash
-import dash_bootstrap_components as dbc
 
-
-# from .server import app #, auth, server
-
-app = Dash(
-    __name__,
-    meta_tags=[{"name": "viewport", "content": "width=device-width"}],
-    external_stylesheets=[dbc.themes.BOOTSTRAP]
-)
-
-from .pages import header, imap, stock, markets, stocks
+from dashboard.server import app #, auth, server
+from dashboard.pages import header, imap, stock, markets, stocks
 
 mapbox_access_token = ("pk.eyJ1IjoiamFja2x1byIsImEiOiJjajNlcnh3MzEwMHZtM"
                        "zNueGw3NWw5ZXF5In0.fk8k06T96Ml9CLGgKmk81w")
