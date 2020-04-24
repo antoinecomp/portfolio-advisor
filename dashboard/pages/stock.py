@@ -37,35 +37,8 @@ def update_current_ratio(entity):
     df = df.reset_index(drop=True)
     cols = df.columns
 
-    # I need to get rid of it if doesn't exists
-    # Assets
-    cash = df["cash"][0]
-    shortTermInvestments = df["shortTermInvestments"][0]
-    netReceivables = df["netReceivables"][0]
-    inventory = df["inventory"][0]
-    otherCurrentAssets = df["otherCurrentAssets"][0]
     totalCurrentAssets = df["totalCurrentAssets"][0]
-    longTermInvestments = df["longTermInvestments"][0]
-    propertyPlantEquipment = df["propertyPlantEquipment"][0]
-    goodWill = df["goodWill"][0]
-    intangibleAssets = df["intangibleAssets"][0]
-    otherAssets = df["otherAssets"][0]
-    deferredLongTermAssetCharges = df["deferredLongTermAssetCharges"][0]
-    totalAssets = df["totalAssets"][0]
-
-    # liabilities
-    accountsPayable = df["accountsPayable"][0]
-    otherCurrentLiab = df["otherCurrentLiab"][0]
-    longTermDebt = df["longTermDebt"][0]
-    otherLiab = df["otherLiab"][0]
     totalCurrentLiabilities = df["totalCurrentLiabilities"][0]
-    totalLiab = df["totalLiab"][0]
-    commonStock = df["commonStock"][0]
-    retainedEarnings = df["retainedEarnings"][0]
-    treasuryStock = df["treasuryStock"][0]
-    otherStockholderEquity = df["otherStockholderEquity"][0]
-    totalStockholderEquity = df["totalStockholderEquity"][0]
-    netTangibleAssets = df["netTangibleAssets"][0]
 
     ratio = float(totalCurrentAssets) / float(totalCurrentLiabilities)
 
@@ -77,7 +50,7 @@ def update_current_ratio(entity):
         financial_status = "indebted"
 
     data = dict(
-        asset_and_liability=[financial_status, totalCurrentAssets, "totalCurrentLiabilities"],
+        asset_and_liability=[financial_status, "totalCurrentAssets", "totalCurrentLiabilities"],
         parent=["", financial_status, financial_status],
         value=[ratio, totalCurrentAssets, totalCurrentLiabilities]
 
