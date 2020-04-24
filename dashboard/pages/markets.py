@@ -31,7 +31,7 @@ data_path = 'data/tickers_september_2017.xlsx'
     Output('click-data', 'children'),
     [Input('graph', 'clickData')])
 def display_click_data(clickData):
-    print("clickData", clickData)
+    print("clickData in markets", clickData)
     return json.dumps(clickData, indent=2)
 
 

@@ -5,6 +5,10 @@ import pandas as pd
 from dash.dependencies import Input, Output, State
 import dash_html_components as html
 import dash_bootstrap_components as dbc
+import dash_core_components as dcc
+from yahooquery import Ticker
+import plotly.express as px
+
 
 from ..server import app
 
@@ -34,6 +38,7 @@ def layout():
                     dbc.Button("Close", id="close", className="ml-auto")
                 ),
             ],
+            size="xl",
             id="modal",
         )
     ])
@@ -60,26 +65,126 @@ def update_table(page_current, page_size, sort_by):
     ].to_dict('records')
 
 
-@app.callback(Output('ModalHeader', 'children'),
+@app.callback(Output('modal', 'children'),
               [Input('table', 'active_cell'),
-              Input('close', 'n_clicks')],
+               Input('close', 'n_clicks')],
               # [State('modal', 'is_open')]
               )
-def update_graph(active_cell, n_clicks):
-    print("active_cell: ", active_cell)
+def set_content(active_cell, n_clicks):
     if active_cell is not None:
         row = df.iloc[[active_cell.get("row")]]
-        # return dbc.Modal(
-        #     [
-        #         dbc.ModalHeader(row['Name'].values[0]),
-        #         dbc.ModalBody("This will be something more interesting"),
-        #         dbc.ModalFooter(
-        #             dbc.Button("Close", id="close", className="ml-auto")
-        #         ),
-        #     ],
-        #     id="modal",
-        # )
-        return row['Name'].values[0]
+        name = row['Name']
+        ticker = row['Ticker']
+
+    return [
+        dbc.ModalHeader(name),
+        dbc.ModalBody(
+            html.Div([
+                html.Div([
+                    html.H6('Sales', style={'textAlign': 'center', 'padding': 10}),
+                    html.P(update_earnings(ticker), id="sales_stocks", style={'textAlign': 'center', 'padding': 10})
+                ], className='pretty_container four columns'),
+                html.Div([
+                    html.H5('Current ratio', style={'textAlign': 'center', 'padding': 10}),
+                    dcc.Graph(id="current_ratio_stocks"),
+                ], className='pretty_container seven columns')
+            # ]),
+            # html.Div([
+            #     html.Div([
+            #         html.H5('Dividends', style={'textAlign': 'center', 'padding': 10}),
+            #         dcc.Graph(id="dividends")
+            #     ], className='pretty_container twelve columns'),
+            # ]),
+            # html.Div([
+            #     html.Div([
+            #         html.H5('Earnings growth/10 years', style={'textAlign': 'center', 'padding': 10}),
+            #         html.P("Earnings growth/10 years: ", id="earnings_growth", style={'textAlign': 'center', 'padding': 10})
+            #     ], className='pretty_container four columns'),
+            #     html.Div([
+            #         html.H5('Earnings', style={'textAlign': 'center', 'padding': 10}),
+            #         dcc.Graph(id="earnings")
+            #     ], className='pretty_container seven columns')
+            ]), className='pretty_container twelve columns'),
+        dbc.ModalFooter(dbc.Button("Close", id="close")),
+    ]
+
+@app.callback(
+    Output('current_ratio_stocks', 'figure'),
+    [Input('table', 'active_cell')])
+def update_current_ratio(active_cell):
+    df = pd.read_csv(DATA_PATH + 'tickers_september_2017_red.csv')
+    row = df.iloc[[active_cell.get("row")]]
+    ticker = row['Ticker'].values[0]
+    ticker = Ticker(ticker)
+    df = ticker.balance_sheet()
+    df = df.reset_index(drop=True)
+    cols = df.columns
+
+    # I need to get rid of it if doesn't exists
+    # Assets
+    # cash = df["cash"][0]
+    # shortTermInvestments = df["shortTermInvestments"][0]
+    # netReceivables = df["netReceivables"][0]
+    # inventory = df["inventory"][0]
+    # otherCurrentAssets = df["otherCurrentAssets"][0]
+    # totalCurrentAssets = df["totalCurrentAssets"][0]
+    # longTermInvestments = df["longTermInvestments"][0]
+    # propertyPlantEquipment = df["propertyPlantEquipment"][0]
+    # goodWill = df["goodWill"][0]
+    # intangibleAssets = df["intangibleAssets"][0]
+    # otherAssets = df["otherAssets"][0]
+    # deferredLongTermAssetCharges = df["deferredLongTermAssetCharges"][0]
+    totalAssets = df["totalAssets"][0]
+
+    # liabilities
+    # accountsPayable = df["accountsPayable"][0]
+    # otherCurrentLiab = df["otherCurrentLiab"][0]
+    # longTermDebt = df["longTermDebt"][0]
+    # otherLiab = df["otherLiab"][0]
+    # totalCurrentLiabilities = df["totalCurrentLiabilities"][0]
+    totalLiab = df["totalLiab"][0]
+    # commonStock = df["commonStock"][0]
+    # retainedEarnings = df["retainedEarnings"][0]
+    # treasuryStock = df["treasuryStock"][0]
+    # otherStockholderEquity = df["otherStockholderEquity"][0]
+    # totalStockholderEquity = df["totalStockholderEquity"][0]
+    # netTangibleAssets = df["netTangibleAssets"][0]
+
+    ratio = float(totalAssets) / float(totalLiab)
+
+    if ratio > 2:
+        financial_status = "Conservatively financed"
+    elif ratio > 1:
+        financial_status = "Be careful"
+    else:
+        financial_status = "indebted"
+
+    print(financial_status)
+    data = dict(
+        asset_and_liability=[financial_status, "totalAssets", "totalLiab"],
+        parent=["", financial_status, financial_status],
+        value=[ratio, totalAssets, totalLiab]
+    )
+
+    fig = px.sunburst(
+        data,
+        names='asset_and_liability',
+        parents='parent',
+        values='value'
+    )
+
+    return fig
+
+
+def update_earnings(ticker):
+    # print("ticker: ", type(ticker))
+    # print("ticker: ", ticker.values[0])
+    ticker = Ticker(ticker.values[0])
+    try:
+        earnings = ticker.income_statement().totalRevenue[0]
+        return earnings
+    except Exception as e:
+        print(e)
 
 
 @app.callback(Output('modal', 'is_open'),
@@ -91,9 +196,6 @@ def toggle_modal(n1, n2, is_open):
     if n1 or n2:
         return not is_open
     return is_open
-
-
-
 
 
 if __name__ == '__main__':
