@@ -1,0 +1,7 @@
+selenium
+pandas
+numpy
+collections
+json
+time
+requests

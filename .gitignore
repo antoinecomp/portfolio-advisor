@@ -1,4 +1,2 @@
-__pycache__
-.vscode
-env
-rubbish
+stocks.csv 
+df_portfolio.csv

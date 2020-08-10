@@ -7,9 +7,12 @@ import pandas as pd
 import requests
 import yfinance as yf
 from yahooquery import Ticker
-
-
+import os
 from ..server import app
+
+# PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
+# DATA_PATH = os.path.join(PROJECT_ROOT, '../data/')
+# df = pd.read_csv(DATA_PATH + 'tickers_september_2017_red.csv')
 
 @app.callback(
     Output('sales', 'children'),
@@ -34,6 +37,7 @@ def update_earnings(entity):
 def update_current_ratio(entity):
     ticker = Ticker(entity)
     df = ticker.balance_sheet()
+    print("df: ", df)
     df = df.reset_index(drop=True)
     cols = df.columns
 
@@ -114,9 +118,11 @@ def update_earnings_growth(entity):
 from ..server import app
 
 """ Test entities """
-stock1 = {"label": "Microsoft", "value": "msft"}
+# df.rename(columns={'Ticker': 'value', 'Name': 'label'}, inplace=True)
+# stock1 = df.to_dict('index')
+stock1 = [{"label": "Microsoft", "value": "msft"}]
 
-STOCK_LIST = [stock1]
+STOCK_LIST = stock1
 
 base_dir = dirname(dirname(abspath(__file__)))
 
@@ -130,7 +136,7 @@ def layout():
                 dcc.Dropdown(
                     id='select-stock',
                     options=STOCK_LIST,
-                    value=STOCK_LIST[0].get('value')
+                    value=STOCK_LIST[0].get('label')
                 )
             ])
         ], className='pretty_container twelve columns'),
